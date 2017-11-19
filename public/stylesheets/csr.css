@@ -3456,7 +3456,7 @@ em {
 }
 
 /*播放音乐的按钮*/
-/* line 2781, ../sass/csr.scss */
+/* line 2782, ../sass/csr.scss */
 .audio_ico {
   position: fixed;
   border: none;
@@ -3471,19 +3471,19 @@ em {
   animation: rotate2d 2s 2s linear infinite;
 }
 
-/* line 2794, ../sass/csr.scss */
+/* line 2795, ../sass/csr.scss */
 .audio_ico_stop {
   background: url(../images/audio_ico_stop.png) no-repeat;
   background-size: 25px 25px;
   animation-play-state: paused;
 }
 
-/* line 2799, ../sass/csr.scss */
+/* line 2800, ../sass/csr.scss */
 .loaded .audio_ico {
   opacity: 1 !important;
 }
 
-/* line 2800, ../sass/csr.scss */
+/* line 2801, ../sass/csr.scss */
 .arrow {
   position: fixed;
   border: none;
@@ -3496,7 +3496,7 @@ em {
   animation: slideInUp 1s infinite;
 }
 
-/* line 2813, ../sass/csr.scss */
+/* line 2814, ../sass/csr.scss */
 .mod_loading {
   width: 100%;
   height: 100%;
@@ -3508,16 +3508,16 @@ em {
   background: -ms-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
   background: -webkit-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
 }
-/* line 2826, ../sass/csr.scss */
+/* line 2827, ../sass/csr.scss */
 .mod_loading .content {
   width: 10rem;
 }
-/* line 2828, ../sass/csr.scss */
+/* line 2829, ../sass/csr.scss */
 .mod_loading .content p {
   text-align: center;
   color: #a1d9f3;
 }
-/* line 2834, ../sass/csr.scss */
+/* line 2835, ../sass/csr.scss */
 .mod_loading .progress span {
   display: inline-block;
   height: 0.15rem;
