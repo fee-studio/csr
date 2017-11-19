@@ -3496,7 +3496,7 @@ em {
   animation: slideInUp 1s infinite;
 }
 
-/* line 2814, ../sass/csr.scss */
+/* line 2813, ../sass/csr.scss */
 .mod_loading {
   width: 100%;
   height: 100%;
@@ -3508,16 +3508,16 @@ em {
   background: -ms-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
   background: -webkit-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
 }
-/* line 2827, ../sass/csr.scss */
+/* line 2826, ../sass/csr.scss */
 .mod_loading .content {
   width: 10rem;
 }
-/* line 2829, ../sass/csr.scss */
+/* line 2828, ../sass/csr.scss */
 .mod_loading .content p {
   text-align: center;
   color: #a1d9f3;
 }
-/* line 2835, ../sass/csr.scss */
+/* line 2834, ../sass/csr.scss */
 .mod_loading .progress span {
   display: inline-block;
   height: 0.15rem;
