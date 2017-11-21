@@ -3267,38 +3267,33 @@ em {
 /* line 2625, ../sass/csr.scss */
 .container .content12 .sub-title {
   margin-top: 0;
+  margin-left: 0.85rem;
   z-index: 1;
   line-height: 15px;
 }
-@media (min-width: 321px) {
-  /* line 2625, ../sass/csr.scss */
-  .container .content12 .sub-title {
-    margin-left: 2.8rem;
-  }
-}
-/* line 2633, ../sass/csr.scss */
+/* line 2631, ../sass/csr.scss */
 .container .content12 .sub-title em {
   font-size: 11px;
   color: #ee8100;
 }
-/* line 2637, ../sass/csr.scss */
+/* line 2635, ../sass/csr.scss */
 .container .content12 .sub-title .box {
   padding: 3px;
   display: inline-block;
   border: 1px dashed #fff;
   border-radius: 10px;
-  margin: 2px 0;
+  margin: 2px 0 2px 0.9rem;
 }
-/* line 2644, ../sass/csr.scss */
+/* line 2643, ../sass/csr.scss */
 .container .content12 .sub-title span {
   font-size: 11px;
 }
-/* line 2646, ../sass/csr.scss */
+/* line 2645, ../sass/csr.scss */
 .container .content12 .sub-title span b {
   color: #8ab932;
   font-weight: normal;
 }
-/* line 2652, ../sass/csr.scss */
+/* line 2651, ../sass/csr.scss */
 .container .content12 .overlay {
   top: 2.45rem;
   left: 0.5rem;
@@ -3308,53 +3303,53 @@ em {
   z-index: 2;
 }
 @media (max-width: 320px) {
-  /* line 2662, ../sass/csr.scss */
+  /* line 2661, ../sass/csr.scss */
   .container .content12 .content-title {
     padding: 0.75rem 0 0.5rem 0.85rem;
   }
-  /* line 2664, ../sass/csr.scss */
+  /* line 2663, ../sass/csr.scss */
   .container .content12 .content-title .icon_gear {
     top: 0.05rem;
   }
-  /* line 2668, ../sass/csr.scss */
+  /* line 2667, ../sass/csr.scss */
   .container .content12 .sub-title {
     margin-top: 0;
   }
-  /* line 2670, ../sass/csr.scss */
+  /* line 2669, ../sass/csr.scss */
   .container .content12 .sub-title span {
     line-height: 14px;
   }
 }
-/* line 2675, ../sass/csr.scss */
+/* line 2674, ../sass/csr.scss */
 .container .content12 .content-01 {
   margin-top: -0.4rem;
   z-index: 3;
 }
-/* line 2679, ../sass/csr.scss */
+/* line 2678, ../sass/csr.scss */
 .container .content12 .content-01 .img {
   width: 2.05rem;
   height: 1.725rem;
   background-position: -12.9rem 0rem;
 }
-/* line 2685, ../sass/csr.scss */
+/* line 2684, ../sass/csr.scss */
 .container .content12 .content-01 .img-01 {
   left: 3.05rem;
   bottom: -0.95rem;
   z-index: 2;
 }
-/* line 2690, ../sass/csr.scss */
+/* line 2689, ../sass/csr.scss */
 .container .content12 .content-01 .img-02 {
   right: 3.1rem;
   bottom: -0.75rem;
   z-index: 3;
 }
-/* line 2696, ../sass/csr.scss */
+/* line 2695, ../sass/csr.scss */
 .container .content12 .content-01 .img-03 {
   right: 0.6rem;
   bottom: -1.35rem;
   z-index: 4;
 }
-/* line 2701, ../sass/csr.scss */
+/* line 2700, ../sass/csr.scss */
 .container .content12 .content-01 .img-04 {
   width: 0.9rem;
   height: 1.75rem;
@@ -3364,7 +3359,7 @@ em {
   top: 3.6rem;
   opacity: 0;
 }
-/* line 2711, ../sass/csr.scss */
+/* line 2710, ../sass/csr.scss */
 .container .content12 .content-01 .bg-01 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -3376,87 +3371,87 @@ em {
   z-index: 1;
 }
 @media (max-width: 320px) {
-  /* line 2723, ../sass/csr.scss */
+  /* line 2722, ../sass/csr.scss */
   .container .content12 .content-01 .img-01 {
     bottom: -0.5rem;
   }
-  /* line 2726, ../sass/csr.scss */
+  /* line 2725, ../sass/csr.scss */
   .container .content12 .content-01 .img-02 {
     bottom: -0.3rem;
   }
-  /* line 2729, ../sass/csr.scss */
+  /* line 2728, ../sass/csr.scss */
   .container .content12 .content-01 .img-03 {
     bottom: -0.9rem;
   }
 }
-/* line 2734, ../sass/csr.scss */
+/* line 2733, ../sass/csr.scss */
 .container .content12 .footer {
   color: #fff;
   font-size: 12px;
   line-height: 15px;
   margin: 1.15rem 0 0 0.4rem;
 }
-/* line 2739, ../sass/csr.scss */
+/* line 2738, ../sass/csr.scss */
 .container .content12 .footer a {
   color: #ee8100;
 }
-/* line 2742, ../sass/csr.scss */
+/* line 2741, ../sass/csr.scss */
 .container .content12 .footer span {
   font-size: 10px;
 }
 @media (max-width: 320px) {
-  /* line 2747, ../sass/csr.scss */
+  /* line 2746, ../sass/csr.scss */
   .container .content12 .footer {
     margin-top: 0.6rem;
   }
 }
 @media (min-width: 321px) {
-  /* line 2752, ../sass/csr.scss */
+  /* line 2751, ../sass/csr.scss */
   .container .content12 .footer {
     margin-left: 1.5rem;
   }
 }
-/* line 2759, ../sass/csr.scss */
+/* line 2758, ../sass/csr.scss */
 .container .content12.play .content-title .icon_gear {
   -moz-animation: rotate2d 4s linear infinite;
   -webkit-animation: rotate2d 4s linear infinite;
   animation: rotate2d 4s linear infinite;
   transform-origin: 0.2rem;
 }
-/* line 2764, ../sass/csr.scss */
+/* line 2763, ../sass/csr.scss */
 .container .content12.play .overlay {
   -moz-animation: moveBottomOut 4s linear forwards;
   -webkit-animation: moveBottomOut 4s linear forwards;
   animation: moveBottomOut 4s linear forwards;
 }
-/* line 2768, ../sass/csr.scss */
+/* line 2767, ../sass/csr.scss */
 .container .content12.play .content-01 .img-01 {
   -moz-animation: grow 3s ease 0.5s infinite;
   -webkit-animation: grow 3s ease 0.5s infinite;
   animation: grow 3s ease 0.5s infinite;
   transform-origin: left bottom;
 }
-/* line 2772, ../sass/csr.scss */
+/* line 2771, ../sass/csr.scss */
 .container .content12.play .content-01 .img-02 {
   -moz-animation: grow 3s ease 0.3s infinite;
   -webkit-animation: grow 3s ease 0.3s infinite;
   animation: grow 3s ease 0.3s infinite;
   transform-origin: left bottom;
 }
-/* line 2776, ../sass/csr.scss */
+/* line 2775, ../sass/csr.scss */
 .container .content12.play .content-01 .img-03 {
   -moz-animation: grow 3s ease 0.8s infinite;
   -webkit-animation: grow 3s ease 0.8s infinite;
   animation: grow 3s ease 0.8s infinite;
   transform-origin: left bottom;
 }
-/* line 2780, ../sass/csr.scss */
+/* line 2779, ../sass/csr.scss */
 .container .content12.play .content-01 .img-04 {
   -moz-animation: robot 5s infinite 1s alternate;
   -webkit-animation: robot 5s infinite 1s alternate;
   animation: robot 5s infinite 1s alternate;
 }
-/* line 2783, ../sass/csr.scss */
+/* line 2782, ../sass/csr.scss */
 .container .content12.play .content-01 .bg-01 {
   -moz-animation: fadeIn 1s 1s forwards;
   -webkit-animation: fadeIn 1s 1s forwards;
@@ -3464,7 +3459,7 @@ em {
 }
 
 /*播放音乐的按钮*/
-/* line 2790, ../sass/csr.scss */
+/* line 2789, ../sass/csr.scss */
 .audio_ico {
   position: fixed;
   border: none;
@@ -3475,23 +3470,31 @@ em {
   height: 25px;
   background: url(../images/audio_ico.png) no-repeat;
   background-size: 25px 25px;
-  -webkit-transition: opacity .5s ease-in-out .3s;
-  animation: rotate2d 2s 2s linear infinite;
+  -moz-transition: opacity 0.5s ease-in-out 0.3s;
+  -o-transition: opacity 0.5s ease-in-out 0.3s;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+  transition: opacity 0.5s ease-in-out 0.3s;
+  -moz-animation: rotate2d 2s 0.5s linear infinite;
+  -webkit-animation: rotate2d 2s 0.5s linear infinite;
+  animation: rotate2d 2s 0.5s linear infinite;
 }
 
-/* line 2803, ../sass/csr.scss */
+/* line 2802, ../sass/csr.scss */
 .audio_ico_stop {
   background: url(../images/audio_ico_stop.png) no-repeat;
   background-size: 25px 25px;
-  animation-play-state: paused;
+  -moz-animation: none;
+  -webkit-animation: none;
+  animation: none;
 }
 
-/* line 2808, ../sass/csr.scss */
+/* line 2807, ../sass/csr.scss */
 .loaded .audio_ico {
   opacity: 1 !important;
 }
 
-/* line 2809, ../sass/csr.scss */
+/* line 2808, ../sass/csr.scss */
 .arrow {
   position: fixed;
   border: none;
@@ -3504,7 +3507,7 @@ em {
   animation: slideInUp 1s infinite;
 }
 
-/* line 2821, ../sass/csr.scss */
+/* line 2820, ../sass/csr.scss */
 .mod_loading {
   width: 100%;
   height: 100%;
@@ -3516,16 +3519,16 @@ em {
   background: -ms-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
   background: -webkit-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
 }
-/* line 2834, ../sass/csr.scss */
+/* line 2833, ../sass/csr.scss */
 .mod_loading .content {
   width: 10rem;
 }
-/* line 2836, ../sass/csr.scss */
+/* line 2835, ../sass/csr.scss */
 .mod_loading .content p {
   text-align: center;
   color: #a1d9f3;
 }
-/* line 2842, ../sass/csr.scss */
+/* line 2841, ../sass/csr.scss */
 .mod_loading .progress span {
   display: inline-block;
   height: 0.15rem;

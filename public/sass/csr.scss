@@ -2625,9 +2625,7 @@ em{
 	.sub-title{
 	  @extend .position-r;
 	  margin-top: 0;
-	  @media (min-width: 321px){
-		margin-left: convertPos(56);
-	  }
+	  margin-left: convertPos(17);
 	  z-index: 1;
 	  line-height: 15px;
 	   em{
@@ -2639,8 +2637,9 @@ em{
 		display: inline-block;
 		border: 1px dashed #fff;
 		border-radius: 10px;
-		margin: 2px 0;
+		margin: 2px 0 2px convertPos(18);
 	  }
+
 	  span{
 		font-size: 11px;
 		b{
@@ -2797,13 +2796,13 @@ em{
   height:25px ;
   background:url(../images/audio_ico.png) no-repeat;
   background-size: 25px 25px;
-  -webkit-transition:opacity .5s ease-in-out .3s;
-  animation: rotate2d 2s 2s linear infinite;
+  @include transition(opacity .5s ease-in-out .3s);
+  @include animation( rotate2d 2s .5s linear infinite);
 }
 .audio_ico_stop{
   background:url(../images/audio_ico_stop.png) no-repeat;
   background-size:25px 25px;
-  animation-play-state: paused;
+  @include animation(none);
 }
 .loaded .audio_ico{opacity:1!important;}
 .arrow{
@@ -2846,8 +2845,6 @@ em{
 	}
   }
 }
-
-
 
 @keyframes fadeIn {
   from {

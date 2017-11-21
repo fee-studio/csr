@@ -456,6 +456,7 @@
     </div>
 </section>
 <div class="audio_ico"></div>
+<audio id="Jaudio" class="media-audio" src="images/music2.mp3" preload loop="loop"></audio>
 <div class="arrow"></div>
 <div class="mod_loading" id="loading">
     <div class="content">
@@ -509,47 +510,62 @@
      * 音乐播放
      */
 
-    var audio = document.createElement("audio");
-    audio.src = "images/music2.mp3";
-    audio.loop = true;
-    audio.addEventListener("canplaythrough", function () {
-        audio.play();
-        fadeIn();
-
-        function fadeIn(v) {
-            var v = v || 0.1;
-            audio.volume = v;
-            if ((v += 0.1) <= 1.0) {
-                setTimeout(function () {
-                    fadeIn(v)
-                }, 500);
-            }
-        }
-
-        $('.audio_ico').removeClass('audio_ico_stop');
-    }, false);
-    // 手Q微信需要手动触发播放
-    var flag = 0;
-    $('body').on('touchstart', function (event) {
-        if (!$(event.target).hasClass('audio_ico')) {
-            if (flag == 0 && audio.paused) {
+    function audioAutoPlay(id){
+        var audio = document.getElementById(id),
+            play = function(){
                 audio.play();
+                document.removeEventListener("touchstart",play, false);
+            };
+        audio.play();
+        document.addEventListener("WeixinJSBridgeReady", function () {
+            play();
+        }, false);
+        document.addEventListener("touchstart",play, false);
+        var flag = 0;
+        $('body').on('touchstart', function (event) {
+            if (!$(event.target).hasClass('audio_ico')) {
+                if (flag == 0 && audio.paused) {
+                    audio.play();
+                    $('.audio_ico').toggleClass('audio_ico_stop');
+                }
+                flag = 1;
+            }
+        });
+        $('.audio_ico').on('touchend', function (event) {
+            event.preventDefault();
+            if ($(this).hasClass('audio_ico')) {
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
                 $('.audio_ico').toggleClass('audio_ico_stop');
             }
-            flag = 1;
-        }
-    });
-    $('.audio_ico').on('touchend', function (event) {
-        event.preventDefault();
-        if ($(this).hasClass('audio_ico')) {
-            if (audio.paused) {
-                audio.play();
-            } else {
-                audio.pause();
-            }
-            $('.audio_ico').toggleClass('audio_ico_stop');
-        }
-    }, false);
+        }, false);
+
+    }
+    audioAutoPlay('Jaudio');
+//    var audio = document.createElement("audio");
+//    audio.src = "images/music2.mp3";
+//    audio.loop = false;
+//    audio.addEventListener("canplaythrough", function () {
+//        audio.play();
+//        fadeIn();
+//
+//        function fadeIn(v) {
+//            var v = v || 0.1;
+//            audio.volume = v;
+//            if ((v += 0.1) <= 1.0) {
+//                setTimeout(function () {
+//                    fadeIn(v)
+//                }, 500);
+//            }
+//        }
+//
+//        $('.audio_ico').removeClass('audio_ico_stop');
+//    }, false);
+    // 手Q微信需要手动触发播放
+
 </script>
 <script>
     document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
