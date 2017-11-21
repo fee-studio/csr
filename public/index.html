@@ -465,7 +465,7 @@
     </div>
 </div>
 <script type="text/javascript" src="javascripts/iSlider.js"></script>
-<!--<script type="text/javascript" src="server.js"></script>-->
+<script type="text/javascript" src="server.js"></script>
 <script>
     var myslider = new iSlider({
         wrap: '#container',
@@ -573,76 +573,76 @@
         WeixinJSBridge.call('hideToolbar');
     });
 </script>
-<!--<script>-->
-    <!--$.ajax({-->
-        <!--// 与nginx配置的接收路径一致即可-->
-        <!--url: '/weixin_sign',-->
-        <!--type: 'get',-->
-        <!--// 必须不能缓存，签名验证会失效-->
-        <!--cache: false,-->
-        <!--dataType: 'json',-->
-        <!--contentType: 'application/x-www-form-urlencoded; charset=utf-8',-->
-        <!--// 微信要求url动态获取-->
-        <!--data: {-->
-            <!--'url': location.href.split('#')[0]-->
-        <!--},-->
-        <!--success: function (data) {-->
-            <!--wx.config({-->
-                <!--// 可以开启debug模式，页面会alert出错误信息-->
-                <!--debug: false,-->
-                <!--appId: data.appId,-->
-                <!--timestamp: data.timestamp,-->
-                <!--nonceStr: data.noncestr,-->
-                <!--signature: data.signature,-->
-                <!--// 配置所需的API列表-->
-                <!--jsApiList: ['checkJsApi',-->
-                    <!--'onMenuShareTimeline',-->
-                    <!--'onMenuShareAppMessage']-->
-            <!--});-->
-        <!--}-->
-    <!--});-->
+<script>
+    $.ajax({
+        // 与nginx配置的接收路径一致即可
+        url: '/weixin_sign',
+        type: 'get',
+        // 必须不能缓存，签名验证会失效
+        cache: false,
+        dataType: 'json',
+        contentType: 'application/x-www-form-urlencoded; charset=utf-8',
+        // 微信要求url动态获取
+        data: {
+            'url': location.href.split('#')[0]
+        },
+        success: function (data) {
+            wx.config({
+                // 可以开启debug模式，页面会alert出错误信息
+                debug: false,
+                appId: data.appId,
+                timestamp: data.timestamp,
+                nonceStr: data.noncestr,
+                signature: data.signature,
+                // 配置所需的API列表
+                jsApiList: ['checkJsApi',
+                    'onMenuShareTimeline',
+                    'onMenuShareAppMessage']
+            });
+        }
+    });
 
-    <!--wx.ready(function () {-->
-        <!--console.log("wx success")-->
-        <!--// config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。-->
+    wx.ready(function () {
+        console.log("wx success")
+        // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
 
-        <!--wx.onMenuShareAppMessage({-->
-            <!--title: 'my share title', // 分享标题-->
-            <!--desc: 'my share desc', // 分享描述-->
-            <!--link: 'sxshow.com', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致-->
-            <!--imgUrl: '', // 分享图标-->
-            <!--type: '', // 分享类型,music、video或link，不填默认为link-->
-            <!--dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空-->
-            <!--success: function () {-->
-                <!--// 用户确认分享后执行的回调函数-->
-            <!--},-->
-            <!--cancel: function () {-->
-                <!--// 用户取消分享后执行的回调函数-->
-            <!--}-->
-        <!--});-->
-    <!--});-->
+        wx.onMenuShareAppMessage({
+            title: '2016中国电信社会责任报告', // 分享标题
+            desc: '共建智能中国', // 分享描述
+            link: 'sxshow.com', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: '', // 分享图标
+            type: '', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+    });
 
-    <!--wx.error(function (res) {-->
-        <!--console.log("wx error")-->
-        <!--// config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。-->
+    wx.error(function (res) {
+        console.log("wx error")
+        // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
 
-    <!--});-->
+    });
 
-    <!--//    wx.checkJsApi({-->
-    <!--//        jsApiList: ['onMenuShareAppMessage'], // 需要检测的JS接口列表，所有JS接口列表见附录2,-->
-    <!--//-->
-    <!--//        success: function (res) {-->
-    <!--//            console.log("wx check js api success")-->
-    <!--//            console.log(res)-->
-    <!--//-->
-    <!--//            // 以键值对的形式返回，可用的api值true，不可用为false-->
-    <!--//-->
-    <!--//            // 如：{"checkResult":{"chooseImage":true},"errMsg":"checkJsApi:ok"}-->
-    <!--//        }-->
-    <!--//    });-->
+    wx.checkJsApi({
+        jsApiList: ['onMenuShareAppMessage'], // 需要检测的JS接口列表，所有JS接口列表见附录2,
+
+        success: function (res) {
+            console.log("wx check js api success")
+            console.log(res)
+
+            // 以键值对的形式返回，可用的api值true，不可用为false
+
+            // 如：{"checkResult":{"chooseImage":true},"errMsg":"checkJsApi:ok"}
+        }
+    });
 
 
-<!--</script>-->
+</script>
 </body>
 </html>
 <script>

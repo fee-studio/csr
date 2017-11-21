@@ -12,8 +12,8 @@ const http = require('http');
 const url = require('url');
 
 // 在“微信公众平台-开发-基本配置”页中获得AppID和AppSecret
-const APPID = 'wxc1d5770a39f749d7';
-const APPSECRET = '585c2a3e521685ccbb443cdbd7dfa29a';
+const APPID = 'wxe43b7ba8f75791e8';
+const APPSECRET = '12f3eccdcf00efa857be0f86f7f1e420';
 // accessToken和jsapiTicket有效期为7200s
 const TASKTIMER = 7200000;
 let accessToken;
@@ -84,7 +84,6 @@ var weixinSign = function(request, response) {
 }
 
 module.exports = weixinSign;
-
 
 // http.createServer(function (request, response) {
 //     // 解析url参数
