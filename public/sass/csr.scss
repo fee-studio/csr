@@ -149,6 +149,7 @@ em{
 		background-size: convertDist(423) convertDist(120);
 	  }
 	  .title-all-text{
+		opacity: 0;
 		@extend .position-a;
 		left: convertPos(67);
 		top: convertPos(38);
@@ -168,6 +169,13 @@ em{
 		font-size: 18px;
 		color: #ee8100;
 	  }
+	}
+  }
+  .content.play{
+	.content-title{
+		.title-all-text{
+			@include animation(jackInTheBox .5s forwards);
+		}
 	}
   }
   .content01{
@@ -328,7 +336,7 @@ em{
 		top: convertPos(55);
 		width: convertDist(281);
 		height: convertDist(64);
-		background-position:convertDist(-332) convertDist(-360);
+		background-position:convertDist(-333) convertDist(-360);
 		z-index: 3;
 	  }
 	  .overlay-01{
@@ -369,8 +377,8 @@ em{
 		  right: 0;
 		  top: 0;
 		  width: convertDist(252);
-		  height: convertDist(145);
-		  background-position:convertDist(0) convertDist(-162);
+		  height: convertDist(144);
+		  background-position:convertDist(0) convertDist(-163);
 		  @include opacity(0);
 		  z-index: 7;
 		}
@@ -453,7 +461,7 @@ em{
 		  top: convertPos(-12);
 		  width: convertDist(218);
 		  height: convertDist(194);
-		  background-position:convertDist(-253) convertDist(-162);
+		  background-position:convertDist(-253) convertDist(-163);
 		  @include opacity(0);
 		  z-index: 7;
 		}
@@ -536,11 +544,12 @@ em{
 		.text-02{
 		  @include animation(fadeIn 1s linear .5s forwards);
 		}
+
 		.overlay-01{
 		  @include animation(moveLeftOut3 1s linear 1s forwards);
 		}
 		.img-03{
-		  @include animation(fadeIn 1s linear 1.5s forwards);
+		  @include animation(zoomIn 1s linear 1.5s forwards);
 		}
 		.overlay-03{
 		  @include animation(moveLeftOut4 1.5s linear 2.5s forwards);
@@ -557,7 +566,7 @@ em{
 		  @include animation(moveRightOut1 1s linear 4.5s forwards);
 		}
 		.img-04{
-		  @include animation(fadeIn 1s linear 5s forwards);
+		  @include animation(zoomIn 1s linear 5s forwards);
 		}
 		.overlay-03{
 		  @include animation(moveRightOut2 1s linear 5.5s forwards);
@@ -577,7 +586,7 @@ em{
 		  @include animation(moveLeftOut8 1s linear 8.5s forwards);
 		}
 		.img-05{
-		  @include animation(fadeIn 1s linear 9.5s forwards);
+		  @include animation(zoomIn 1s linear 9.5s forwards);
 		}
 	  }
 	}
@@ -623,7 +632,7 @@ em{
 		  right: 0;
 		  width: convertDist(311);
 		  height: convertDist(304);
-		  background-position:convertDist(-1) convertDist(0);
+		  background-position:convertDist(0) convertDist(0);
 		  @include opacity(0);
 		}
 	  }
@@ -671,7 +680,7 @@ em{
 		  height: convertDist(0);
 		  @include transition(height 1s 5s);
 		  animation-timing-function: cubic-bezier(0, 0.48, 1, 1);
-		  background-position:convertDist(-558) convertDist(-357);
+		  background-position:convertDist(-558) convertDist(-356);
 		  top: convertPos(36);
 		  left: convertPos(26);
 		}
@@ -709,39 +718,37 @@ em{
 	.content-01{
 	  .content-text-02{
 		.text-02{
-		  @include animation(fadeIn 2s 1s forwards);
+		  @include animation(fadeInDown 2s 1s forwards);
 		}
 		.img-05{
-		  @include animation(fadeIn 2s 1.5s forwards);
+		  @include animation(zoomIn 2s 1.5s forwards);
 		}
 	  }
 	  .text-03{
-		@include animation(fadeIn 2s 2s forwards);
+		@include animation(fadeInDown 2s 2s forwards);
 	  }
 	  .img-01{
-		@include animation(fadeIn 2s 2.5s forwards);
+		@include animation(zoomIn 2s 2.5s forwards);
 	  }
 	  .img-02{
-		@include animation(fadeIn 2s 3s forwards);
+		@include animation(zoomIn 2s 3s forwards);
 	  }
 	  .content-text-03{
 		.img-03{
-		  @include animation(fadeIn 2s 3.5s forwards);
+		  @include animation(zoomIn 2s 3.5s forwards);
 		}
 		.img-04{
-		  @include animation(fadeIn 2s 4s forwards);
+		  @include animation(zoomIn 2s 4s forwards);
 		}
 		.img-06{
-		  @include animation(fadeIn 2s 4.5s forwards);
+		  @include animation(zoomIn 2s 4.5s forwards);
 		}
 		.img-05{
 		  height: convertDist(161);
-
 		}
 	  }
 	}
   }
-
   .content04{
 	.title-all-text,.img,.bg-01,.text h3 span{
 	  background: url("../images/css-sprites-04.png") no-repeat;
@@ -1024,7 +1031,7 @@ em{
 		@include animation(bounceInDown 1s ease-in forwards);
 	  }
 	  .text-01{
-		@include animation(fadeIn 1s ease-in 1s forwards);
+		@include animation(fadeInDown 1s ease-in 1s forwards);
 		h3{
 		  span{
 			animation-delay: 1s;
@@ -1036,7 +1043,7 @@ em{
 		@include animation(bounceInDown 1s ease-in 1.5s forwards);
 	  }
 	  .text-02{
-		@include animation(fadeIn 1s ease-in 2s forwards);
+		@include animation(fadeInDown 1s ease-in 2s forwards);
 		h3{
 		  span{
 			animation-delay: 2s;
@@ -1048,7 +1055,7 @@ em{
 		@include animation(bounceInDown 1s ease-in 2.5s forwards);
 	  }
 	  .text-03{
-		@include animation(fadeIn 1s ease-in 3s forwards);
+		@include animation(fadeInUp 1s ease-in 3s forwards);
 		.line-03{
 		  @include animation(fadeIn 1s ease-in 3.5s forwards);
 		}
@@ -1065,7 +1072,7 @@ em{
 		@include animation(fadeIn 1s ease-in 4.5s forwards);
 	  }
 	  .text-04{
-		@include animation(fadeIn 1s ease-in 5s forwards);
+		@include animation(fadeInUp 1s ease-in 5s forwards);
 		.line-04{
 		  @include animation(fadeIn 1s ease-in 5.5s forwards);
 		}
@@ -1079,7 +1086,7 @@ em{
 		@include animation(bounceInDown 1s ease-in 6s forwards);
 	  }
 	  .text-05{
-		@include animation(fadeIn 1s ease-in 6.5s forwards);
+		@include animation(fadeInUp 1s ease-in 6.5s forwards);
 		.line-05{
 		  @include animation(fadeIn 1s ease-in 7s forwards);
 		}
@@ -1192,7 +1199,7 @@ em{
   }
   .content05.play{
 	.img-01{
-	  @include animation(fadeIn 1s forwards);
+	  @include animation(rollIn 1s forwards);
 	}
 	.text-01{
 	  @include animation(fadeIn .5s  1.5s forwards);
@@ -1201,7 +1208,7 @@ em{
 	  @include animation(moverRightOut3 .5s 2s forwards);
 	}
 	.img-02{
-	  @include animation(fadeIn 1s 2.5s forwards);
+	  @include animation(rollIn 1s 2.5s forwards);
 	}
 	.text-02{
 	  @include animation(fadeIn .5s  3s forwards);
@@ -1210,7 +1217,7 @@ em{
 	@include animation(moverRightOut3 .5s 3.5s forwards);
 	}
 	.img-03{
-	  @include animation(fadeIn 1s 4s forwards);
+	  @include animation(rollIn 1s 4s forwards);
 	}
 	.text-03{
 	  @include animation(fadeIn .5s  4.5s forwards);
@@ -1219,7 +1226,6 @@ em{
 	  @include animation(moverRightOut3 .5s 5s forwards);
 	}
   }
-
   .content06{
 	.title-all-text,.img,.line,.bg-01{
 	  @extend .position-a;
@@ -1456,7 +1462,7 @@ em{
   .content06.play{
 	.content-01{
 	  .img-01{
-		@include animation(fadeIn .5s forwards);
+		@include animation(zoomIn .5s forwards);
 	  }
 	  .overlay-01{
 		width: 0;
@@ -1464,10 +1470,10 @@ em{
 		//@include animation(fadeIn 1s .5s forwards);
 	  }
 	  .text-01{
-		@include animation(fadeIn 1s 2s forwards);
+		@include animation(fadeInUp 1s 2s forwards);
 	  }
 	  .img-02{
-		@include animation(fadeIn 1s 2.5s forwards);
+		@include animation(zoomIn 1s 2.5s forwards);
 	  }
 	  .overlay-02{
 		width: 0;
@@ -1475,10 +1481,10 @@ em{
 		//@include animation(fadeIn 1s 2s forwards);
 	  }
 	  .text-02{
-		@include animation(fadeIn 1s 4s forwards);
+		@include animation(fadeInDown 1s 4s forwards);
 	  }
 	  .img-03{
-		@include animation(fadeIn 1s 4.5s forwards);
+		@include animation(zoomIn 1s 4.5s forwards);
 	  }
 	  .overlay-03{
 		width: 0;
@@ -1486,10 +1492,10 @@ em{
 		//@include animation(fadeIn 1s 3.5s forwards);
 	  }
 	  .text-03{
-		@include animation(fadeIn 1s 6s forwards);
+		@include animation(fadeInUp 1s 6s forwards);
 	  }
 	  .img-04{
-		@include animation(fadeIn 1s 6.5s forwards);
+		@include animation(zoomIn 1s 6.5s forwards);
 	  }
 	  .overlay-04{
 		width: 0;
@@ -1497,7 +1503,7 @@ em{
 		//@include animation(fadeIn 1s 5s forwards);
 	  }
 	  .text-04{
-		@include animation(fadeIn 1s 8s forwards);
+		@include animation(fadeInDown 1s 8s forwards);
 	  }
 	}
 	.img-05{
@@ -1628,7 +1634,7 @@ em{
 		height: convertDist(164);
 		left: convertPos(31);
 		top: convertPos(0);
-		background-position: convertDist(0) convertDist(-214);
+		background-position: convertDist(0) convertDist(-213);
 		z-index: 7;
 	  }
 	  .img-02{
@@ -1737,50 +1743,50 @@ em{
 		//@include animation(rotateInDownleft .5s forwards);
 	  }
 	  .img-01{
-		@include animation(fadeIn 1s 1s forwards);
+		@include animation(zoomIn 1s 1s forwards);
 	  }
 	  .text-01{
-		@include animation(fadeIn 1s 1.5s forwards);
+		@include animation(fadeInDown 1s 1.5s forwards);
 	  }
 	  .overlay-01{
 		@include animation(moveLeftOut1 1s 2.5s forwards);
 	  }
 	  .img-02{
-		@include animation(fadeIn 1s 3s forwards);
+		@include animation(zoomIn 1s 3s forwards);
 	  }
 	  .text-02{
-		@include animation(fadeIn 1s 3.5s forwards);
+		@include animation(fadeInDown 1s 3.5s forwards);
 	  }
 	  .overlay-02{
 		width: convertDist(0);
 		@include transition(width 2s 4s);
 	  }
 	  .img-03{
-		@include animation(fadeIn 1s 4.5s forwards);
+		@include animation(zoomIn 1s 4.5s forwards);
 	  }
 	  .text-03{
-		@include animation(fadeIn 1s 5s forwards);
+		@include animation(fadeInDown 1s 5s forwards);
 	  }
 	  .overlay-03{
 		@include animation(moveLeftOut2 2s 5.5s forwards);
 	  }
 	  .img-04{
-		@include animation(fadeIn 1s 6s forwards);
+		@include animation(zoomIn 1s 6s forwards);
 	  }
 	  .text-04{
-		@include animation(fadeIn 1s 6.5s forwards);
+		@include animation(fadeInDown 1s 6.5s forwards);
 	  }
 	  .text-05{
-		@include animation(fadeIn 1s 7s forwards);
+		@include animation(fadeInDown 1s 7s forwards);
 	  }
 	  .text-06{
-		@include animation(fadeIn 1s 7.5s forwards);
+		@include animation(fadeInDown 1s 7.5s forwards);
 	  }
 	  .img-05{
-		@include animation(fadeIn 1s 8s forwards);
+		@include animation(zoomIn 1s 8s forwards);
 	  }
 	  .img-07{
-		@include animation(fadeIn 1s 8.5s forwards);
+		@include animation(zoomIn 1s 8.5s forwards);
 	  }
 	  .img-06{
 		@include animation(bounceInRight 1s 9s forwards);
@@ -1797,7 +1803,8 @@ em{
 	.content-title{
 	  @extend .position-r;
 	  .title-all-text{
-		width: convertDist(237);
+		width: convertDist(236);
+
 		height: convertDist(38);
 		background-position:convertDist(-286) convertDist(-263);
 	  }
@@ -1866,7 +1873,7 @@ em{
 		z-index: 6;
 	  }
 	  .img-02{
-		width: convertDist(122); height: convertDist(78);
+		width: convertDist(120); height: convertDist(78);
 		background-position: convertDist(-286) convertDist(-185);
 		left: convertPos(70);
 		top: convertPos(63);
@@ -1893,7 +1900,6 @@ em{
 		top: convertPos(233);
 		z-index: 10;
 	  }
-
 	  .img-06{
 		left: convertPos(76);
 		top: convertPos(10);
@@ -1913,6 +1919,7 @@ em{
 		width: convertDist(51); height: convertDist(14);
 		background-position: convertDist(-484) convertDist(-226);
 	  }
+
 	  .img-09{
 		left: convertPos(128);
 		top: convertPos(217);
@@ -1922,13 +1929,13 @@ em{
 	  .img-10{
 		left: convertPos(59);
 		top: convertPos(278);
-		width: convertDist(40); height: convertDist(41);
-		background-position: convertDist(-485) convertDist(-185);
+		width: convertDist(39); height: convertDist(41);
+		background-position: convertDist(-486) convertDist(-185);
 	  }
 	  .img-11{
 		left:convertPos(0);
 		top:convertPos(7);
-		width: convertDist(286); height: convertDist(571);
+		width: convertDist(285); height: convertDist(571);
 		background-position: convertDist(0) convertDist(0);
 	  }
 	  .img-13{
@@ -1957,46 +1964,46 @@ em{
 		@include animation(fadeIn 1s .5s forwards);
 	  }
 	  .img-06{
-		@include animation(fadeIn 1s 1s forwards);
+		@include animation(zoomIn 1s 1s forwards);
 	  }
 	  .text-01{
-		@include animation(fadeIn 1s 1.5s forwards);
+		@include animation(rollIn 1s 1.5s forwards);
 	  }
 	  .img-02{
 		@include animation(fadeIn 1s 2s forwards);
 	  }
 	  .img-07{
-		@include animation(fadeIn 1s 2.5s forwards);
+		@include animation(zoomIn 1s 2.5s forwards);
 	  }
 	  .text-02{
-		@include animation(fadeIn 1s 3s forwards);
+		@include animation(rollIn 1s 3s forwards);
 	  }
 	  .img-03{
 		@include animation(fadeIn 1s 3.5s forwards);
 	  }
 	  .img-08{
-		@include animation(fadeIn 1s 4s forwards);
+		@include animation(zoomIn 1s 4s forwards);
 	  }
 	  .text-03{
-		@include animation(fadeIn 1s 4.5s forwards);
+		@include animation(rollIn 1s 4.5s forwards);
 	  }
 	  .img-04{
 		@include animation(fadeIn 1s 5s forwards);
 	  }
 	  .img-09{
-		@include animation(fadeIn 1s 5.5s forwards);
+		@include animation(zoomIn 1s 5.5s forwards);
 	  }
 	  .text-04{
-		@include animation(fadeIn 1s 6s forwards);
+		@include animation(rollIn 1s 6s forwards);
 	  }
 	  .img-05{
 		@include animation(fadeIn 1s 6.5s forwards);
 	  }
 	  .img-10{
-		@include animation(fadeIn 1s 7s forwards);
+		@include animation(zoomIn 1s 7s forwards);
 	  }
 	  .text-05{
-		@include animation(fadeIn 1s 7.5s forwards);
+		@include animation(rollIn 1s 7.5s forwards);
 	  }
 	  .img-11{
 		@include animation(rotateInDownleft .5s forwards);
@@ -2018,7 +2025,7 @@ em{
 	  .title-all-text{
 		width: convertDist(237);
 		height: convertDist(38);
-		background-position:convertDist(-648) convertDist(0);
+		background-position:convertDist(-647) convertDist(0);
 	  }
 	}
 	.sub-title{
@@ -2085,7 +2092,7 @@ em{
 	  .img-03{
 		width: convertDist(38);
 		height:convertDist(50);
-		background-position: convertDist(-809) convertDist(-38);
+		background-position: convertDist(-811) convertDist(-38);
 		top: convertPos(141);
 		left: convertPos(23);
 	  }
@@ -2107,8 +2114,8 @@ em{
 
 	  }
 	  .img-06{
-		width: convertDist(441);
-		height: convertDist(446);
+		width: convertDist(440);
+		height: convertDist(445);
 		background-position: convertDist(8) convertDist(-346);
 		left: convertPos(43);
 		top: convertPos(51);
@@ -2116,13 +2123,14 @@ em{
 	  }
 	  .img-07{
 		width: convertDist(443);
-		height: convertDist(446);
+		height: convertDist(445);
 		background-position: convertPos(-221) convertDist(-346);
 		left: convertPos(43);
 		top: convertPos(51);
 		z-index: 1;
 		opacity: 1;
 	  }
+
 	  .line{
 		height: convertPos(1);
 		border-bottom: convertPos(1) solid #00a99d;
@@ -2177,46 +2185,46 @@ em{
 		@include animation(fadeIn 1s .5s forwards);
 	  }
 	  .img-01{
-		@include animation(fadeIn 1s 1s forwards);
+		@include animation(zoomIn 1s 1s forwards);
 	  }
 	  .text-01{
-		@include animation(fadeIn 1s 1.5s forwards);
+		@include animation(fadeInDown 1s 1.5s forwards);
 	  }
 	  .line-01{
 		@include animation(fadeIn 1s 2s forwards);
 	  }
 	  .img-02{
-		@include animation(fadeIn 1s 2.5s forwards);
+		@include animation(zoomIn 1s 2.5s forwards);
 	  }
 	  .text-02{
-		@include animation(fadeIn 1s 3s forwards);
+		@include animation(fadeInDown 1s 3s forwards);
 	  }
 	  .line-02{
 		@include animation(fadeIn 1s 3.5s forwards);
 	  }
 	  .img-03{
-		@include animation(fadeIn 1s 4s forwards);
+		@include animation(zoomIn 1s 4s forwards);
 	  }
 	  .text-03{
-		@include animation(fadeIn 1s 4.5s forwards);
+		@include animation(fadeInDown 1s 4.5s forwards);
 	  }
 	  .line-03{
 		@include animation(fadeIn 1s 5s forwards);
 	  }
 	  .img-04{
-		@include animation(fadeIn 1s 5.5s forwards);
+		@include animation(zoomIn 1s 5.5s forwards);
 	  }
 	  .text-05{
-		@include animation(fadeIn 1s 6s forwards);
+		@include animation(fadeInDown 1s 6s forwards);
 	  }
 	  .line-05{
 		@include animation(fadeIn 1s 6.5s forwards);
 	  }
 	  .text-04{
-		@include animation(fadeIn 1s 7s forwards);
+		@include animation(fadeInDown 1s 7s forwards);
 	  }
 	  .img-05{
-		@include animation(fadeIn 1s 7.5s forwards);
+		@include animation(zoomIn 1s 7.5s forwards);
 	  }
 	  .line-04{
 		@include animation(fadeIn 1s 8s forwards);
@@ -2372,37 +2380,37 @@ em{
 		@include animation(fadeIn 1s 2s forwards);
 	  }
 	  .img-01{
-		@include animation(fadeIn 1s 2.5s forwards);
+		@include animation(zoomIn 1s 2.5s forwards);
 	  }
 	  .text-01{
-		@include animation(fadeIn 1s 3s forwards);
+		@include animation(fadeInDown 1s 3s forwards);
 	  }
 	  .line-02{
 		@include animation(fadeIn 1s 3.5s forwards);
 	  }
 	  .img-02{
-		@include animation(fadeIn 1s 4s forwards);
+		@include animation(zoomIn 1s 4s forwards);
 	  }
 	  .text-02{
-		@include animation(fadeIn 1s 4.5s forwards);
+		@include animation(fadeInDown 1s 4.5s forwards);
 	  }
 	  .line-03{
 		@include animation(fadeIn 1s 5s forwards);
 	  }
 	  .img-03{
-		@include animation(fadeIn 1s 5.5s forwards);
+		@include animation(zoomIn 1s 5.5s forwards);
 	  }
 	  .text-03{
-		@include animation(fadeIn 1s 6s forwards);
+		@include animation(fadeInUp 1s 6s forwards);
 	  }
 	  .line-04{
 		@include animation(fadeIn 1s 6.5s forwards);
 	  }
 	  .img-04{
-		@include animation(fadeIn 1s 7s forwards);
+		@include animation(zoomIn 1s 7s forwards);
 	  }
 	  .text-04{
-		@include animation(fadeIn 1s 7.5s forwards);
+		@include animation(fadeInUp 1s 7.5s forwards);
 	  }
 
 	}
@@ -2557,34 +2565,34 @@ em{
 		@include animation(fadeIn 1s 1.5s forwards);
 	  }
 	  .img-01{
-		@include animation(fadeIn 1s 2s forwards);
+		@include animation(zoomIn 1s 2s forwards);
 	  }
 	  .text-01{
-		@include animation(fadeIn 1s 2.5s forwards);
+		@include animation(fadeInDown 1s 2.5s forwards);
 	  }
 	  .img-02{
-		@include animation(fadeIn 1s 3s forwards);
+		@include animation(zoomIn 1s 3s forwards);
 	  }
 	  .text-02{
-		@include animation(fadeIn 1s 3.5s forwards);
+		@include animation(fadeInDown 1s 3.5s forwards);
 	  }
 	  .img-03{
-		@include animation(fadeIn 1s 4s forwards);
+		@include animation(zoomIn 1s 4s forwards);
 	  }
 	  .text-04{
-		@include animation(fadeIn 1s 4.5s forwards);
+		@include animation(fadeInUp 1s 4.5s forwards);
 	  }
 	  .img-04{
-		@include animation(fadeIn 1s 5s forwards);
+		@include animation(zoomIn 1s 5s forwards);
 	  }
 	  .text-05{
-		@include animation(fadeIn 1s 5.5s forwards);
+		@include animation(fadeInUp 1s 5.5s forwards);
 	  }
 	  .img-05{
-		@include animation(fadeIn 1s 6s forwards);
+		@include animation(zoomIn 1s 6s forwards);
 	  }
 	  .text-03{
-		@include animation(fadeIn 1s 6.5s forwards);
+		@include animation(fadeInUp 1s 6.5s forwards);
 	  }
 	}
   }
@@ -2601,22 +2609,24 @@ em{
 		position: static;
 		width: convertDist(487);
 		height: convertDist(40);
-		background-position:convertDist(-2)  convertDist(0);
-	  }
-	  .icon_gear{
-		@extend .position-a;
-		width: convertDist(20);
-		height: convertDist(18);
-		left:convertPos(70);
-		top:convertPos(18);
-		background-position:convertPos(-2)  convertPos(-22);
+		background-position:convertDist(-3)  convertDist(0);
+		.icon_gear{
+		  opacity: 0;
+		  @extend .position-a;
+		  width: convertDist(20);
+		  height: convertDist(18);
+		  left:convertPos(54);
+		  top:convertPos(1);
+		  background-position:convertPos(-2.5)  convertPos(-22);
+		}
+
 	  }
 	}
 	.sub-title{
 	  @extend .position-r;
 	  margin-top: 0;
 	  @media (min-width: 321px){
-		margin-left: convertPos(30);
+		margin-left: convertPos(56);
 	  }
 	  z-index: 1;
 	  line-height: 15px;
@@ -2639,7 +2649,6 @@ em{
 		}
 	  }
 	}
-
 	.overlay{
 	  @extend .position-a;
 	  top: convertPos(49);
@@ -2653,7 +2662,7 @@ em{
 	  .content-title{
 		padding: convertPos(15) 0 convertPos(10) convertPos(17);
 		.icon_gear{
-		  top:convertPos(15);
+		  top:convertPos(1);
 		}
 	  }
 	  .sub-title{
@@ -2703,7 +2712,7 @@ em{
 		@include opacity(0);
 		width: convertDist(641);
 		height: convertDist(488);
-		background-position:convertDist(0)  convertDist(-73);
+		background-position:convertDist(0)  convertDist(-72);
 		right: convertPos(12);
 		bottom: convertPos(-27);
 		z-index: 1;
@@ -2740,9 +2749,9 @@ em{
 	  }
 	}
 	@media (min-width: 321px){
-			.footer{
-			  margin-left: convertPos(30);
-			}
+	  .footer{
+		margin-left: convertPos(30);
+	  }
 	}
   }
   .content12.play{
@@ -2777,7 +2786,6 @@ em{
 	}
   }
 }
-
 /*播放音乐的按钮*/
 .audio_ico{
   position:fixed;
@@ -2852,12 +2860,13 @@ em{
 }
 @keyframes rotate2d{
   0% {
+	opacity: 1;
 	@include rotate(0)
   }
   100% {
+	opacity: 1;
 	@include rotate(360deg);
   }
-
 }
 @keyframes reverseRotate2d{
   0% {
@@ -3291,7 +3300,6 @@ em{
 	transform: rotate(0deg);
   }
 }
-
 @keyframes robot{
   0% {
 	top: convertPos(72);
@@ -3309,7 +3317,6 @@ em{
 	opacity: 1;
   }
 }
-
 @keyframes bling{
   0%{
 	opacity: 1;
@@ -3322,4 +3329,69 @@ em{
   }
 
 }
+@keyframes zoomIn {
+  0% {
+	opacity: 0;
+	transform: scale3d(.3, .3, .3);
+  }
 
+  50% {
+	opacity: 1;
+  }
+  100%{
+	opacity: 1;
+  }
+}
+@keyframes rollIn {
+  from {
+	opacity: 0;
+	transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+	opacity: 1;
+	transform: none;
+  }
+}
+@keyframes jackInTheBox {
+  from {
+	opacity: 0;
+	transform: scale(0.1) rotate(30deg);
+	transform-origin: center bottom;
+  }
+
+  50% {
+	transform: rotate(-10deg);
+  }
+
+  70% {
+	transform: rotate(3deg);
+  }
+
+  to {
+	opacity: 1;
+	transform: scale(1);
+  }
+}
+@keyframes fadeInDown {
+  from {
+	opacity: 0;
+	transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+	opacity: 1;
+	transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+	opacity: 0;
+	transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+	opacity: 1;
+	transform: none;
+  }
+}

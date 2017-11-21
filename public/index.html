@@ -428,8 +428,7 @@
     </div>
     <div class="content content12">
         <div class="content-title position-r">
-            <div class="title-all-text"></div>
-            <div class="icon_gear"></div>
+            <div class="title-all-text"><div class="icon_gear"></div></div>
         </div>
         <div class="sub-title">
             <em>2016年 &sbquo; 我们已经做到</em><br/>
@@ -551,6 +550,12 @@
             $('.audio_ico').toggleClass('audio_ico_stop');
         }
     }, false);
+</script>
+<script>
+    document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+        // 通过下面这个API隐藏底部导航栏
+        WeixinJSBridge.call('hideToolbar');
+    });
 </script>
 <!--<script>-->
     <!--$.ajax({-->

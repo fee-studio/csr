@@ -70,7 +70,7 @@ em {
 }
 
 /* line 75, ../sass/csr.scss */
-.position-a, .container .content .content-title .title-bg, .container .content .content-title .title-all-text, .container .content01 .content-01 .title .img-03, .container .content01 .content-01 .content-02 .img-04, .container .content02 .content-title .title-all-text, .container .content02 .img-02, .container .content02 .img-07, .container .content02 .img-08, .container .content02 .content-01 .line, .container .content02 .content-01 .overlay, .container .content02 .content-01 .content-02 .img-03, .container .content02 .content-01 .content-02 .text-02, .container .content02 .content-01 .content-03 .text-03, .container .content02 .content-01 .content-03 .img-04, .container .content02 .content-01 .content-04 .text-04, .container .content02 .content-01 .content-04 .img-05, .container .content03 .content-title .title-all-text, .container .content03 .content-01 .content-text-02 .img-05, .container .content03 .content-01 .content-text-03 .img-04, .container .content03 .content-01 .content-text-03 .img-05, .container .content04 .content-title .title-all-text, .container .content04 .content-01 .text, .container .content04 .content-01 .img, .container .content04 .content-01 .line, .container .content05 .content-title .title-all-text, .container .content05 .bg-01, .container .content05 .box .overlay, .container .content06 .title-all-text, .container .content06 .img, .container .content06 .line, .container .content06 .bg-01, .container .content06 .content-01 .img, .container .content06 .content-01 .text, .container .content06 .content-01 .line, .container .content06 .content-01 .overlay, .container .content07 .title-all-text, .container .content07 .img, .container .content07 .bg-01, .container .content07 .bg-07, .container .content07 .content-01 .line, .container .content07 .content-01 .text, .container .content07 .content-01 .img, .container .content07 .content-01 .overlay, .container .content08 .title-all-text, .container .content08 .img, .container .content08 .bg-01, .container .content08 .content-01 .text, .container .content08 .content-01 .img-13, .container .content09 .title-all-text, .container .content09 .img, .container .content09 .line, .container .content09 .bg-01, .container .content09 .content-01 .text, .container .content09 .content-01 .img, .container .content09 .content-01 .line, .container .content10 .title-all-text, .container .content10 .img, .container .content10 .line, .container .content10 .bg-01, .container .content10 .content-01 .bg-02, .container .content10 .content-01 .text, .container .content11 .content-01 .text, .container .content11 .content-01 .img, .container .content11 .content-01 .plane-box, .container .content12 .content-title .icon_gear, .container .content12 .overlay, .container .content12 .content-01 .img {
+.position-a, .container .content .content-title .title-bg, .container .content .content-title .title-all-text, .container .content01 .content-01 .title .img-03, .container .content01 .content-01 .content-02 .img-04, .container .content02 .content-title .title-all-text, .container .content02 .img-02, .container .content02 .img-07, .container .content02 .img-08, .container .content02 .content-01 .line, .container .content02 .content-01 .overlay, .container .content02 .content-01 .content-02 .img-03, .container .content02 .content-01 .content-02 .text-02, .container .content02 .content-01 .content-03 .text-03, .container .content02 .content-01 .content-03 .img-04, .container .content02 .content-01 .content-04 .text-04, .container .content02 .content-01 .content-04 .img-05, .container .content03 .content-title .title-all-text, .container .content03 .content-01 .content-text-02 .img-05, .container .content03 .content-01 .content-text-03 .img-04, .container .content03 .content-01 .content-text-03 .img-05, .container .content04 .content-title .title-all-text, .container .content04 .content-01 .text, .container .content04 .content-01 .img, .container .content04 .content-01 .line, .container .content05 .content-title .title-all-text, .container .content05 .bg-01, .container .content05 .box .overlay, .container .content06 .title-all-text, .container .content06 .img, .container .content06 .line, .container .content06 .bg-01, .container .content06 .content-01 .img, .container .content06 .content-01 .text, .container .content06 .content-01 .line, .container .content06 .content-01 .overlay, .container .content07 .title-all-text, .container .content07 .img, .container .content07 .bg-01, .container .content07 .bg-07, .container .content07 .content-01 .line, .container .content07 .content-01 .text, .container .content07 .content-01 .img, .container .content07 .content-01 .overlay, .container .content08 .title-all-text, .container .content08 .img, .container .content08 .bg-01, .container .content08 .content-01 .text, .container .content08 .content-01 .img-13, .container .content09 .title-all-text, .container .content09 .img, .container .content09 .line, .container .content09 .bg-01, .container .content09 .content-01 .text, .container .content09 .content-01 .img, .container .content09 .content-01 .line, .container .content10 .title-all-text, .container .content10 .img, .container .content10 .line, .container .content10 .bg-01, .container .content10 .content-01 .bg-02, .container .content10 .content-01 .text, .container .content11 .content-01 .text, .container .content11 .content-01 .img, .container .content11 .content-01 .plane-box, .container .content12 .content-title .title-all-text .icon_gear, .container .content12 .overlay, .container .content12 .content-01 .img {
   position: absolute;
 }
 
@@ -186,65 +186,72 @@ em {
 }
 /* line 151, ../sass/csr.scss */
 .container .content .content-title .title-all-text {
+  opacity: 0;
   left: 3.35rem;
   top: 1.9rem;
 }
-/* line 158, ../sass/csr.scss */
+/* line 159, ../sass/csr.scss */
 .container .content .sub-title {
   font-size: 12px;
   line-height: 15px;
   margin: 0.45rem 0 0.425rem 1.3rem;
 }
-/* line 163, ../sass/csr.scss */
+/* line 164, ../sass/csr.scss */
 .container .content .text {
   font-size: 10px;
   line-height: 16px;
 }
-/* line 166, ../sass/csr.scss */
+/* line 167, ../sass/csr.scss */
 .container .content .text b {
   font-weight: normal;
   font-size: 18px;
   color: #ee8100;
 }
-/* line 173, ../sass/csr.scss */
+/* line 176, ../sass/csr.scss */
+.container .content.play .content-title .title-all-text {
+  -moz-animation: jackInTheBox 0.5s forwards;
+  -webkit-animation: jackInTheBox 0.5s forwards;
+  animation: jackInTheBox 0.5s forwards;
+}
+/* line 181, ../sass/csr.scss */
 .container .content01 {
   background: -moz-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
   background: -o-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
   background: -ms-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
   background: -webkit-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
 }
-/* line 178, ../sass/csr.scss */
+/* line 186, ../sass/csr.scss */
 .container .content01 .img {
   background: url("../images/css-sprites-01.png") no-repeat;
   background-size: 14.975rem 17.85rem;
 }
-/* line 182, ../sass/csr.scss */
+/* line 190, ../sass/csr.scss */
 .container .content01 .content-01 {
   width: 14.975rem;
   margin: 0 auto;
 }
-/* line 186, ../sass/csr.scss */
+/* line 194, ../sass/csr.scss */
 .container .content01 .content-01 .title {
   margin-top: 4.05rem;
   text-align: right;
 }
-/* line 190, ../sass/csr.scss */
+/* line 198, ../sass/csr.scss */
 .container .content01 .content-01 .title span {
   display: inline-block;
 }
-/* line 193, ../sass/csr.scss */
+/* line 201, ../sass/csr.scss */
 .container .content01 .content-01 .title .title-top {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 196, ../sass/csr.scss */
+/* line 204, ../sass/csr.scss */
 .container .content01 .content-01 .title .img-01 {
   margin-top: 0.2rem;
   width: 9.15rem;
   height: 1.4rem;
   background-position: -0.05rem -13.75rem;
 }
-/* line 202, ../sass/csr.scss */
+/* line 210, ../sass/csr.scss */
 .container .content01 .content-01 .title .img-02 {
   width: 8rem;
   height: 2.425rem;
@@ -252,7 +259,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 208, ../sass/csr.scss */
+/* line 216, ../sass/csr.scss */
 .container .content01 .content-01 .title .img-03 {
   top: 0.15rem;
   right: 4.7rem;
@@ -260,11 +267,11 @@ em {
   height: 0.65rem;
   background-position: -9.6rem -13.75rem;
 }
-/* line 218, ../sass/csr.scss */
+/* line 226, ../sass/csr.scss */
 .container .content01 .content-01 .content-02 {
   margin-top: 2.4rem;
 }
-/* line 221, ../sass/csr.scss */
+/* line 229, ../sass/csr.scss */
 .container .content01 .content-01 .content-02 .img-04 {
   left: 7.75rem;
   top: -0.75rem;
@@ -274,58 +281,58 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 230, ../sass/csr.scss */
+/* line 238, ../sass/csr.scss */
 .container .content01 .content-01 .content-02 .img-05 {
   width: 14.975rem;
   height: 13.475rem;
   background-position: -0.05rem -0.025rem;
 }
-/* line 240, ../sass/csr.scss */
+/* line 248, ../sass/csr.scss */
 .container .content01.play .title-top {
   -moz-animation: fadeIn 4s 0.5s forwards;
   -webkit-animation: fadeIn 4s 0.5s forwards;
   animation: fadeIn 4s 0.5s forwards;
 }
-/* line 243, ../sass/csr.scss */
+/* line 251, ../sass/csr.scss */
 .container .content01.play .img-03 {
   -moz-animation: rotate2d 2s linear infinite;
   -webkit-animation: rotate2d 2s linear infinite;
   animation: rotate2d 2s linear infinite;
 }
-/* line 247, ../sass/csr.scss */
+/* line 255, ../sass/csr.scss */
 .container .content01.play .img-02 {
   -moz-animation: fadeIn 4s 1.5s forwards;
   -webkit-animation: fadeIn 4s 1.5s forwards;
   animation: fadeIn 4s 1.5s forwards;
 }
-/* line 250, ../sass/csr.scss */
+/* line 258, ../sass/csr.scss */
 .container .content01.play .img-04 {
   -moz-animation: rotateDown 2s 2s forwards;
   -webkit-animation: rotateDown 2s 2s forwards;
   animation: rotateDown 2s 2s forwards;
 }
-/* line 255, ../sass/csr.scss */
+/* line 263, ../sass/csr.scss */
 .container .content02 .title-all-text, .container .content02 .img, .container .content02 .bg-01, .container .content02 .line {
   background: url("../images/css-sprites-02.png") no-repeat;
   background-size: 16.525rem 10.6rem;
 }
-/* line 261, ../sass/csr.scss */
+/* line 269, ../sass/csr.scss */
 .container .content02 .content-title .title-all-text {
   width: 5.95rem;
   height: 0.975rem;
   background-position: 0rem -7.675rem;
 }
-/* line 268, ../sass/csr.scss */
+/* line 276, ../sass/csr.scss */
 .container .content02 em {
   color: #ee8100;
 }
-/* line 271, ../sass/csr.scss */
+/* line 279, ../sass/csr.scss */
 .container .content02 .img-01 {
   width: 16rem;
   height: 4.025rem;
   background-position: 0rem 0rem;
 }
-/* line 276, ../sass/csr.scss */
+/* line 284, ../sass/csr.scss */
 .container .content02 .img-02 {
   right: -1.8rem;
   top: 3.2rem;
@@ -333,7 +340,7 @@ em {
   height: 0.4rem;
   background-position: -15.35rem -10.1rem;
 }
-/* line 284, ../sass/csr.scss */
+/* line 292, ../sass/csr.scss */
 .container .content02 .img-07 {
   left: -1.5rem;
   top: 3.2rem;
@@ -341,7 +348,7 @@ em {
   height: 0.6rem;
   background-position: -15.5rem -9rem;
 }
-/* line 292, ../sass/csr.scss */
+/* line 300, ../sass/csr.scss */
 .container .content02 .img-08 {
   left: -2.35rem;
   top: 3.45rem;
@@ -349,17 +356,17 @@ em {
   height: 0.475rem;
   background-position: -15.35rem -9.65rem;
 }
-/* line 300, ../sass/csr.scss */
+/* line 308, ../sass/csr.scss */
 .container .content02 .content-01 {
   width: 13.4rem;
   margin: 0 auto;
 }
-/* line 301, ../sass/csr.scss */
+/* line 309, ../sass/csr.scss */
 .container .content02 .content-01 h3 {
   font-size: 10px;
   margin-bottom: 0.35rem;
 }
-/* line 310, ../sass/csr.scss */
+/* line 318, ../sass/csr.scss */
 .container .content02 .content-01 .line-01 {
   left: 0;
   top: 0.95rem;
@@ -368,7 +375,7 @@ em {
   background-position: 0rem -8.8rem;
   z-index: 1;
 }
-/* line 318, ../sass/csr.scss */
+/* line 326, ../sass/csr.scss */
 .container .content02 .content-01 .line-02 {
   right: 0;
   top: 4.35rem;
@@ -377,16 +384,16 @@ em {
   background-position: -6.725rem -8.975rem;
   z-index: 2;
 }
-/* line 326, ../sass/csr.scss */
+/* line 334, ../sass/csr.scss */
 .container .content02 .content-01 .line-03 {
   left: 6.25rem;
   top: 2.75rem;
   width: 7.025rem;
   height: 1.6rem;
-  background-position: -8.3rem -9rem;
+  background-position: -8.325rem -9rem;
   z-index: 3;
 }
-/* line 334, ../sass/csr.scss */
+/* line 342, ../sass/csr.scss */
 .container .content02 .content-01 .overlay-01 {
   left: 0;
   top: 0.95rem;
@@ -395,7 +402,7 @@ em {
   background-color: #3160c9;
   z-index: 4;
 }
-/* line 342, ../sass/csr.scss */
+/* line 350, ../sass/csr.scss */
 .container .content02 .content-01 .overlay-02 {
   right: 0;
   top: 4.35rem;
@@ -404,7 +411,7 @@ em {
   background-color: #3160c9;
   z-index: 5;
 }
-/* line 350, ../sass/csr.scss */
+/* line 358, ../sass/csr.scss */
 .container .content02 .content-01 .overlay-03 {
   left: 6.25rem;
   top: 2.75rem;
@@ -413,28 +420,28 @@ em {
   background-color: #3160c9;
   z-index: 6;
 }
-/* line 358, ../sass/csr.scss */
+/* line 366, ../sass/csr.scss */
 .container .content02 .content-01 .text-01 {
   margin: 0.5rem 0 0.4rem;
   font-size: 12px;
 }
-/* line 363, ../sass/csr.scss */
+/* line 371, ../sass/csr.scss */
 .container .content02 .content-01 .content-02 {
   height: 3.8rem;
   z-index: 1;
 }
-/* line 367, ../sass/csr.scss */
+/* line 375, ../sass/csr.scss */
 .container .content02 .content-01 .content-02 .img-03 {
   right: 0;
   top: 0;
   width: 6.3rem;
-  height: 3.625rem;
-  background-position: 0rem -4.05rem;
+  height: 3.6rem;
+  background-position: 0rem -4.075rem;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   z-index: 7;
 }
-/* line 377, ../sass/csr.scss */
+/* line 385, ../sass/csr.scss */
 .container .content02 .content-01 .content-02 .text-02 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -443,20 +450,20 @@ em {
   z-index: 8;
 }
 @media (max-width: 320px) {
-  /* line 377, ../sass/csr.scss */
+  /* line 385, ../sass/csr.scss */
   .container .content02 .content-01 .content-02 .text-02 {
     text-align: right;
     padding-right: 5px;
     left: -0.9rem;
   }
 }
-/* line 390, ../sass/csr.scss */
+/* line 398, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 {
   z-index: 2;
   height: 5.6rem;
   margin-top: 0.7rem;
 }
-/* line 395, ../sass/csr.scss */
+/* line 403, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 .text-03 {
   top: 0.4rem;
   right: -0.85rem;
@@ -466,18 +473,18 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 402, ../sass/csr.scss */
+/* line 410, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 .text-03 h3 {
   padding-left: 1rem;
 }
 @media (max-width: 320px) {
-  /* line 395, ../sass/csr.scss */
+  /* line 403, ../sass/csr.scss */
   .container .content02 .content-01 .content-03 .text-03 {
     padding-left: 5px;
     margin-top: 1px;
   }
 }
-/* line 411, ../sass/csr.scss */
+/* line 419, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 .line-01 {
   transform: scaleX(-1);
   top: 1.3rem;
@@ -485,7 +492,7 @@ em {
   right: 0;
   z-index: 1;
 }
-/* line 419, ../sass/csr.scss */
+/* line 427, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 .line-02 {
   transform: scaleX(-1);
   top: 4.7rem;
@@ -493,76 +500,76 @@ em {
   left: 0;
   z-index: 2;
 }
-/* line 426, ../sass/csr.scss */
+/* line 434, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 .line-03 {
   transform: scaleX(-1);
   top: 2.8rem;
   left: 0.2rem;
   z-index: 3;
 }
-/* line 432, ../sass/csr.scss */
+/* line 440, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 .overlay-01 {
   top: 1.3rem;
   left: unset;
   right: 0;
   z-index: 4;
 }
-/* line 439, ../sass/csr.scss */
+/* line 447, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 .overlay-02 {
   top: 4.7rem;
   right: unset;
   left: 0;
   z-index: 5;
 }
-/* line 445, ../sass/csr.scss */
+/* line 453, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 .overlay-03 {
   top: 2.8rem;
   left: 0.2rem;
   z-index: 6;
 }
-/* line 450, ../sass/csr.scss */
+/* line 458, ../sass/csr.scss */
 .container .content02 .content-01 .content-03 .img-04 {
   left: 0;
   top: -0.6rem;
   width: 5.45rem;
   height: 4.85rem;
-  background-position: -6.325rem -4.05rem;
+  background-position: -6.325rem -4.075rem;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   z-index: 7;
 }
-/* line 461, ../sass/csr.scss */
+/* line 469, ../sass/csr.scss */
 .container .content02 .content-01 .content-04 {
   height: 2.85rem;
   margin-top: 0.65rem;
   z-index: 3;
 }
-/* line 466, ../sass/csr.scss */
+/* line 474, ../sass/csr.scss */
 .container .content02 .content-01 .content-04 .line-01 {
   top: 0.2rem;
   z-index: 1;
 }
-/* line 470, ../sass/csr.scss */
+/* line 478, ../sass/csr.scss */
 .container .content02 .content-01 .content-04 .line-03 {
   top: 1.5rem;
   z-index: 2;
 }
-/* line 474, ../sass/csr.scss */
+/* line 482, ../sass/csr.scss */
 .container .content02 .content-01 .content-04 .overlay-01 {
   top: 0.2rem;
   z-index: 1;
 }
-/* line 478, ../sass/csr.scss */
+/* line 486, ../sass/csr.scss */
 .container .content02 .content-01 .content-04 .overlay-02 {
   z-index: 3;
 }
-/* line 481, ../sass/csr.scss */
+/* line 489, ../sass/csr.scss */
 .container .content02 .content-01 .content-04 .overlay-03 {
   left: 6.25rem;
   top: 1.5rem;
   z-index: 4;
 }
-/* line 486, ../sass/csr.scss */
+/* line 494, ../sass/csr.scss */
 .container .content02 .content-01 .content-04 .text-04 {
   top: -0.325rem;
   left: 0;
@@ -572,23 +579,23 @@ em {
   z-index: 5;
 }
 @media (max-width: 320px) {
-  /* line 486, ../sass/csr.scss */
+  /* line 494, ../sass/csr.scss */
   .container .content02 .content-01 .content-04 .text-04 {
     left: -0.75rem;
     text-align: right;
   }
 }
-/* line 495, ../sass/csr.scss */
+/* line 503, ../sass/csr.scss */
 .container .content02 .content-01 .content-04 .text-04 h3 {
   padding-left: 1.5rem;
 }
 @media (max-width: 320px) {
-  /* line 495, ../sass/csr.scss */
+  /* line 503, ../sass/csr.scss */
   .container .content02 .content-01 .content-04 .text-04 h3 {
     text-align: center;
   }
 }
-/* line 504, ../sass/csr.scss */
+/* line 512, ../sass/csr.scss */
 .container .content02 .content-01 .content-04 .img-05 {
   bottom: 0;
   right: 0;
@@ -600,161 +607,161 @@ em {
   z-index: 6;
 }
 @media (max-width: 320px) {
-  /* line 518, ../sass/csr.scss */
+  /* line 526, ../sass/csr.scss */
   .container .content02 .content-01 .text {
     line-height: 14px;
   }
 }
-/* line 525, ../sass/csr.scss */
+/* line 533, ../sass/csr.scss */
 .container .content02.play .img-02 {
   -moz-animation: moveIn 3s linear 0.5s infinite;
   -webkit-animation: moveIn 3s linear 0.5s infinite;
   animation: moveIn 3s linear 0.5s infinite;
 }
-/* line 528, ../sass/csr.scss */
+/* line 536, ../sass/csr.scss */
 .container .content02.play .img-07 {
   -moz-animation: moveRightIn 4s linear 1s infinite;
   -webkit-animation: moveRightIn 4s linear 1s infinite;
   animation: moveRightIn 4s linear 1s infinite;
 }
-/* line 531, ../sass/csr.scss */
+/* line 539, ../sass/csr.scss */
 .container .content02.play .img-08 {
   -moz-animation: moveRightIn 5s linear 1.5s infinite;
   -webkit-animation: moveRightIn 5s linear 1.5s infinite;
   animation: moveRightIn 5s linear 1.5s infinite;
 }
-/* line 536, ../sass/csr.scss */
+/* line 544, ../sass/csr.scss */
 .container .content02.play .content-01 .content-02 .text-02 {
   -moz-animation: fadeIn 1s linear 0.5s forwards;
   -webkit-animation: fadeIn 1s linear 0.5s forwards;
   animation: fadeIn 1s linear 0.5s forwards;
 }
-/* line 539, ../sass/csr.scss */
+/* line 548, ../sass/csr.scss */
 .container .content02.play .content-01 .content-02 .overlay-01 {
   -moz-animation: moveLeftOut3 1s linear 1s forwards;
   -webkit-animation: moveLeftOut3 1s linear 1s forwards;
   animation: moveLeftOut3 1s linear 1s forwards;
 }
-/* line 542, ../sass/csr.scss */
+/* line 551, ../sass/csr.scss */
 .container .content02.play .content-01 .content-02 .img-03 {
-  -moz-animation: fadeIn 1s linear 1.5s forwards;
-  -webkit-animation: fadeIn 1s linear 1.5s forwards;
-  animation: fadeIn 1s linear 1.5s forwards;
+  -moz-animation: zoomIn 1s linear 1.5s forwards;
+  -webkit-animation: zoomIn 1s linear 1.5s forwards;
+  animation: zoomIn 1s linear 1.5s forwards;
 }
-/* line 545, ../sass/csr.scss */
+/* line 554, ../sass/csr.scss */
 .container .content02.play .content-01 .content-02 .overlay-03 {
   -moz-animation: moveLeftOut4 1.5s linear 2.5s forwards;
   -webkit-animation: moveLeftOut4 1.5s linear 2.5s forwards;
   animation: moveLeftOut4 1.5s linear 2.5s forwards;
 }
-/* line 548, ../sass/csr.scss */
+/* line 557, ../sass/csr.scss */
 .container .content02.play .content-01 .content-02 .overlay-02 {
   -moz-animation: moveTopOut5 1.5s linear 3.5s forwards;
   -webkit-animation: moveTopOut5 1.5s linear 3.5s forwards;
   animation: moveTopOut5 1.5s linear 3.5s forwards;
 }
-/* line 553, ../sass/csr.scss */
+/* line 562, ../sass/csr.scss */
 .container .content02.play .content-01 .content-03 .text-03 {
   -moz-animation: fadeIn 1s linear 4s forwards;
   -webkit-animation: fadeIn 1s linear 4s forwards;
   animation: fadeIn 1s linear 4s forwards;
 }
-/* line 556, ../sass/csr.scss */
+/* line 565, ../sass/csr.scss */
 .container .content02.play .content-01 .content-03 .overlay-01 {
   -moz-animation: moveRightOut1 1s linear 4.5s forwards;
   -webkit-animation: moveRightOut1 1s linear 4.5s forwards;
   animation: moveRightOut1 1s linear 4.5s forwards;
 }
-/* line 559, ../sass/csr.scss */
+/* line 568, ../sass/csr.scss */
 .container .content02.play .content-01 .content-03 .img-04 {
-  -moz-animation: fadeIn 1s linear 5s forwards;
-  -webkit-animation: fadeIn 1s linear 5s forwards;
-  animation: fadeIn 1s linear 5s forwards;
+  -moz-animation: zoomIn 1s linear 5s forwards;
+  -webkit-animation: zoomIn 1s linear 5s forwards;
+  animation: zoomIn 1s linear 5s forwards;
 }
-/* line 562, ../sass/csr.scss */
+/* line 571, ../sass/csr.scss */
 .container .content02.play .content-01 .content-03 .overlay-03 {
   -moz-animation: moveRightOut2 1s linear 5.5s forwards;
   -webkit-animation: moveRightOut2 1s linear 5.5s forwards;
   animation: moveRightOut2 1s linear 5.5s forwards;
 }
-/* line 565, ../sass/csr.scss */
+/* line 574, ../sass/csr.scss */
 .container .content02.play .content-01 .content-03 .overlay-02 {
   -moz-animation: moveTopOut6 1s linear 6s forwards;
   -webkit-animation: moveTopOut6 1s linear 6s forwards;
   animation: moveTopOut6 1s linear 6s forwards;
 }
-/* line 570, ../sass/csr.scss */
+/* line 579, ../sass/csr.scss */
 .container .content02.play .content-01 .content-04 .text-04 {
   -moz-animation: fadeIn 1s linear 6.5s forwards;
   -webkit-animation: fadeIn 1s linear 6.5s forwards;
   animation: fadeIn 1s linear 6.5s forwards;
 }
-/* line 573, ../sass/csr.scss */
+/* line 582, ../sass/csr.scss */
 .container .content02.play .content-01 .content-04 .overlay-01 {
   -moz-animation: moveLeftOut7 1s linear 7s forwards;
   -webkit-animation: moveLeftOut7 1s linear 7s forwards;
   animation: moveLeftOut7 1s linear 7s forwards;
 }
-/* line 576, ../sass/csr.scss */
+/* line 585, ../sass/csr.scss */
 .container .content02.play .content-01 .content-04 .overlay-03 {
   -moz-animation: moveLeftOut8 1s linear 8.5s forwards;
   -webkit-animation: moveLeftOut8 1s linear 8.5s forwards;
   animation: moveLeftOut8 1s linear 8.5s forwards;
 }
-/* line 579, ../sass/csr.scss */
+/* line 588, ../sass/csr.scss */
 .container .content02.play .content-01 .content-04 .img-05 {
-  -moz-animation: fadeIn 1s linear 9.5s forwards;
-  -webkit-animation: fadeIn 1s linear 9.5s forwards;
-  animation: fadeIn 1s linear 9.5s forwards;
+  -moz-animation: zoomIn 1s linear 9.5s forwards;
+  -webkit-animation: zoomIn 1s linear 9.5s forwards;
+  animation: zoomIn 1s linear 9.5s forwards;
 }
-/* line 587, ../sass/csr.scss */
+/* line 596, ../sass/csr.scss */
 .container .content03 .title-all-text, .container .content03 .img, .container .content03 .bg-01 {
   background: url("../images/css-sprites-03.png") no-repeat;
   background-size: 18.575rem 12.95rem;
 }
-/* line 591, ../sass/csr.scss */
+/* line 600, ../sass/csr.scss */
 .container .content03 em {
   color: #ee8100;
 }
-/* line 596, ../sass/csr.scss */
+/* line 605, ../sass/csr.scss */
 .container .content03 .content-title .title-all-text {
   width: 5.925rem;
   height: 0.975rem;
   background-position: -7.025rem -9.325rem;
 }
-/* line 603, ../sass/csr.scss */
+/* line 612, ../sass/csr.scss */
 .container .content03 .sub-title {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 606, ../sass/csr.scss */
+/* line 615, ../sass/csr.scss */
 .container .content03 .content-01 {
   width: 13.725rem;
   margin: 0 auto;
   z-index: 2;
 }
-/* line 610, ../sass/csr.scss */
+/* line 619, ../sass/csr.scss */
 .container .content03 .content-01 .content-text-02 {
   margin-top: 2.85rem;
 }
-/* line 615, ../sass/csr.scss */
+/* line 624, ../sass/csr.scss */
 .container .content03 .content-01 .content-text-02 .text-02 {
   font-size: 10px;
   line-height: 0.7rem;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 620, ../sass/csr.scss */
+/* line 629, ../sass/csr.scss */
 .container .content03 .content-01 .content-text-02 .img-05 {
   top: -3.4rem;
   right: 0;
   width: 7.775rem;
   height: 7.6rem;
-  background-position: -0.025rem 0rem;
+  background-position: 0rem 0rem;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 630, ../sass/csr.scss */
+/* line 639, ../sass/csr.scss */
 .container .content03 .content-01 .text-03 {
   margin: 0.5rem 0;
   line-height: 0.8rem;
@@ -762,7 +769,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 636, ../sass/csr.scss */
+/* line 645, ../sass/csr.scss */
 .container .content03 .content-01 .img-01 {
   margin-right: 1rem;
   width: 6.55rem;
@@ -771,7 +778,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 643, ../sass/csr.scss */
+/* line 652, ../sass/csr.scss */
 .container .content03 .content-01 .img-02 {
   width: 6.5rem;
   height: 4rem;
@@ -779,11 +786,11 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 649, ../sass/csr.scss */
+/* line 658, ../sass/csr.scss */
 .container .content03 .content-01 .content-text-03 {
   margin-top: 0.25rem;
 }
-/* line 651, ../sass/csr.scss */
+/* line 660, ../sass/csr.scss */
 .container .content03 .content-01 .content-text-03 .img-03 {
   margin-right: 1rem;
   margin-top: 1.1rem;
@@ -793,7 +800,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 659, ../sass/csr.scss */
+/* line 668, ../sass/csr.scss */
 .container .content03 .content-01 .content-text-03 .img-04 {
   width: 3.2rem;
   height: 3.65rem;
@@ -803,7 +810,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 668, ../sass/csr.scss */
+/* line 677, ../sass/csr.scss */
 .container .content03 .content-01 .content-text-03 .img-05 {
   width: 1.975rem;
   height: 0rem;
@@ -813,11 +820,11 @@ em {
   -webkit-transition-delay: 5s;
   transition: height 1s 5s;
   animation-timing-function: cubic-bezier(0, 0.48, 1, 1);
-  background-position: -13.95rem -8.925rem;
+  background-position: -13.95rem -8.9rem;
   top: 1.8rem;
   left: 1.3rem;
 }
-/* line 678, ../sass/csr.scss */
+/* line 687, ../sass/csr.scss */
 .container .content03 .content-01 .content-text-03 .img-06 {
   width: 3.425rem;
   height: 3.325rem;
@@ -826,108 +833,108 @@ em {
   opacity: 0;
 }
 @media (max-width: 320px) {
-  /* line 689, ../sass/csr.scss */
+  /* line 698, ../sass/csr.scss */
   .container .content03 .content-01 .content-text-02 {
     margin-top: 2.85rem;
   }
-  /* line 692, ../sass/csr.scss */
+  /* line 701, ../sass/csr.scss */
   .container .content03 .content-01 .text-03 {
     margin: 0.5rem 0;
   }
-  /* line 695, ../sass/csr.scss */
+  /* line 704, ../sass/csr.scss */
   .container .content03 .content-01 .content-text-03 {
     margin-top: 0.25rem;
   }
 }
-/* line 700, ../sass/csr.scss */
+/* line 709, ../sass/csr.scss */
 .container .content03 .content-bg {
   bottom: 1rem;
   z-index: 1;
 }
-/* line 706, ../sass/csr.scss */
+/* line 715, ../sass/csr.scss */
 .container .content03.play .sub-title {
   -moz-animation: fadeIn 2s 0.5s forwards;
   -webkit-animation: fadeIn 2s 0.5s forwards;
   animation: fadeIn 2s 0.5s forwards;
 }
-/* line 711, ../sass/csr.scss */
+/* line 720, ../sass/csr.scss */
 .container .content03.play .content-01 .content-text-02 .text-02 {
-  -moz-animation: fadeIn 2s 1s forwards;
-  -webkit-animation: fadeIn 2s 1s forwards;
-  animation: fadeIn 2s 1s forwards;
+  -moz-animation: fadeInDown 2s 1s forwards;
+  -webkit-animation: fadeInDown 2s 1s forwards;
+  animation: fadeInDown 2s 1s forwards;
 }
-/* line 714, ../sass/csr.scss */
+/* line 723, ../sass/csr.scss */
 .container .content03.play .content-01 .content-text-02 .img-05 {
-  -moz-animation: fadeIn 2s 1.5s forwards;
-  -webkit-animation: fadeIn 2s 1.5s forwards;
-  animation: fadeIn 2s 1.5s forwards;
+  -moz-animation: zoomIn 2s 1.5s forwards;
+  -webkit-animation: zoomIn 2s 1.5s forwards;
+  animation: zoomIn 2s 1.5s forwards;
 }
-/* line 718, ../sass/csr.scss */
+/* line 727, ../sass/csr.scss */
 .container .content03.play .content-01 .text-03 {
-  -moz-animation: fadeIn 2s 2s forwards;
-  -webkit-animation: fadeIn 2s 2s forwards;
-  animation: fadeIn 2s 2s forwards;
+  -moz-animation: fadeInDown 2s 2s forwards;
+  -webkit-animation: fadeInDown 2s 2s forwards;
+  animation: fadeInDown 2s 2s forwards;
 }
-/* line 721, ../sass/csr.scss */
+/* line 730, ../sass/csr.scss */
 .container .content03.play .content-01 .img-01 {
-  -moz-animation: fadeIn 2s 2.5s forwards;
-  -webkit-animation: fadeIn 2s 2.5s forwards;
-  animation: fadeIn 2s 2.5s forwards;
+  -moz-animation: zoomIn 2s 2.5s forwards;
+  -webkit-animation: zoomIn 2s 2.5s forwards;
+  animation: zoomIn 2s 2.5s forwards;
 }
-/* line 724, ../sass/csr.scss */
+/* line 733, ../sass/csr.scss */
 .container .content03.play .content-01 .img-02 {
-  -moz-animation: fadeIn 2s 3s forwards;
-  -webkit-animation: fadeIn 2s 3s forwards;
-  animation: fadeIn 2s 3s forwards;
-}
-/* line 728, ../sass/csr.scss */
-.container .content03.play .content-01 .content-text-03 .img-03 {
-  -moz-animation: fadeIn 2s 3.5s forwards;
-  -webkit-animation: fadeIn 2s 3.5s forwards;
-  animation: fadeIn 2s 3.5s forwards;
-}
-/* line 731, ../sass/csr.scss */
-.container .content03.play .content-01 .content-text-03 .img-04 {
-  -moz-animation: fadeIn 2s 4s forwards;
-  -webkit-animation: fadeIn 2s 4s forwards;
-  animation: fadeIn 2s 4s forwards;
-}
-/* line 734, ../sass/csr.scss */
-.container .content03.play .content-01 .content-text-03 .img-06 {
-  -moz-animation: fadeIn 2s 4.5s forwards;
-  -webkit-animation: fadeIn 2s 4.5s forwards;
-  animation: fadeIn 2s 4.5s forwards;
+  -moz-animation: zoomIn 2s 3s forwards;
+  -webkit-animation: zoomIn 2s 3s forwards;
+  animation: zoomIn 2s 3s forwards;
 }
 /* line 737, ../sass/csr.scss */
+.container .content03.play .content-01 .content-text-03 .img-03 {
+  -moz-animation: zoomIn 2s 3.5s forwards;
+  -webkit-animation: zoomIn 2s 3.5s forwards;
+  animation: zoomIn 2s 3.5s forwards;
+}
+/* line 740, ../sass/csr.scss */
+.container .content03.play .content-01 .content-text-03 .img-04 {
+  -moz-animation: zoomIn 2s 4s forwards;
+  -webkit-animation: zoomIn 2s 4s forwards;
+  animation: zoomIn 2s 4s forwards;
+}
+/* line 743, ../sass/csr.scss */
+.container .content03.play .content-01 .content-text-03 .img-06 {
+  -moz-animation: zoomIn 2s 4.5s forwards;
+  -webkit-animation: zoomIn 2s 4.5s forwards;
+  animation: zoomIn 2s 4.5s forwards;
+}
+/* line 746, ../sass/csr.scss */
 .container .content03.play .content-01 .content-text-03 .img-05 {
   height: 4.025rem;
 }
-/* line 746, ../sass/csr.scss */
+/* line 753, ../sass/csr.scss */
 .container .content04 .title-all-text, .container .content04 .img, .container .content04 .bg-01, .container .content04 .text h3 span {
   background: url("../images/css-sprites-04.png") no-repeat;
   background-size: 11.975rem 19.825rem;
 }
-/* line 752, ../sass/csr.scss */
+/* line 759, ../sass/csr.scss */
 .container .content04 .content-title .title-all-text {
   width: 5.825rem;
   height: 0.975rem;
   background-position: -0.15rem -5.875rem;
 }
-/* line 759, ../sass/csr.scss */
+/* line 766, ../sass/csr.scss */
 .container .content04 .content-01 {
   width: 14.375rem;
   margin: 0.35rem auto 0;
 }
-/* line 763, ../sass/csr.scss */
+/* line 770, ../sass/csr.scss */
 .container .content04 .content-01 .text {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 766, ../sass/csr.scss */
+/* line 773, ../sass/csr.scss */
 .container .content04 .content-01 .text h3 {
   margin-bottom: 0.25rem;
 }
-/* line 768, ../sass/csr.scss */
+/* line 775, ../sass/csr.scss */
 .container .content04 .content-01 .text h3 span {
   display: inline-block;
   width: 0.925rem;
@@ -935,29 +942,29 @@ em {
   background-position: -5.625rem -3.95rem;
   vertical-align: middle;
 }
-/* line 776, ../sass/csr.scss */
+/* line 783, ../sass/csr.scss */
 .container .content04 .content-01 .text h3 em {
   display: inline-block;
   font-size: 10px;
   margin-left: 0.2rem;
   vertical-align: middle;
 }
-/* line 783, ../sass/csr.scss */
+/* line 790, ../sass/csr.scss */
 .container .content04 .content-01 .text .text-content {
   padding: 0.2rem;
   border: 0.05rem solid #26b6c5;
 }
-/* line 786, ../sass/csr.scss */
+/* line 793, ../sass/csr.scss */
 .container .content04 .content-01 .text .text-content div {
   background-color: #26b6c5;
   padding: 0.25rem;
 }
-/* line 795, ../sass/csr.scss */
+/* line 802, ../sass/csr.scss */
 .container .content04 .content-01 .text-01 {
   top: 0rem;
   left: 0rem;
 }
-/* line 798, ../sass/csr.scss */
+/* line 805, ../sass/csr.scss */
 .container .content04 .content-01 .text-01 .text-content, .container .content04 .content-01 .text-01 .text-content div {
   -moz-border-radius-bottomleft: 1.25rem;
   -webkit-border-bottom-left-radius: 1.25rem;
@@ -966,12 +973,12 @@ em {
   -webkit-border-top-right-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
 }
-/* line 803, ../sass/csr.scss */
+/* line 810, ../sass/csr.scss */
 .container .content04 .content-01 .text-02 {
   top: 2.5rem;
   left: 9.85rem;
 }
-/* line 806, ../sass/csr.scss */
+/* line 813, ../sass/csr.scss */
 .container .content04 .content-01 .text-02 .text-content, .container .content04 .content-01 .text-02 .text-content div {
   -moz-border-radius-bottomright: 1.25rem;
   -webkit-border-bottom-right-radius: 1.25rem;
@@ -980,17 +987,17 @@ em {
   -webkit-border-top-left-radius: 1.25rem;
   border-top-left-radius: 1.25rem;
 }
-/* line 812, ../sass/csr.scss */
+/* line 819, ../sass/csr.scss */
 .container .content04 .content-01 .text-03 {
   z-index: 2;
   top: 13.4rem;
   left: 0rem;
 }
-/* line 816, ../sass/csr.scss */
+/* line 823, ../sass/csr.scss */
 .container .content04 .content-01 .text-03 h3 {
   margin-left: -0.45rem;
 }
-/* line 819, ../sass/csr.scss */
+/* line 826, ../sass/csr.scss */
 .container .content04 .content-01 .text-03 .text-content, .container .content04 .content-01 .text-03 .text-content div {
   -moz-border-radius-bottomleft: 1.25rem;
   -webkit-border-bottom-left-radius: 1.25rem;
@@ -999,16 +1006,16 @@ em {
   -webkit-border-top-right-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
 }
-/* line 824, ../sass/csr.scss */
+/* line 831, ../sass/csr.scss */
 .container .content04 .content-01 .text-04 {
   top: 16.8rem;
   left: 7.9rem;
 }
-/* line 827, ../sass/csr.scss */
+/* line 834, ../sass/csr.scss */
 .container .content04 .content-01 .text-04 h3 {
   text-align: center;
 }
-/* line 830, ../sass/csr.scss */
+/* line 837, ../sass/csr.scss */
 .container .content04 .content-01 .text-04 .text-content, .container .content04 .content-01 .text-04 .text-content div {
   -moz-border-radius-bottomright: 1.25rem;
   -webkit-border-bottom-right-radius: 1.25rem;
@@ -1017,12 +1024,12 @@ em {
   -webkit-border-top-left-radius: 1.25rem;
   border-top-left-radius: 1.25rem;
 }
-/* line 835, ../sass/csr.scss */
+/* line 842, ../sass/csr.scss */
 .container .content04 .content-01 .text-05 {
   top: 17.45rem;
   left: 0.5rem;
 }
-/* line 838, ../sass/csr.scss */
+/* line 845, ../sass/csr.scss */
 .container .content04 .content-01 .text-05 .text-content, .container .content04 .content-01 .text-05 .text-content div {
   -moz-border-radius-bottomleft: 1.25rem;
   -webkit-border-bottom-left-radius: 1.25rem;
@@ -1031,7 +1038,7 @@ em {
   -webkit-border-top-right-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
 }
-/* line 843, ../sass/csr.scss */
+/* line 850, ../sass/csr.scss */
 .container .content04 .content-01 .img-01 {
   top: 3.5rem;
   left: 3.95rem;
@@ -1042,7 +1049,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 852, ../sass/csr.scss */
+/* line 859, ../sass/csr.scss */
 .container .content04 .content-01 .img-02 {
   right: 5.1rem;
   top: 6.05rem;
@@ -1053,7 +1060,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 861, ../sass/csr.scss */
+/* line 868, ../sass/csr.scss */
 .container .content04 .content-01 .img-03 {
   top: 8.9rem;
   left: 1.75rem;
@@ -1064,7 +1071,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 870, ../sass/csr.scss */
+/* line 877, ../sass/csr.scss */
 .container .content04 .content-01 .img-04 {
   top: 11.5rem;
   right: 2.65rem;
@@ -1075,7 +1082,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 879, ../sass/csr.scss */
+/* line 886, ../sass/csr.scss */
 .container .content04 .content-01 .img-05 {
   top: 12rem;
   left: 4.55rem;
@@ -1086,7 +1093,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 888, ../sass/csr.scss */
+/* line 895, ../sass/csr.scss */
 .container .content04 .content-01 .img-06 {
   left: 0rem;
   top: 4.3rem;
@@ -1097,7 +1104,7 @@ em {
   opacity: 1;
   z-index: 1;
 }
-/* line 897, ../sass/csr.scss */
+/* line 904, ../sass/csr.scss */
 .container .content04 .content-01 .img-07 {
   right: 3.35rem;
   top: 14.15rem;
@@ -1108,7 +1115,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 909, ../sass/csr.scss */
+/* line 916, ../sass/csr.scss */
 .container .content04 .content-01 .line-03 {
   border-right: 1px solid #26b6c5;
   border-bottom: 1px solid #26b6c5;
@@ -1123,7 +1130,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 920, ../sass/csr.scss */
+/* line 927, ../sass/csr.scss */
 .container .content04 .content-01 .line-04 {
   border-left: 1px solid #26b6c5;
   border-bottom: 1px solid #26b6c5;
@@ -1138,7 +1145,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 931, ../sass/csr.scss */
+/* line 938, ../sass/csr.scss */
 .container .content04 .content-01 .line-05 {
   border-right: 1px solid #26b6c5;
   border-bottom: 1px solid #26b6c5;
@@ -1155,211 +1162,211 @@ em {
   opacity: 0;
 }
 @media (max-width: 320px) {
-  /* line 944, ../sass/csr.scss */
+  /* line 951, ../sass/csr.scss */
   .container .content04 .content-01 .img {
     transform: scale(0.9, 0.9);
   }
-  /* line 947, ../sass/csr.scss */
+  /* line 954, ../sass/csr.scss */
   .container .content04 .content-01 .text-01 {
     top: -0.1rem;
     left: -0.3rem;
   }
-  /* line 951, ../sass/csr.scss */
+  /* line 958, ../sass/csr.scss */
   .container .content04 .content-01 .text-02 {
     left: 9.35rem;
   }
-  /* line 953, ../sass/csr.scss */
+  /* line 960, ../sass/csr.scss */
   .container .content04 .content-01 .text-02 h3 {
     padding-left: 15px;
   }
-  /* line 957, ../sass/csr.scss */
+  /* line 964, ../sass/csr.scss */
   .container .content04 .content-01 .text-03 {
     top: 13.4rem;
     left: 0rem;
   }
-  /* line 961, ../sass/csr.scss */
+  /* line 968, ../sass/csr.scss */
   .container .content04 .content-01 .text-04 {
     top: 15.55rem;
     left: 7.9rem;
   }
-  /* line 965, ../sass/csr.scss */
+  /* line 972, ../sass/csr.scss */
   .container .content04 .content-01 .text-05 {
     top: 17.45rem;
     left: 0.5rem;
   }
-  /* line 969, ../sass/csr.scss */
+  /* line 976, ../sass/csr.scss */
   .container .content04 .content-01 .img-01 {
     top: 3.3rem;
     left: 4.2rem;
   }
-  /* line 973, ../sass/csr.scss */
+  /* line 980, ../sass/csr.scss */
   .container .content04 .content-01 .img-02 {
     right: 5.1rem;
     top: 5.55rem;
   }
-  /* line 977, ../sass/csr.scss */
+  /* line 984, ../sass/csr.scss */
   .container .content04 .content-01 .img-03 {
     top: 8.05rem;
     left: 2.3rem;
   }
-  /* line 981, ../sass/csr.scss */
+  /* line 988, ../sass/csr.scss */
   .container .content04 .content-01 .img-04 {
     top: 10.5rem;
     right: 3.1rem;
   }
-  /* line 985, ../sass/csr.scss */
+  /* line 992, ../sass/csr.scss */
   .container .content04 .content-01 .img-05 {
     top: 10.8rem;
     left: 4.55rem;
   }
-  /* line 989, ../sass/csr.scss */
+  /* line 996, ../sass/csr.scss */
   .container .content04 .content-01 .img-06 {
     left: 0rem;
     top: 3.45rem;
   }
-  /* line 993, ../sass/csr.scss */
+  /* line 1000, ../sass/csr.scss */
   .container .content04 .content-01 .img-07 {
     right: 3.35rem;
     top: 13.3rem;
   }
-  /* line 997, ../sass/csr.scss */
+  /* line 1004, ../sass/csr.scss */
   .container .content04 .content-01 .line-03 {
     left: 0.3rem;
     top: -1.6rem;
   }
-  /* line 1001, ../sass/csr.scss */
+  /* line 1008, ../sass/csr.scss */
   .container .content04 .content-01 .line-04 {
     left: 0.45rem;
     top: -1.8rem;
   }
-  /* line 1005, ../sass/csr.scss */
+  /* line 1012, ../sass/csr.scss */
   .container .content04 .content-01 .line-05 {
     left: 0.75rem;
     top: -3.9rem;
   }
 }
-/* line 1018, ../sass/csr.scss */
+/* line 1025, ../sass/csr.scss */
 .container .content04.play .content-01 .text h3 span {
   -moz-animation: bling 2s linear infinite alternate;
   -webkit-animation: bling 2s linear infinite alternate;
   animation: bling 2s linear infinite alternate;
 }
-/* line 1023, ../sass/csr.scss */
+/* line 1030, ../sass/csr.scss */
 .container .content04.play .content-01 .img-01 {
   -moz-animation: bounceInDown 1s ease-in forwards;
   -webkit-animation: bounceInDown 1s ease-in forwards;
   animation: bounceInDown 1s ease-in forwards;
 }
-/* line 1026, ../sass/csr.scss */
+/* line 1033, ../sass/csr.scss */
 .container .content04.play .content-01 .text-01 {
-  -moz-animation: fadeIn 1s ease-in 1s forwards;
-  -webkit-animation: fadeIn 1s ease-in 1s forwards;
-  animation: fadeIn 1s ease-in 1s forwards;
+  -moz-animation: fadeInDown 1s ease-in 1s forwards;
+  -webkit-animation: fadeInDown 1s ease-in 1s forwards;
+  animation: fadeInDown 1s ease-in 1s forwards;
 }
-/* line 1029, ../sass/csr.scss */
+/* line 1036, ../sass/csr.scss */
 .container .content04.play .content-01 .text-01 h3 span {
   animation-delay: 1s;
 }
-/* line 1035, ../sass/csr.scss */
+/* line 1042, ../sass/csr.scss */
 .container .content04.play .content-01 .img-02 {
   -moz-animation: bounceInDown 1s ease-in 1.5s forwards;
   -webkit-animation: bounceInDown 1s ease-in 1.5s forwards;
   animation: bounceInDown 1s ease-in 1.5s forwards;
 }
-/* line 1038, ../sass/csr.scss */
+/* line 1045, ../sass/csr.scss */
 .container .content04.play .content-01 .text-02 {
-  -moz-animation: fadeIn 1s ease-in 2s forwards;
-  -webkit-animation: fadeIn 1s ease-in 2s forwards;
-  animation: fadeIn 1s ease-in 2s forwards;
+  -moz-animation: fadeInDown 1s ease-in 2s forwards;
+  -webkit-animation: fadeInDown 1s ease-in 2s forwards;
+  animation: fadeInDown 1s ease-in 2s forwards;
 }
-/* line 1041, ../sass/csr.scss */
+/* line 1048, ../sass/csr.scss */
 .container .content04.play .content-01 .text-02 h3 span {
   animation-delay: 2s;
 }
-/* line 1047, ../sass/csr.scss */
+/* line 1054, ../sass/csr.scss */
 .container .content04.play .content-01 .img-03 {
   -moz-animation: bounceInDown 1s ease-in 2.5s forwards;
   -webkit-animation: bounceInDown 1s ease-in 2.5s forwards;
   animation: bounceInDown 1s ease-in 2.5s forwards;
 }
-/* line 1050, ../sass/csr.scss */
+/* line 1057, ../sass/csr.scss */
 .container .content04.play .content-01 .text-03 {
-  -moz-animation: fadeIn 1s ease-in 3s forwards;
-  -webkit-animation: fadeIn 1s ease-in 3s forwards;
-  animation: fadeIn 1s ease-in 3s forwards;
+  -moz-animation: fadeInUp 1s ease-in 3s forwards;
+  -webkit-animation: fadeInUp 1s ease-in 3s forwards;
+  animation: fadeInUp 1s ease-in 3s forwards;
 }
-/* line 1052, ../sass/csr.scss */
+/* line 1059, ../sass/csr.scss */
 .container .content04.play .content-01 .text-03 .line-03 {
   -moz-animation: fadeIn 1s ease-in 3.5s forwards;
   -webkit-animation: fadeIn 1s ease-in 3.5s forwards;
   animation: fadeIn 1s ease-in 3.5s forwards;
 }
-/* line 1056, ../sass/csr.scss */
+/* line 1063, ../sass/csr.scss */
 .container .content04.play .content-01 .text-03 h3 span {
   animation-delay: 3s;
 }
-/* line 1061, ../sass/csr.scss */
+/* line 1068, ../sass/csr.scss */
 .container .content04.play .content-01 .img-04 {
   -moz-animation: bounceInDown 1s ease-in 4s forwards;
   -webkit-animation: bounceInDown 1s ease-in 4s forwards;
   animation: bounceInDown 1s ease-in 4s forwards;
 }
-/* line 1064, ../sass/csr.scss */
+/* line 1071, ../sass/csr.scss */
 .container .content04.play .content-01 .img-07 {
   -moz-animation: fadeIn 1s ease-in 4.5s forwards;
   -webkit-animation: fadeIn 1s ease-in 4.5s forwards;
   animation: fadeIn 1s ease-in 4.5s forwards;
 }
-/* line 1067, ../sass/csr.scss */
+/* line 1074, ../sass/csr.scss */
 .container .content04.play .content-01 .text-04 {
-  -moz-animation: fadeIn 1s ease-in 5s forwards;
-  -webkit-animation: fadeIn 1s ease-in 5s forwards;
-  animation: fadeIn 1s ease-in 5s forwards;
+  -moz-animation: fadeInUp 1s ease-in 5s forwards;
+  -webkit-animation: fadeInUp 1s ease-in 5s forwards;
+  animation: fadeInUp 1s ease-in 5s forwards;
 }
-/* line 1069, ../sass/csr.scss */
+/* line 1076, ../sass/csr.scss */
 .container .content04.play .content-01 .text-04 .line-04 {
   -moz-animation: fadeIn 1s ease-in 5.5s forwards;
   -webkit-animation: fadeIn 1s ease-in 5.5s forwards;
   animation: fadeIn 1s ease-in 5.5s forwards;
 }
-/* line 1073, ../sass/csr.scss */
+/* line 1080, ../sass/csr.scss */
 .container .content04.play .content-01 .text-04 h3 span {
   animation-delay: 4s;
 }
-/* line 1078, ../sass/csr.scss */
+/* line 1085, ../sass/csr.scss */
 .container .content04.play .content-01 .img-05 {
   -moz-animation: bounceInDown 1s ease-in 6s forwards;
   -webkit-animation: bounceInDown 1s ease-in 6s forwards;
   animation: bounceInDown 1s ease-in 6s forwards;
 }
-/* line 1081, ../sass/csr.scss */
+/* line 1088, ../sass/csr.scss */
 .container .content04.play .content-01 .text-05 {
-  -moz-animation: fadeIn 1s ease-in 6.5s forwards;
-  -webkit-animation: fadeIn 1s ease-in 6.5s forwards;
-  animation: fadeIn 1s ease-in 6.5s forwards;
+  -moz-animation: fadeInUp 1s ease-in 6.5s forwards;
+  -webkit-animation: fadeInUp 1s ease-in 6.5s forwards;
+  animation: fadeInUp 1s ease-in 6.5s forwards;
 }
-/* line 1083, ../sass/csr.scss */
+/* line 1090, ../sass/csr.scss */
 .container .content04.play .content-01 .text-05 .line-05 {
   -moz-animation: fadeIn 1s ease-in 7s forwards;
   -webkit-animation: fadeIn 1s ease-in 7s forwards;
   animation: fadeIn 1s ease-in 7s forwards;
 }
-/* line 1087, ../sass/csr.scss */
+/* line 1094, ../sass/csr.scss */
 .container .content04.play .content-01 .text-05 h3 span {
   animation-delay: 5s;
 }
-/* line 1095, ../sass/csr.scss */
+/* line 1102, ../sass/csr.scss */
 .container .content05 .title-all-text, .container .content05 .img, .container .content05 .bg-01 {
   background: url("../images/css-sprites-05.png") no-repeat;
   background-size: 14.4rem 9.975rem;
 }
-/* line 1101, ../sass/csr.scss */
+/* line 1108, ../sass/csr.scss */
 .container .content05 .content-title .title-all-text {
   width: 6.05rem;
   height: 0.975rem;
   background-position: 0rem -5.4rem;
 }
-/* line 1108, ../sass/csr.scss */
+/* line 1115, ../sass/csr.scss */
 .container .content05 .bg-01 {
   left: 0.95rem;
   bottom: 0.5rem;
@@ -1367,12 +1374,12 @@ em {
   width: 14.925rem;
   height: 4.7rem;
 }
-/* line 1116, ../sass/csr.scss */
+/* line 1123, ../sass/csr.scss */
 .container .content05 .box {
   width: 13.175rem;
   margin: 0 auto;
 }
-/* line 1123, ../sass/csr.scss */
+/* line 1130, ../sass/csr.scss */
 .container .content05 .box .overlay {
   bottom: -0.05rem;
   left: 0;
@@ -1380,39 +1387,39 @@ em {
   height: 0.1rem;
   background-color: #3160c9;
 }
-/* line 1131, ../sass/csr.scss */
+/* line 1138, ../sass/csr.scss */
 .container .content05 .box .text {
   border-bottom: 0.05rem dashed #fff;
   color: #ee8100;
 }
-/* line 1134, ../sass/csr.scss */
+/* line 1141, ../sass/csr.scss */
 .container .content05 .box .text span {
   font-size: 10px;
   color: #fff;
 }
-/* line 1139, ../sass/csr.scss */
+/* line 1146, ../sass/csr.scss */
 .container .content05 .box .text-01 {
   opacity: 0;
 }
-/* line 1142, ../sass/csr.scss */
+/* line 1149, ../sass/csr.scss */
 .container .content05 .box .text-02 {
   opacity: 0;
   color: #eec11c;
 }
-/* line 1145, ../sass/csr.scss */
+/* line 1152, ../sass/csr.scss */
 .container .content05 .box .text-02 b {
   color: #eec11c;
 }
-/* line 1149, ../sass/csr.scss */
+/* line 1156, ../sass/csr.scss */
 .container .content05 .box .text-03 {
   opacity: 0;
   color: #8fc220;
 }
-/* line 1152, ../sass/csr.scss */
+/* line 1159, ../sass/csr.scss */
 .container .content05 .box .text-03 b {
   color: #8fc220;
 }
-/* line 1157, ../sass/csr.scss */
+/* line 1164, ../sass/csr.scss */
 .container .content05 .box .img-01 {
   width: 4.775rem;
   height: 3.925rem;
@@ -1420,7 +1427,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 1163, ../sass/csr.scss */
+/* line 1170, ../sass/csr.scss */
 .container .content05 .box .img-02 {
   width: 4.775rem;
   height: 3.55rem;
@@ -1428,7 +1435,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 1169, ../sass/csr.scss */
+/* line 1176, ../sass/csr.scss */
 .container .content05 .box .img-03 {
   width: 4.775rem;
   height: 3.55rem;
@@ -1436,78 +1443,78 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 1177, ../sass/csr.scss */
+/* line 1184, ../sass/csr.scss */
 .container .content05 .content-01 {
   margin-top: 1.5rem;
 }
-/* line 1180, ../sass/csr.scss */
+/* line 1187, ../sass/csr.scss */
 .container .content05 .content-02 {
   margin: 1.5rem 0 0 2rem;
 }
-/* line 1185, ../sass/csr.scss */
+/* line 1192, ../sass/csr.scss */
 .container .content05 .content-03 {
   margin-top: 2rem;
 }
-/* line 1194, ../sass/csr.scss */
+/* line 1201, ../sass/csr.scss */
 .container .content05.play .img-01 {
-  -moz-animation: fadeIn 1s forwards;
-  -webkit-animation: fadeIn 1s forwards;
-  animation: fadeIn 1s forwards;
+  -moz-animation: rollIn 1s forwards;
+  -webkit-animation: rollIn 1s forwards;
+  animation: rollIn 1s forwards;
 }
-/* line 1197, ../sass/csr.scss */
+/* line 1204, ../sass/csr.scss */
 .container .content05.play .text-01 {
   -moz-animation: fadeIn 0.5s 1.5s forwards;
   -webkit-animation: fadeIn 0.5s 1.5s forwards;
   animation: fadeIn 0.5s 1.5s forwards;
 }
-/* line 1200, ../sass/csr.scss */
+/* line 1207, ../sass/csr.scss */
 .container .content05.play .overlay-01 {
   -moz-animation: moverRightOut3 0.5s 2s forwards;
   -webkit-animation: moverRightOut3 0.5s 2s forwards;
   animation: moverRightOut3 0.5s 2s forwards;
 }
-/* line 1203, ../sass/csr.scss */
+/* line 1210, ../sass/csr.scss */
 .container .content05.play .img-02 {
-  -moz-animation: fadeIn 1s 2.5s forwards;
-  -webkit-animation: fadeIn 1s 2.5s forwards;
-  animation: fadeIn 1s 2.5s forwards;
+  -moz-animation: rollIn 1s 2.5s forwards;
+  -webkit-animation: rollIn 1s 2.5s forwards;
+  animation: rollIn 1s 2.5s forwards;
 }
-/* line 1206, ../sass/csr.scss */
+/* line 1213, ../sass/csr.scss */
 .container .content05.play .text-02 {
   -moz-animation: fadeIn 0.5s 3s forwards;
   -webkit-animation: fadeIn 0.5s 3s forwards;
   animation: fadeIn 0.5s 3s forwards;
 }
-/* line 1209, ../sass/csr.scss */
+/* line 1216, ../sass/csr.scss */
 .container .content05.play .overlay-02 {
   -moz-animation: moverRightOut3 0.5s 3.5s forwards;
   -webkit-animation: moverRightOut3 0.5s 3.5s forwards;
   animation: moverRightOut3 0.5s 3.5s forwards;
 }
-/* line 1212, ../sass/csr.scss */
+/* line 1219, ../sass/csr.scss */
 .container .content05.play .img-03 {
-  -moz-animation: fadeIn 1s 4s forwards;
-  -webkit-animation: fadeIn 1s 4s forwards;
-  animation: fadeIn 1s 4s forwards;
+  -moz-animation: rollIn 1s 4s forwards;
+  -webkit-animation: rollIn 1s 4s forwards;
+  animation: rollIn 1s 4s forwards;
 }
-/* line 1215, ../sass/csr.scss */
+/* line 1222, ../sass/csr.scss */
 .container .content05.play .text-03 {
   -moz-animation: fadeIn 0.5s 4.5s forwards;
   -webkit-animation: fadeIn 0.5s 4.5s forwards;
   animation: fadeIn 0.5s 4.5s forwards;
 }
-/* line 1218, ../sass/csr.scss */
+/* line 1225, ../sass/csr.scss */
 .container .content05.play .overlay-03 {
   -moz-animation: moverRightOut3 0.5s 5s forwards;
   -webkit-animation: moverRightOut3 0.5s 5s forwards;
   animation: moverRightOut3 0.5s 5s forwards;
 }
-/* line 1224, ../sass/csr.scss */
+/* line 1230, ../sass/csr.scss */
 .container .content06 .title-all-text, .container .content06 .img, .container .content06 .line, .container .content06 .bg-01 {
   background: url("../images/css-sprites-06.png") no-repeat;
   background-size: 14.925rem 15.6rem;
 }
-/* line 1229, ../sass/csr.scss */
+/* line 1235, ../sass/csr.scss */
 .container .content06 .bg-01 {
   right: 0.45rem;
   bottom: 0rem;
@@ -1516,13 +1523,13 @@ em {
   height: 4.7rem;
   opacity: 0;
 }
-/* line 1239, ../sass/csr.scss */
+/* line 1245, ../sass/csr.scss */
 .container .content06 .content-title .title-all-text {
   width: 5.925rem;
   height: 0.95rem;
   background-position: -2.525rem -10.875rem;
 }
-/* line 1245, ../sass/csr.scss */
+/* line 1251, ../sass/csr.scss */
 .container .content06 .img-05 {
   left: -4.45rem;
   bottom: 1.4rem;
@@ -1531,18 +1538,18 @@ em {
   width: 4.45rem;
   height: 1.925rem;
 }
-/* line 1255, ../sass/csr.scss */
+/* line 1261, ../sass/csr.scss */
 .container .content06 .content-01 .img, .container .content06 .content-01 .text {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 1262, ../sass/csr.scss */
+/* line 1268, ../sass/csr.scss */
 .container .content06 .content-01 .text-01 {
   left: 1.9rem;
   top: 0.05rem;
   z-index: 9;
 }
-/* line 1267, ../sass/csr.scss */
+/* line 1273, ../sass/csr.scss */
 .container .content06 .content-01 .img-01 {
   left: 8.35rem;
   top: -0.2rem;
@@ -1551,7 +1558,7 @@ em {
   width: 2.4rem;
   height: 3.375rem;
 }
-/* line 1275, ../sass/csr.scss */
+/* line 1281, ../sass/csr.scss */
 .container .content06 .content-01 .img-02 {
   left: 6.7rem;
   top: 2.95rem;
@@ -1560,7 +1567,7 @@ em {
   width: 3.975rem;
   height: 3.75rem;
 }
-/* line 1283, ../sass/csr.scss */
+/* line 1289, ../sass/csr.scss */
 .container .content06 .content-01 .line-01 {
   left: 1.9rem;
   top: -0.05rem;
@@ -1569,7 +1576,7 @@ em {
   height: 1.2rem;
   z-index: 1;
 }
-/* line 1291, ../sass/csr.scss */
+/* line 1297, ../sass/csr.scss */
 .container .content06 .content-01 .overlay-01 {
   left: 1.9rem;
   top: -0.05rem;
@@ -1583,17 +1590,17 @@ em {
   background-color: #3160c9;
   z-index: 2;
 }
-/* line 1300, ../sass/csr.scss */
+/* line 1306, ../sass/csr.scss */
 .container .content06 .content-01 .text-02 {
   top: 4.85rem;
   left: 1.9rem;
   z-index: 10;
 }
-/* line 1304, ../sass/csr.scss */
+/* line 1310, ../sass/csr.scss */
 .container .content06 .content-01 .text-02 b {
   color: #eec11c;
 }
-/* line 1308, ../sass/csr.scss */
+/* line 1314, ../sass/csr.scss */
 .container .content06 .content-01 .img-03 {
   left: 7.95rem;
   top: 6.45rem;
@@ -1602,7 +1609,7 @@ em {
   width: 3.9rem;
   height: 4.675rem;
 }
-/* line 1316, ../sass/csr.scss */
+/* line 1322, ../sass/csr.scss */
 .container .content06 .content-01 .img-04 {
   left: 3.85rem;
   top: 9.15rem;
@@ -1611,7 +1618,7 @@ em {
   width: 5.425rem;
   height: 6.075rem;
 }
-/* line 1324, ../sass/csr.scss */
+/* line 1330, ../sass/csr.scss */
 .container .content06 .content-01 .line-02 {
   left: 2.2rem;
   top: 6.1rem;
@@ -1620,7 +1627,7 @@ em {
   height: 1.35rem;
   z-index: 3;
 }
-/* line 1332, ../sass/csr.scss */
+/* line 1338, ../sass/csr.scss */
 .container .content06 .content-01 .overlay-02 {
   left: 2.2rem;
   top: 6.1rem;
@@ -1634,17 +1641,17 @@ em {
   -webkit-transition-delay: 3s, 3.5s;
   transition: width 0.5s 3s, height 0.5s 3.5s;
 }
-/* line 1341, ../sass/csr.scss */
+/* line 1347, ../sass/csr.scss */
 .container .content06 .content-01 .text-03 {
   top: 10.8rem;
   right: 1.6rem;
   z-index: 11;
 }
-/* line 1345, ../sass/csr.scss */
+/* line 1351, ../sass/csr.scss */
 .container .content06 .content-01 .text-03 b {
   color: #8fc220;
 }
-/* line 1349, ../sass/csr.scss */
+/* line 1355, ../sass/csr.scss */
 .container .content06 .content-01 .line-03 {
   top: 10.6rem;
   right: 0.5rem;
@@ -1653,7 +1660,7 @@ em {
   height: 2.675rem;
   z-index: 5;
 }
-/* line 1357, ../sass/csr.scss */
+/* line 1363, ../sass/csr.scss */
 .container .content06 .content-01 .overlay-03 {
   top: 10.6rem;
   right: 0.5rem;
@@ -1667,17 +1674,17 @@ em {
   -webkit-transition-delay: 5s, 5.5s;
   transition: width 0.5s 5s, height 0.5s 5.5s;
 }
-/* line 1366, ../sass/csr.scss */
+/* line 1372, ../sass/csr.scss */
 .container .content06 .content-01 .text-04 {
   top: 14.15rem;
   right: 4.85rem;
   z-index: 12;
 }
-/* line 1370, ../sass/csr.scss */
+/* line 1376, ../sass/csr.scss */
 .container .content06 .content-01 .text-04 em {
   color: #ee8100;
 }
-/* line 1374, ../sass/csr.scss */
+/* line 1380, ../sass/csr.scss */
 .container .content06 .content-01 .line-04 {
   top: 14.6rem;
   right: 3.95rem;
@@ -1686,7 +1693,7 @@ em {
   height: 1.2rem;
   z-index: 7;
 }
-/* line 1382, ../sass/csr.scss */
+/* line 1388, ../sass/csr.scss */
 .container .content06 .content-01 .overlay-04 {
   top: 14.6rem;
   right: 3.95rem;
@@ -1701,175 +1708,175 @@ em {
   transition: width 0.5s 7s, height 0.5s 7.5s;
 }
 @media (max-width: 320px) {
-  /* line 1393, ../sass/csr.scss */
+  /* line 1399, ../sass/csr.scss */
   .container .content06 .content-01 .text-01 {
     text-align: right;
     left: 2.8rem;
   }
-  /* line 1397, ../sass/csr.scss */
+  /* line 1403, ../sass/csr.scss */
   .container .content06 .content-01 .img-01 {
     left: 9.95rem;
   }
-  /* line 1400, ../sass/csr.scss */
+  /* line 1406, ../sass/csr.scss */
   .container .content06 .content-01 .line-01 {
     left: 3.7rem;
   }
-  /* line 1403, ../sass/csr.scss */
+  /* line 1409, ../sass/csr.scss */
   .container .content06 .content-01 .overlay-01 {
     left: 3.7rem;
   }
-  /* line 1406, ../sass/csr.scss */
+  /* line 1412, ../sass/csr.scss */
   .container .content06 .content-01 .text-02 {
     left: 0.35rem;
     top: 5.2rem;
     text-align: right;
   }
-  /* line 1411, ../sass/csr.scss */
+  /* line 1417, ../sass/csr.scss */
   .container .content06 .content-01 .line-02 {
     top: 6.7rem;
     left: 1.2rem;
   }
-  /* line 1415, ../sass/csr.scss */
+  /* line 1421, ../sass/csr.scss */
   .container .content06 .content-01 .overlay-02 {
     top: 6.7rem;
     left: 1.2rem;
   }
-  /* line 1419, ../sass/csr.scss */
+  /* line 1425, ../sass/csr.scss */
   .container .content06 .content-01 .img-02 {
     left: 6.3rem;
     top: 3.75rem;
   }
-  /* line 1423, ../sass/csr.scss */
+  /* line 1429, ../sass/csr.scss */
   .container .content06 .content-01 .img-04 {
     transform: scale(0.8, 0.8);
     left: 3.75rem;
   }
-  /* line 1427, ../sass/csr.scss */
+  /* line 1433, ../sass/csr.scss */
   .container .content06 .content-01 .text-04 {
     right: 4.55rem;
     top: 13.45rem;
   }
-  /* line 1431, ../sass/csr.scss */
+  /* line 1437, ../sass/csr.scss */
   .container .content06 .content-01 .line-04 {
     right: 3.9rem;
     top: 13.85rem;
   }
-  /* line 1435, ../sass/csr.scss */
+  /* line 1441, ../sass/csr.scss */
   .container .content06 .content-01 .overlay-04 {
     right: 3.9rem;
     top: 13.85rem;
   }
-  /* line 1439, ../sass/csr.scss */
+  /* line 1445, ../sass/csr.scss */
   .container .content06 .content-01 .line-03 {
     top: 10.15rem;
   }
-  /* line 1442, ../sass/csr.scss */
+  /* line 1448, ../sass/csr.scss */
   .container .content06 .content-01 .overlay-03 {
     top: 10.15rem;
   }
-  /* line 1445, ../sass/csr.scss */
+  /* line 1451, ../sass/csr.scss */
   .container .content06 .content-01 .text-03 {
     top: 10.4rem;
     right: 1.15rem;
   }
-  /* line 1449, ../sass/csr.scss */
+  /* line 1455, ../sass/csr.scss */
   .container .content06 .content-01 .img-03 {
     transform: scale(0.8, 0.8);
   }
 }
-/* line 1458, ../sass/csr.scss */
+/* line 1464, ../sass/csr.scss */
 .container .content06.play .content-01 .img-01 {
-  -moz-animation: fadeIn 0.5s forwards;
-  -webkit-animation: fadeIn 0.5s forwards;
-  animation: fadeIn 0.5s forwards;
+  -moz-animation: zoomIn 0.5s forwards;
+  -webkit-animation: zoomIn 0.5s forwards;
+  animation: zoomIn 0.5s forwards;
 }
-/* line 1461, ../sass/csr.scss */
+/* line 1467, ../sass/csr.scss */
 .container .content06.play .content-01 .overlay-01 {
   width: 0;
   height: 0;
 }
-/* line 1466, ../sass/csr.scss */
-.container .content06.play .content-01 .text-01 {
-  -moz-animation: fadeIn 1s 2s forwards;
-  -webkit-animation: fadeIn 1s 2s forwards;
-  animation: fadeIn 1s 2s forwards;
-}
-/* line 1469, ../sass/csr.scss */
-.container .content06.play .content-01 .img-02 {
-  -moz-animation: fadeIn 1s 2.5s forwards;
-  -webkit-animation: fadeIn 1s 2.5s forwards;
-  animation: fadeIn 1s 2.5s forwards;
-}
 /* line 1472, ../sass/csr.scss */
+.container .content06.play .content-01 .text-01 {
+  -moz-animation: fadeInUp 1s 2s forwards;
+  -webkit-animation: fadeInUp 1s 2s forwards;
+  animation: fadeInUp 1s 2s forwards;
+}
+/* line 1475, ../sass/csr.scss */
+.container .content06.play .content-01 .img-02 {
+  -moz-animation: zoomIn 1s 2.5s forwards;
+  -webkit-animation: zoomIn 1s 2.5s forwards;
+  animation: zoomIn 1s 2.5s forwards;
+}
+/* line 1478, ../sass/csr.scss */
 .container .content06.play .content-01 .overlay-02 {
   width: 0;
   height: 0;
 }
-/* line 1477, ../sass/csr.scss */
-.container .content06.play .content-01 .text-02 {
-  -moz-animation: fadeIn 1s 4s forwards;
-  -webkit-animation: fadeIn 1s 4s forwards;
-  animation: fadeIn 1s 4s forwards;
-}
-/* line 1480, ../sass/csr.scss */
-.container .content06.play .content-01 .img-03 {
-  -moz-animation: fadeIn 1s 4.5s forwards;
-  -webkit-animation: fadeIn 1s 4.5s forwards;
-  animation: fadeIn 1s 4.5s forwards;
-}
 /* line 1483, ../sass/csr.scss */
+.container .content06.play .content-01 .text-02 {
+  -moz-animation: fadeInDown 1s 4s forwards;
+  -webkit-animation: fadeInDown 1s 4s forwards;
+  animation: fadeInDown 1s 4s forwards;
+}
+/* line 1486, ../sass/csr.scss */
+.container .content06.play .content-01 .img-03 {
+  -moz-animation: zoomIn 1s 4.5s forwards;
+  -webkit-animation: zoomIn 1s 4.5s forwards;
+  animation: zoomIn 1s 4.5s forwards;
+}
+/* line 1489, ../sass/csr.scss */
 .container .content06.play .content-01 .overlay-03 {
   width: 0;
   height: 0;
 }
-/* line 1488, ../sass/csr.scss */
-.container .content06.play .content-01 .text-03 {
-  -moz-animation: fadeIn 1s 6s forwards;
-  -webkit-animation: fadeIn 1s 6s forwards;
-  animation: fadeIn 1s 6s forwards;
-}
-/* line 1491, ../sass/csr.scss */
-.container .content06.play .content-01 .img-04 {
-  -moz-animation: fadeIn 1s 6.5s forwards;
-  -webkit-animation: fadeIn 1s 6.5s forwards;
-  animation: fadeIn 1s 6.5s forwards;
-}
 /* line 1494, ../sass/csr.scss */
+.container .content06.play .content-01 .text-03 {
+  -moz-animation: fadeInUp 1s 6s forwards;
+  -webkit-animation: fadeInUp 1s 6s forwards;
+  animation: fadeInUp 1s 6s forwards;
+}
+/* line 1497, ../sass/csr.scss */
+.container .content06.play .content-01 .img-04 {
+  -moz-animation: zoomIn 1s 6.5s forwards;
+  -webkit-animation: zoomIn 1s 6.5s forwards;
+  animation: zoomIn 1s 6.5s forwards;
+}
+/* line 1500, ../sass/csr.scss */
 .container .content06.play .content-01 .overlay-04 {
   width: 0;
   height: 0;
 }
-/* line 1499, ../sass/csr.scss */
+/* line 1505, ../sass/csr.scss */
 .container .content06.play .content-01 .text-04 {
-  -moz-animation: fadeIn 1s 8s forwards;
-  -webkit-animation: fadeIn 1s 8s forwards;
-  animation: fadeIn 1s 8s forwards;
+  -moz-animation: fadeInDown 1s 8s forwards;
+  -webkit-animation: fadeInDown 1s 8s forwards;
+  animation: fadeInDown 1s 8s forwards;
 }
-/* line 1503, ../sass/csr.scss */
+/* line 1509, ../sass/csr.scss */
 .container .content06.play .img-05 {
   -moz-animation: moverLeftBottom 1s 8.5s forwards;
   -webkit-animation: moverLeftBottom 1s 8.5s forwards;
   animation: moverLeftBottom 1s 8.5s forwards;
   animation-timing-function: cubic-bezier(0, 1, 1, 1);
 }
-/* line 1507, ../sass/csr.scss */
+/* line 1513, ../sass/csr.scss */
 .container .content06.play .bg-01 {
   -moz-animation: fadeIn 1s 9s forwards;
   -webkit-animation: fadeIn 1s 9s forwards;
   animation: fadeIn 1s 9s forwards;
 }
-/* line 1514, ../sass/csr.scss */
+/* line 1520, ../sass/csr.scss */
 .container .content07 .title-all-text, .container .content07 .img, .container .content07 .bg-01 {
   background: url("../images/css-sprites-07.png") no-repeat;
   background-size: 11.75rem 9.45rem;
 }
-/* line 1521, ../sass/csr.scss */
+/* line 1527, ../sass/csr.scss */
 .container .content07 .content-title .title-all-text {
   width: 5.925rem;
   height: 0.95rem;
   background-position: -4.175rem -8.5rem;
 }
-/* line 1532, ../sass/csr.scss */
+/* line 1538, ../sass/csr.scss */
 .container .content07 .bg-07 {
   background: url("../images/bg-07.png") no-repeat;
   background-size: 16rem 20rem;
@@ -1878,23 +1885,23 @@ em {
   top: 0rem;
   left: 0;
 }
-/* line 1543, ../sass/csr.scss */
+/* line 1549, ../sass/csr.scss */
 .container .content07 .content-01 .line {
   z-index: 1;
   background: url("../images/line-07.png") no-repeat;
   background-size: 11.075rem 7.75rem;
 }
-/* line 1550, ../sass/csr.scss */
+/* line 1556, ../sass/csr.scss */
 .container .content07 .content-01 .text {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 1553, ../sass/csr.scss */
+/* line 1559, ../sass/csr.scss */
 .container .content07 .content-01 .text span {
   display: inline-block;
   vertical-align: top;
 }
-/* line 1557, ../sass/csr.scss */
+/* line 1563, ../sass/csr.scss */
 .container .content07 .content-01 .text .circle {
   margin-top: 0.2rem;
   width: 0.4rem;
@@ -1903,64 +1910,64 @@ em {
   -webkit-border-radius: 0.5rem;
   border-radius: 0.5rem;
 }
-/* line 1564, ../sass/csr.scss */
+/* line 1570, ../sass/csr.scss */
 .container .content07 .content-01 .text-01 {
   left: 6.4rem;
   top: 1.9rem;
   z-index: 10;
 }
-/* line 1567, ../sass/csr.scss */
+/* line 1573, ../sass/csr.scss */
 .container .content07 .content-01 .text-01 em {
   color: #ee8100;
 }
-/* line 1570, ../sass/csr.scss */
+/* line 1576, ../sass/csr.scss */
 .container .content07 .content-01 .text-01 .circle {
   background-color: #ee8100;
 }
-/* line 1575, ../sass/csr.scss */
+/* line 1581, ../sass/csr.scss */
 .container .content07 .content-01 .text-02 {
   left: 11.3rem;
   top: 5.1rem;
   z-index: 11;
 }
-/* line 1578, ../sass/csr.scss */
+/* line 1584, ../sass/csr.scss */
 .container .content07 .content-01 .text-02 em {
   color: #eec11c;
 }
-/* line 1581, ../sass/csr.scss */
+/* line 1587, ../sass/csr.scss */
 .container .content07 .content-01 .text-02 .circle {
   background-color: #eec11c;
 }
-/* line 1587, ../sass/csr.scss */
+/* line 1593, ../sass/csr.scss */
 .container .content07 .content-01 .text-03 {
   left: 5.85rem;
   top: 7.65rem;
   z-index: 12;
 }
-/* line 1590, ../sass/csr.scss */
+/* line 1596, ../sass/csr.scss */
 .container .content07 .content-01 .text-03 em {
   color: #087a6f;
 }
-/* line 1593, ../sass/csr.scss */
+/* line 1599, ../sass/csr.scss */
 .container .content07 .content-01 .text-03 .circle {
   background-color: #087a6f;
 }
-/* line 1598, ../sass/csr.scss */
+/* line 1604, ../sass/csr.scss */
 .container .content07 .content-01 .text-04 {
   left: 0.4rem;
   top: 10.1rem;
   text-align: right;
   z-index: 13;
 }
-/* line 1602, ../sass/csr.scss */
+/* line 1608, ../sass/csr.scss */
 .container .content07 .content-01 .text-04 em {
   color: #8fc220;
 }
-/* line 1605, ../sass/csr.scss */
+/* line 1611, ../sass/csr.scss */
 .container .content07 .content-01 .text-04 .circle {
   background-color: #8fc220;
 }
-/* line 1610, ../sass/csr.scss */
+/* line 1616, ../sass/csr.scss */
 .container .content07 .content-01 .text-05 {
   left: 0.5rem;
   top: 12.2rem;
@@ -1968,27 +1975,27 @@ em {
   color: #3160c9;
   z-index: 14;
 }
-/* line 1617, ../sass/csr.scss */
+/* line 1623, ../sass/csr.scss */
 .container .content07 .content-01 .text-06 {
   left: 0.5rem;
   top: 14rem;
   z-index: 15;
 }
-/* line 1622, ../sass/csr.scss */
+/* line 1628, ../sass/csr.scss */
 .container .content07 .content-01 .img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 1626, ../sass/csr.scss */
+/* line 1632, ../sass/csr.scss */
 .container .content07 .content-01 .img-01 {
   width: 4.1rem;
   height: 4.1rem;
   left: 1.55rem;
   top: 0rem;
-  background-position: 0rem -5.35rem;
+  background-position: 0rem -5.325rem;
   z-index: 7;
 }
-/* line 1634, ../sass/csr.scss */
+/* line 1640, ../sass/csr.scss */
 .container .content07 .content-01 .img-02 {
   width: 3.825rem;
   height: 3.2rem;
@@ -1997,7 +2004,7 @@ em {
   background-position: -7.9rem -3.8rem;
   z-index: 8;
 }
-/* line 1643, ../sass/csr.scss */
+/* line 1649, ../sass/csr.scss */
 .container .content07 .content-01 .img-03 {
   width: 3.8rem;
   height: 3.275rem;
@@ -2006,7 +2013,7 @@ em {
   background-position: -4.1rem -3.8rem;
   z-index: 9;
 }
-/* line 1652, ../sass/csr.scss */
+/* line 1658, ../sass/csr.scss */
 .container .content07 .content-01 .img-04 {
   width: 4.075rem;
   height: 3.75rem;
@@ -2015,7 +2022,7 @@ em {
   background-position: -3.325rem 0rem;
   z-index: 10;
 }
-/* line 1660, ../sass/csr.scss */
+/* line 1666, ../sass/csr.scss */
 .container .content07 .content-01 .img-05 {
   width: 3.275rem;
   height: 3.45rem;
@@ -2023,7 +2030,7 @@ em {
   top: 15rem;
   background-position: -7.5rem -0.15rem;
 }
-/* line 1667, ../sass/csr.scss */
+/* line 1673, ../sass/csr.scss */
 .container .content07 .content-01 .img-06 {
   width: 3.075rem;
   height: 1.375rem;
@@ -2031,7 +2038,7 @@ em {
   top: 18.2rem;
   background-position: -4.1rem -7.05rem;
 }
-/* line 1674, ../sass/csr.scss */
+/* line 1680, ../sass/csr.scss */
 .container .content07 .content-01 .img-07 {
   width: 3.275rem;
   height: 5.35rem;
@@ -2039,7 +2046,7 @@ em {
   top: 13.9rem;
   background-position: 0rem 0rem;
 }
-/* line 1681, ../sass/csr.scss */
+/* line 1687, ../sass/csr.scss */
 .container .content07 .content-01 .line-01 {
   width: 7.65rem;
   height: 2.575rem;
@@ -2048,7 +2055,7 @@ em {
   background-position: 0rem 0rem;
   z-index: 1;
 }
-/* line 1689, ../sass/csr.scss */
+/* line 1695, ../sass/csr.scss */
 .container .content07 .content-01 .line-02 {
   width: 6.4rem;
   height: 2.575rem;
@@ -2057,7 +2064,7 @@ em {
   background-position: -1.25rem -3.075rem;
   z-index: 2;
 }
-/* line 1697, ../sass/csr.scss */
+/* line 1703, ../sass/csr.scss */
 .container .content07 .content-01 .line-03 {
   width: 9.95rem;
   height: 1.725rem;
@@ -2066,11 +2073,11 @@ em {
   background-position: -1.25rem -6.075rem;
   z-index: 3;
 }
-/* line 1705, ../sass/csr.scss */
+/* line 1711, ../sass/csr.scss */
 .container .content07 .content-01 .overlay {
   background-color: #26b6c5;
 }
-/* line 1709, ../sass/csr.scss */
+/* line 1715, ../sass/csr.scss */
 .container .content07 .content-01 .overlay-01 {
   width: 7.65rem;
   height: 2.575rem;
@@ -2078,7 +2085,7 @@ em {
   top: 3rem;
   z-index: 4;
 }
-/* line 1717, ../sass/csr.scss */
+/* line 1723, ../sass/csr.scss */
 .container .content07 .content-01 .overlay-02 {
   width: 6.4rem;
   height: 2.575rem;
@@ -2086,7 +2093,7 @@ em {
   top: 5.8rem;
   z-index: 5;
 }
-/* line 1724, ../sass/csr.scss */
+/* line 1730, ../sass/csr.scss */
 .container .content07 .content-01 .overlay-03 {
   width: 9.95rem;
   height: 1.725rem;
@@ -2094,37 +2101,37 @@ em {
   top: 8.15rem;
   z-index: 6;
 }
-/* line 1739, ../sass/csr.scss */
-.container .content07.play .content-01 .img-01 {
-  -moz-animation: fadeIn 1s 1s forwards;
-  -webkit-animation: fadeIn 1s 1s forwards;
-  animation: fadeIn 1s 1s forwards;
-}
-/* line 1742, ../sass/csr.scss */
-.container .content07.play .content-01 .text-01 {
-  -moz-animation: fadeIn 1s 1.5s forwards;
-  -webkit-animation: fadeIn 1s 1.5s forwards;
-  animation: fadeIn 1s 1.5s forwards;
-}
 /* line 1745, ../sass/csr.scss */
+.container .content07.play .content-01 .img-01 {
+  -moz-animation: zoomIn 1s 1s forwards;
+  -webkit-animation: zoomIn 1s 1s forwards;
+  animation: zoomIn 1s 1s forwards;
+}
+/* line 1748, ../sass/csr.scss */
+.container .content07.play .content-01 .text-01 {
+  -moz-animation: fadeInDown 1s 1.5s forwards;
+  -webkit-animation: fadeInDown 1s 1.5s forwards;
+  animation: fadeInDown 1s 1.5s forwards;
+}
+/* line 1751, ../sass/csr.scss */
 .container .content07.play .content-01 .overlay-01 {
   -moz-animation: moveLeftOut1 1s 2.5s forwards;
   -webkit-animation: moveLeftOut1 1s 2.5s forwards;
   animation: moveLeftOut1 1s 2.5s forwards;
 }
-/* line 1748, ../sass/csr.scss */
-.container .content07.play .content-01 .img-02 {
-  -moz-animation: fadeIn 1s 3s forwards;
-  -webkit-animation: fadeIn 1s 3s forwards;
-  animation: fadeIn 1s 3s forwards;
-}
-/* line 1751, ../sass/csr.scss */
-.container .content07.play .content-01 .text-02 {
-  -moz-animation: fadeIn 1s 3.5s forwards;
-  -webkit-animation: fadeIn 1s 3.5s forwards;
-  animation: fadeIn 1s 3.5s forwards;
-}
 /* line 1754, ../sass/csr.scss */
+.container .content07.play .content-01 .img-02 {
+  -moz-animation: zoomIn 1s 3s forwards;
+  -webkit-animation: zoomIn 1s 3s forwards;
+  animation: zoomIn 1s 3s forwards;
+}
+/* line 1757, ../sass/csr.scss */
+.container .content07.play .content-01 .text-02 {
+  -moz-animation: fadeInDown 1s 3.5s forwards;
+  -webkit-animation: fadeInDown 1s 3.5s forwards;
+  animation: fadeInDown 1s 3.5s forwards;
+}
+/* line 1760, ../sass/csr.scss */
 .container .content07.play .content-01 .overlay-02 {
   width: 0rem;
   -moz-transition: width 2s 4s;
@@ -2133,143 +2140,143 @@ em {
   -webkit-transition-delay: 4s;
   transition: width 2s 4s;
 }
-/* line 1758, ../sass/csr.scss */
-.container .content07.play .content-01 .img-03 {
-  -moz-animation: fadeIn 1s 4.5s forwards;
-  -webkit-animation: fadeIn 1s 4.5s forwards;
-  animation: fadeIn 1s 4.5s forwards;
-}
-/* line 1761, ../sass/csr.scss */
-.container .content07.play .content-01 .text-03 {
-  -moz-animation: fadeIn 1s 5s forwards;
-  -webkit-animation: fadeIn 1s 5s forwards;
-  animation: fadeIn 1s 5s forwards;
-}
 /* line 1764, ../sass/csr.scss */
+.container .content07.play .content-01 .img-03 {
+  -moz-animation: zoomIn 1s 4.5s forwards;
+  -webkit-animation: zoomIn 1s 4.5s forwards;
+  animation: zoomIn 1s 4.5s forwards;
+}
+/* line 1767, ../sass/csr.scss */
+.container .content07.play .content-01 .text-03 {
+  -moz-animation: fadeInDown 1s 5s forwards;
+  -webkit-animation: fadeInDown 1s 5s forwards;
+  animation: fadeInDown 1s 5s forwards;
+}
+/* line 1770, ../sass/csr.scss */
 .container .content07.play .content-01 .overlay-03 {
   -moz-animation: moveLeftOut2 2s 5.5s forwards;
   -webkit-animation: moveLeftOut2 2s 5.5s forwards;
   animation: moveLeftOut2 2s 5.5s forwards;
 }
-/* line 1767, ../sass/csr.scss */
-.container .content07.play .content-01 .img-04 {
-  -moz-animation: fadeIn 1s 6s forwards;
-  -webkit-animation: fadeIn 1s 6s forwards;
-  animation: fadeIn 1s 6s forwards;
-}
-/* line 1770, ../sass/csr.scss */
-.container .content07.play .content-01 .text-04 {
-  -moz-animation: fadeIn 1s 6.5s forwards;
-  -webkit-animation: fadeIn 1s 6.5s forwards;
-  animation: fadeIn 1s 6.5s forwards;
-}
 /* line 1773, ../sass/csr.scss */
-.container .content07.play .content-01 .text-05 {
-  -moz-animation: fadeIn 1s 7s forwards;
-  -webkit-animation: fadeIn 1s 7s forwards;
-  animation: fadeIn 1s 7s forwards;
+.container .content07.play .content-01 .img-04 {
+  -moz-animation: zoomIn 1s 6s forwards;
+  -webkit-animation: zoomIn 1s 6s forwards;
+  animation: zoomIn 1s 6s forwards;
 }
 /* line 1776, ../sass/csr.scss */
-.container .content07.play .content-01 .text-06 {
-  -moz-animation: fadeIn 1s 7.5s forwards;
-  -webkit-animation: fadeIn 1s 7.5s forwards;
-  animation: fadeIn 1s 7.5s forwards;
+.container .content07.play .content-01 .text-04 {
+  -moz-animation: fadeInDown 1s 6.5s forwards;
+  -webkit-animation: fadeInDown 1s 6.5s forwards;
+  animation: fadeInDown 1s 6.5s forwards;
 }
 /* line 1779, ../sass/csr.scss */
-.container .content07.play .content-01 .img-05 {
-  -moz-animation: fadeIn 1s 8s forwards;
-  -webkit-animation: fadeIn 1s 8s forwards;
-  animation: fadeIn 1s 8s forwards;
+.container .content07.play .content-01 .text-05 {
+  -moz-animation: fadeInDown 1s 7s forwards;
+  -webkit-animation: fadeInDown 1s 7s forwards;
+  animation: fadeInDown 1s 7s forwards;
 }
 /* line 1782, ../sass/csr.scss */
-.container .content07.play .content-01 .img-07 {
-  -moz-animation: fadeIn 1s 8.5s forwards;
-  -webkit-animation: fadeIn 1s 8.5s forwards;
-  animation: fadeIn 1s 8.5s forwards;
+.container .content07.play .content-01 .text-06 {
+  -moz-animation: fadeInDown 1s 7.5s forwards;
+  -webkit-animation: fadeInDown 1s 7.5s forwards;
+  animation: fadeInDown 1s 7.5s forwards;
 }
 /* line 1785, ../sass/csr.scss */
+.container .content07.play .content-01 .img-05 {
+  -moz-animation: zoomIn 1s 8s forwards;
+  -webkit-animation: zoomIn 1s 8s forwards;
+  animation: zoomIn 1s 8s forwards;
+}
+/* line 1788, ../sass/csr.scss */
+.container .content07.play .content-01 .img-07 {
+  -moz-animation: zoomIn 1s 8.5s forwards;
+  -webkit-animation: zoomIn 1s 8.5s forwards;
+  animation: zoomIn 1s 8.5s forwards;
+}
+/* line 1791, ../sass/csr.scss */
 .container .content07.play .content-01 .img-06 {
   -moz-animation: bounceInRight 1s 9s forwards;
   -webkit-animation: bounceInRight 1s 9s forwards;
   animation: bounceInRight 1s 9s forwards;
 }
-/* line 1792, ../sass/csr.scss */
+/* line 1798, ../sass/csr.scss */
 .container .content08 .title-all-text, .container .content08 .img, .container .content08 .bg-01 {
   background: url("../images/css-sprites-08.png") no-repeat;
   background-size: 15.175rem 14.275rem;
 }
-/* line 1799, ../sass/csr.scss */
+/* line 1805, ../sass/csr.scss */
 .container .content08 .content-title .title-all-text {
-  width: 5.925rem;
+  width: 5.9rem;
   height: 0.95rem;
   background-position: -7.15rem -6.575rem;
 }
-/* line 1805, ../sass/csr.scss */
+/* line 1812, ../sass/csr.scss */
 .container .content08 .sub-title {
   z-index: 2;
 }
-/* line 1811, ../sass/csr.scss */
+/* line 1818, ../sass/csr.scss */
 .container .content08 .content-01 .text {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   padding-bottom: 0.1rem;
   border-bottom: 0.05rem dashed #fff;
 }
-/* line 1816, ../sass/csr.scss */
+/* line 1823, ../sass/csr.scss */
 .container .content08 .content-01 .text em {
   font-style: normal;
 }
-/* line 1820, ../sass/csr.scss */
+/* line 1827, ../sass/csr.scss */
 .container .content08 .content-01 .text-01 {
   left: 5.45rem;
   top: -0.3rem;
 }
-/* line 1821, ../sass/csr.scss */
+/* line 1828, ../sass/csr.scss */
 .container .content08 .content-01 .text-01 em {
   color: #ee8100;
 }
-/* line 1827, ../sass/csr.scss */
+/* line 1834, ../sass/csr.scss */
 .container .content08 .content-01 .text-02 {
   left: 7.85rem;
   top: 2.35rem;
 }
-/* line 1831, ../sass/csr.scss */
+/* line 1838, ../sass/csr.scss */
 .container .content08 .content-01 .text-02 em, .container .content08 .content-01 .text-02 b {
   color: #eec11c;
 }
-/* line 1835, ../sass/csr.scss */
+/* line 1842, ../sass/csr.scss */
 .container .content08 .content-01 .text-03 {
   left: 8.8rem;
   top: 5.45rem;
 }
-/* line 1838, ../sass/csr.scss */
+/* line 1845, ../sass/csr.scss */
 .container .content08 .content-01 .text-03 em, .container .content08 .content-01 .text-03 b {
   color: #8fc220;
 }
-/* line 1842, ../sass/csr.scss */
+/* line 1849, ../sass/csr.scss */
 .container .content08 .content-01 .text-04 {
   top: 10.2rem;
   left: 7.65rem;
 }
-/* line 1845, ../sass/csr.scss */
+/* line 1852, ../sass/csr.scss */
 .container .content08 .content-01 .text-04 em, .container .content08 .content-01 .text-04 b {
   color: #0ca297;
 }
-/* line 1849, ../sass/csr.scss */
+/* line 1856, ../sass/csr.scss */
 .container .content08 .content-01 .text-05 {
   left: 4.15rem;
   top: 13.3rem;
 }
-/* line 1850, ../sass/csr.scss */
+/* line 1857, ../sass/csr.scss */
 .container .content08 .content-01 .text-05 em, .container .content08 .content-01 .text-05 b {
   color: #eec11c;
 }
-/* line 1857, ../sass/csr.scss */
+/* line 1864, ../sass/csr.scss */
 .container .content08 .content-01 .img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 1860, ../sass/csr.scss */
+/* line 1867, ../sass/csr.scss */
 .container .content08 .content-01 .img-01 {
   width: 1.55rem;
   height: 2.35rem;
@@ -2278,16 +2285,16 @@ em {
   top: 0.8rem;
   z-index: 6;
 }
-/* line 1868, ../sass/csr.scss */
+/* line 1875, ../sass/csr.scss */
 .container .content08 .content-01 .img-02 {
-  width: 3.05rem;
+  width: 3rem;
   height: 1.95rem;
   background-position: -7.15rem -4.625rem;
   left: 3.5rem;
   top: 3.15rem;
   z-index: 7;
 }
-/* line 1875, ../sass/csr.scss */
+/* line 1882, ../sass/csr.scss */
 .container .content08 .content-01 .img-03 {
   width: 1.875rem;
   height: 2.625rem;
@@ -2296,7 +2303,7 @@ em {
   top: 6.3rem;
   z-index: 8;
 }
-/* line 1882, ../sass/csr.scss */
+/* line 1889, ../sass/csr.scss */
 .container .content08 .content-01 .img-04 {
   width: 1.9rem;
   height: 1.85rem;
@@ -2305,7 +2312,7 @@ em {
   top: 10.1rem;
   z-index: 9;
 }
-/* line 1889, ../sass/csr.scss */
+/* line 1896, ../sass/csr.scss */
 .container .content08 .content-01 .img-05 {
   width: 1.525rem;
   height: 2.725rem;
@@ -2314,7 +2321,7 @@ em {
   top: 11.65rem;
   z-index: 10;
 }
-/* line 1897, ../sass/csr.scss */
+/* line 1903, ../sass/csr.scss */
 .container .content08 .content-01 .img-06 {
   left: 3.8rem;
   top: 0.5rem;
@@ -2322,7 +2329,7 @@ em {
   height: 1.05rem;
   background-position: -10.575rem -7.525rem;
 }
-/* line 1904, ../sass/csr.scss */
+/* line 1910, ../sass/csr.scss */
 .container .content08 .content-01 .img-07 {
   left: 6.45rem;
   top: 2.95rem;
@@ -2330,7 +2337,7 @@ em {
   height: 0.9rem;
   background-position: -13.075rem -6.575rem;
 }
-/* line 1910, ../sass/csr.scss */
+/* line 1916, ../sass/csr.scss */
 .container .content08 .content-01 .img-08 {
   left: 7.25rem;
   top: 7.35rem;
@@ -2338,7 +2345,7 @@ em {
   height: 0.35rem;
   background-position: -12.1rem -5.65rem;
 }
-/* line 1916, ../sass/csr.scss */
+/* line 1923, ../sass/csr.scss */
 .container .content08 .content-01 .img-09 {
   left: 6.4rem;
   top: 10.85rem;
@@ -2346,23 +2353,23 @@ em {
   height: 0.9rem;
   background-position: -13.1rem -4.625rem;
 }
-/* line 1922, ../sass/csr.scss */
+/* line 1929, ../sass/csr.scss */
 .container .content08 .content-01 .img-10 {
   left: 2.95rem;
   top: 13.9rem;
-  width: 1rem;
+  width: 0.975rem;
   height: 1.025rem;
-  background-position: -12.125rem -4.625rem;
+  background-position: -12.15rem -4.625rem;
 }
-/* line 1928, ../sass/csr.scss */
+/* line 1935, ../sass/csr.scss */
 .container .content08 .content-01 .img-11 {
   left: 0rem;
   top: 0.35rem;
-  width: 7.15rem;
+  width: 7.125rem;
   height: 14.275rem;
   background-position: 0rem 0rem;
 }
-/* line 1934, ../sass/csr.scss */
+/* line 1941, ../sass/csr.scss */
 .container .content08 .content-01 .img-13 {
   background: url("../images/bg-08.png") no-repeat;
   left: 0rem;
@@ -2371,7 +2378,7 @@ em {
   height: 17.5rem;
   background-size: 16rem 17.5rem;
 }
-/* line 1944, ../sass/csr.scss */
+/* line 1951, ../sass/csr.scss */
 .container .content08 .img-12 {
   right: 0.5rem;
   bottom: 0.5rem;
@@ -2381,175 +2388,175 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 1956, ../sass/csr.scss */
+/* line 1963, ../sass/csr.scss */
 .container .content08.play .content-01 .img-01 {
   -moz-animation: fadeIn 1s 0.5s forwards;
   -webkit-animation: fadeIn 1s 0.5s forwards;
   animation: fadeIn 1s 0.5s forwards;
 }
-/* line 1959, ../sass/csr.scss */
+/* line 1966, ../sass/csr.scss */
 .container .content08.play .content-01 .img-06 {
-  -moz-animation: fadeIn 1s 1s forwards;
-  -webkit-animation: fadeIn 1s 1s forwards;
-  animation: fadeIn 1s 1s forwards;
+  -moz-animation: zoomIn 1s 1s forwards;
+  -webkit-animation: zoomIn 1s 1s forwards;
+  animation: zoomIn 1s 1s forwards;
 }
-/* line 1962, ../sass/csr.scss */
+/* line 1969, ../sass/csr.scss */
 .container .content08.play .content-01 .text-01 {
-  -moz-animation: fadeIn 1s 1.5s forwards;
-  -webkit-animation: fadeIn 1s 1.5s forwards;
-  animation: fadeIn 1s 1.5s forwards;
+  -moz-animation: rollIn 1s 1.5s forwards;
+  -webkit-animation: rollIn 1s 1.5s forwards;
+  animation: rollIn 1s 1.5s forwards;
 }
-/* line 1965, ../sass/csr.scss */
+/* line 1972, ../sass/csr.scss */
 .container .content08.play .content-01 .img-02 {
   -moz-animation: fadeIn 1s 2s forwards;
   -webkit-animation: fadeIn 1s 2s forwards;
   animation: fadeIn 1s 2s forwards;
 }
-/* line 1968, ../sass/csr.scss */
+/* line 1975, ../sass/csr.scss */
 .container .content08.play .content-01 .img-07 {
-  -moz-animation: fadeIn 1s 2.5s forwards;
-  -webkit-animation: fadeIn 1s 2.5s forwards;
-  animation: fadeIn 1s 2.5s forwards;
+  -moz-animation: zoomIn 1s 2.5s forwards;
+  -webkit-animation: zoomIn 1s 2.5s forwards;
+  animation: zoomIn 1s 2.5s forwards;
 }
-/* line 1971, ../sass/csr.scss */
+/* line 1978, ../sass/csr.scss */
 .container .content08.play .content-01 .text-02 {
-  -moz-animation: fadeIn 1s 3s forwards;
-  -webkit-animation: fadeIn 1s 3s forwards;
-  animation: fadeIn 1s 3s forwards;
+  -moz-animation: rollIn 1s 3s forwards;
+  -webkit-animation: rollIn 1s 3s forwards;
+  animation: rollIn 1s 3s forwards;
 }
-/* line 1974, ../sass/csr.scss */
+/* line 1981, ../sass/csr.scss */
 .container .content08.play .content-01 .img-03 {
   -moz-animation: fadeIn 1s 3.5s forwards;
   -webkit-animation: fadeIn 1s 3.5s forwards;
   animation: fadeIn 1s 3.5s forwards;
 }
-/* line 1977, ../sass/csr.scss */
+/* line 1984, ../sass/csr.scss */
 .container .content08.play .content-01 .img-08 {
-  -moz-animation: fadeIn 1s 4s forwards;
-  -webkit-animation: fadeIn 1s 4s forwards;
-  animation: fadeIn 1s 4s forwards;
+  -moz-animation: zoomIn 1s 4s forwards;
+  -webkit-animation: zoomIn 1s 4s forwards;
+  animation: zoomIn 1s 4s forwards;
 }
-/* line 1980, ../sass/csr.scss */
+/* line 1987, ../sass/csr.scss */
 .container .content08.play .content-01 .text-03 {
-  -moz-animation: fadeIn 1s 4.5s forwards;
-  -webkit-animation: fadeIn 1s 4.5s forwards;
-  animation: fadeIn 1s 4.5s forwards;
+  -moz-animation: rollIn 1s 4.5s forwards;
+  -webkit-animation: rollIn 1s 4.5s forwards;
+  animation: rollIn 1s 4.5s forwards;
 }
-/* line 1983, ../sass/csr.scss */
+/* line 1990, ../sass/csr.scss */
 .container .content08.play .content-01 .img-04 {
   -moz-animation: fadeIn 1s 5s forwards;
   -webkit-animation: fadeIn 1s 5s forwards;
   animation: fadeIn 1s 5s forwards;
 }
-/* line 1986, ../sass/csr.scss */
+/* line 1993, ../sass/csr.scss */
 .container .content08.play .content-01 .img-09 {
-  -moz-animation: fadeIn 1s 5.5s forwards;
-  -webkit-animation: fadeIn 1s 5.5s forwards;
-  animation: fadeIn 1s 5.5s forwards;
+  -moz-animation: zoomIn 1s 5.5s forwards;
+  -webkit-animation: zoomIn 1s 5.5s forwards;
+  animation: zoomIn 1s 5.5s forwards;
 }
-/* line 1989, ../sass/csr.scss */
+/* line 1996, ../sass/csr.scss */
 .container .content08.play .content-01 .text-04 {
-  -moz-animation: fadeIn 1s 6s forwards;
-  -webkit-animation: fadeIn 1s 6s forwards;
-  animation: fadeIn 1s 6s forwards;
+  -moz-animation: rollIn 1s 6s forwards;
+  -webkit-animation: rollIn 1s 6s forwards;
+  animation: rollIn 1s 6s forwards;
 }
-/* line 1992, ../sass/csr.scss */
+/* line 1999, ../sass/csr.scss */
 .container .content08.play .content-01 .img-05 {
   -moz-animation: fadeIn 1s 6.5s forwards;
   -webkit-animation: fadeIn 1s 6.5s forwards;
   animation: fadeIn 1s 6.5s forwards;
 }
-/* line 1995, ../sass/csr.scss */
+/* line 2002, ../sass/csr.scss */
 .container .content08.play .content-01 .img-10 {
-  -moz-animation: fadeIn 1s 7s forwards;
-  -webkit-animation: fadeIn 1s 7s forwards;
-  animation: fadeIn 1s 7s forwards;
+  -moz-animation: zoomIn 1s 7s forwards;
+  -webkit-animation: zoomIn 1s 7s forwards;
+  animation: zoomIn 1s 7s forwards;
 }
-/* line 1998, ../sass/csr.scss */
+/* line 2005, ../sass/csr.scss */
 .container .content08.play .content-01 .text-05 {
-  -moz-animation: fadeIn 1s 7.5s forwards;
-  -webkit-animation: fadeIn 1s 7.5s forwards;
-  animation: fadeIn 1s 7.5s forwards;
+  -moz-animation: rollIn 1s 7.5s forwards;
+  -webkit-animation: rollIn 1s 7.5s forwards;
+  animation: rollIn 1s 7.5s forwards;
 }
-/* line 2001, ../sass/csr.scss */
+/* line 2008, ../sass/csr.scss */
 .container .content08.play .content-01 .img-11 {
   -moz-animation: rotateInDownleft 0.5s forwards;
   -webkit-animation: rotateInDownleft 0.5s forwards;
   animation: rotateInDownleft 0.5s forwards;
 }
-/* line 2005, ../sass/csr.scss */
+/* line 2012, ../sass/csr.scss */
 .container .content08.play .img-12 {
   -moz-animation: bounceInUp 0.5s 8s ease-in forwards;
   -webkit-animation: bounceInUp 0.5s 8s ease-in forwards;
   animation: bounceInUp 0.5s 8s ease-in forwards;
 }
-/* line 2011, ../sass/csr.scss */
+/* line 2018, ../sass/csr.scss */
 .container .content09 .title-all-text, .container .content09 .img, .container .content09 .line, .container .content09 .bg-01, .container .content09 .title-all-text {
   background: url("../images/css-sprites-09.png") no-repeat;
   background-size: 22.075rem 19.8rem;
 }
-/* line 2018, ../sass/csr.scss */
+/* line 2025, ../sass/csr.scss */
 .container .content09 .content-title .title-all-text {
   width: 5.925rem;
   height: 0.95rem;
-  background-position: -16.2rem 0rem;
+  background-position: -16.175rem 0rem;
 }
-/* line 2024, ../sass/csr.scss */
+/* line 2031, ../sass/csr.scss */
 .container .content09 .sub-title {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 2029, ../sass/csr.scss */
+/* line 2036, ../sass/csr.scss */
 .container .content09 .content-01 .text {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 2031, ../sass/csr.scss */
+/* line 2038, ../sass/csr.scss */
 .container .content09 .content-01 .text b {
   color: #8fc220;
 }
-/* line 2036, ../sass/csr.scss */
+/* line 2043, ../sass/csr.scss */
 .container .content09 .content-01 .text-01 {
   left: 2.85rem;
   top: 0.65rem;
   z-index: 14;
 }
-/* line 2041, ../sass/csr.scss */
+/* line 2048, ../sass/csr.scss */
 .container .content09 .content-01 .text-02 {
   right: 1.1rem;
   top: 1.7rem;
   z-index: 13;
 }
 @media (max-width: 320px) {
-  /* line 2041, ../sass/csr.scss */
+  /* line 2048, ../sass/csr.scss */
   .container .content09 .content-01 .text-02 {
     right: 0.35rem;
   }
 }
-/* line 2049, ../sass/csr.scss */
+/* line 2056, ../sass/csr.scss */
 .container .content09 .content-01 .text-03 {
   left: 2.4rem;
   top: 6.65rem;
   z-index: 8;
 }
-/* line 2054, ../sass/csr.scss */
+/* line 2061, ../sass/csr.scss */
 .container .content09 .content-01 .text-04 {
   left: 2.9rem;
   top: 11rem;
   z-index: 9;
 }
-/* line 2059, ../sass/csr.scss */
+/* line 2066, ../sass/csr.scss */
 .container .content09 .content-01 .text-05 {
   right: 0.55rem;
   top: 9.8rem;
   z-index: 10;
 }
-/* line 2064, ../sass/csr.scss */
+/* line 2071, ../sass/csr.scss */
 .container .content09 .content-01 .img, .container .content09 .content-01 .line {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 2068, ../sass/csr.scss */
+/* line 2075, ../sass/csr.scss */
 .container .content09 .content-01 .img-01 {
   width: 1.25rem;
   height: 1.55rem;
@@ -2558,7 +2565,7 @@ em {
   top: 1.05rem;
   z-index: 12;
 }
-/* line 2077, ../sass/csr.scss */
+/* line 2084, ../sass/csr.scss */
 .container .content09 .content-01 .img-02 {
   width: 1.2rem;
   height: 2.225rem;
@@ -2567,15 +2574,15 @@ em {
   right: 4.85rem;
   z-index: 11;
 }
-/* line 2085, ../sass/csr.scss */
+/* line 2092, ../sass/csr.scss */
 .container .content09 .content-01 .img-03 {
   width: 0.95rem;
   height: 1.25rem;
-  background-position: -20.225rem -0.95rem;
+  background-position: -20.275rem -0.95rem;
   top: 7.05rem;
   left: 1.15rem;
 }
-/* line 2092, ../sass/csr.scss */
+/* line 2099, ../sass/csr.scss */
 .container .content09 .content-01 .img-04 {
   width: 1.625rem;
   height: 1.6rem;
@@ -2584,7 +2591,7 @@ em {
   right: 1.15rem;
   z-index: 9;
 }
-/* line 2100, ../sass/csr.scss */
+/* line 2107, ../sass/csr.scss */
 .container .content09 .content-01 .img-05 {
   width: 1.15rem;
   height: 0.75rem;
@@ -2593,63 +2600,63 @@ em {
   left: 1.6rem;
   z-index: 10;
 }
-/* line 2109, ../sass/csr.scss */
+/* line 2116, ../sass/csr.scss */
 .container .content09 .content-01 .img-06 {
-  width: 11.025rem;
-  height: 11.15rem;
+  width: 11rem;
+  height: 11.125rem;
   background-position: 0.2rem -8.65rem;
   left: 2.15rem;
   top: 2.55rem;
   z-index: 1;
 }
-/* line 2117, ../sass/csr.scss */
+/* line 2124, ../sass/csr.scss */
 .container .content09 .content-01 .img-07 {
   width: 11.075rem;
-  height: 11.15rem;
+  height: 11.125rem;
   background-position: -11.05rem -8.65rem;
   left: 2.15rem;
   top: 2.55rem;
   z-index: 1;
   opacity: 1;
 }
-/* line 2126, ../sass/csr.scss */
+/* line 2134, ../sass/csr.scss */
 .container .content09 .content-01 .line {
   height: 0.05rem;
   border-bottom: 0.05rem solid #00a99d;
 }
-/* line 2130, ../sass/csr.scss */
+/* line 2138, ../sass/csr.scss */
 .container .content09 .content-01 .line-01 {
   width: 4.8rem;
   left: 2.05rem;
   top: 2.65rem;
 }
-/* line 2135, ../sass/csr.scss */
+/* line 2143, ../sass/csr.scss */
 .container .content09 .content-01 .line-02 {
   width: 3.25rem;
   right: 1rem;
   top: 4.35rem;
 }
-/* line 2140, ../sass/csr.scss */
+/* line 2148, ../sass/csr.scss */
 .container .content09 .content-01 .line-03 {
   width: 4.8rem;
   left: 1.2rem;
   top: 8.55rem;
 }
-/* line 2145, ../sass/csr.scss */
+/* line 2153, ../sass/csr.scss */
 .container .content09 .content-01 .line-04 {
   width: 4.8rem;
   left: 1.2rem;
   top: 13.25rem;
   z-index: 11;
 }
-/* line 2151, ../sass/csr.scss */
+/* line 2159, ../sass/csr.scss */
 .container .content09 .content-01 .line-05 {
   width: 5.25rem;
   right: 1.4rem;
   top: 13.4rem;
   z-index: 12;
 }
-/* line 2159, ../sass/csr.scss */
+/* line 2167, ../sass/csr.scss */
 .container .content09 .bg-01 {
   width: 16.15rem;
   height: 8.65rem;
@@ -2657,126 +2664,126 @@ em {
   bottom: 0;
   left: 0;
 }
-/* line 2169, ../sass/csr.scss */
+/* line 2177, ../sass/csr.scss */
 .container .content09.play .sub-title {
   -moz-animation: fadeIn 1s forwards;
   -webkit-animation: fadeIn 1s forwards;
   animation: fadeIn 1s forwards;
 }
-/* line 2173, ../sass/csr.scss */
+/* line 2181, ../sass/csr.scss */
 .container .content09.play .content-01 .img-07 {
   -moz-animation: reverseRotate2d 7s 0.5s linear infinite;
   -webkit-animation: reverseRotate2d 7s 0.5s linear infinite;
   animation: reverseRotate2d 7s 0.5s linear infinite;
 }
-/* line 2176, ../sass/csr.scss */
+/* line 2184, ../sass/csr.scss */
 .container .content09.play .content-01 .img-06 {
   -moz-animation: fadeIn 1s 0.5s forwards;
   -webkit-animation: fadeIn 1s 0.5s forwards;
   animation: fadeIn 1s 0.5s forwards;
 }
-/* line 2179, ../sass/csr.scss */
+/* line 2187, ../sass/csr.scss */
 .container .content09.play .content-01 .img-01 {
-  -moz-animation: fadeIn 1s 1s forwards;
-  -webkit-animation: fadeIn 1s 1s forwards;
-  animation: fadeIn 1s 1s forwards;
+  -moz-animation: zoomIn 1s 1s forwards;
+  -webkit-animation: zoomIn 1s 1s forwards;
+  animation: zoomIn 1s 1s forwards;
 }
-/* line 2182, ../sass/csr.scss */
+/* line 2190, ../sass/csr.scss */
 .container .content09.play .content-01 .text-01 {
-  -moz-animation: fadeIn 1s 1.5s forwards;
-  -webkit-animation: fadeIn 1s 1.5s forwards;
-  animation: fadeIn 1s 1.5s forwards;
+  -moz-animation: fadeInDown 1s 1.5s forwards;
+  -webkit-animation: fadeInDown 1s 1.5s forwards;
+  animation: fadeInDown 1s 1.5s forwards;
 }
-/* line 2185, ../sass/csr.scss */
+/* line 2193, ../sass/csr.scss */
 .container .content09.play .content-01 .line-01 {
   -moz-animation: fadeIn 1s 2s forwards;
   -webkit-animation: fadeIn 1s 2s forwards;
   animation: fadeIn 1s 2s forwards;
 }
-/* line 2188, ../sass/csr.scss */
+/* line 2196, ../sass/csr.scss */
 .container .content09.play .content-01 .img-02 {
-  -moz-animation: fadeIn 1s 2.5s forwards;
-  -webkit-animation: fadeIn 1s 2.5s forwards;
-  animation: fadeIn 1s 2.5s forwards;
+  -moz-animation: zoomIn 1s 2.5s forwards;
+  -webkit-animation: zoomIn 1s 2.5s forwards;
+  animation: zoomIn 1s 2.5s forwards;
 }
-/* line 2191, ../sass/csr.scss */
+/* line 2199, ../sass/csr.scss */
 .container .content09.play .content-01 .text-02 {
-  -moz-animation: fadeIn 1s 3s forwards;
-  -webkit-animation: fadeIn 1s 3s forwards;
-  animation: fadeIn 1s 3s forwards;
+  -moz-animation: fadeInDown 1s 3s forwards;
+  -webkit-animation: fadeInDown 1s 3s forwards;
+  animation: fadeInDown 1s 3s forwards;
 }
-/* line 2194, ../sass/csr.scss */
+/* line 2202, ../sass/csr.scss */
 .container .content09.play .content-01 .line-02 {
   -moz-animation: fadeIn 1s 3.5s forwards;
   -webkit-animation: fadeIn 1s 3.5s forwards;
   animation: fadeIn 1s 3.5s forwards;
 }
-/* line 2197, ../sass/csr.scss */
+/* line 2205, ../sass/csr.scss */
 .container .content09.play .content-01 .img-03 {
-  -moz-animation: fadeIn 1s 4s forwards;
-  -webkit-animation: fadeIn 1s 4s forwards;
-  animation: fadeIn 1s 4s forwards;
+  -moz-animation: zoomIn 1s 4s forwards;
+  -webkit-animation: zoomIn 1s 4s forwards;
+  animation: zoomIn 1s 4s forwards;
 }
-/* line 2200, ../sass/csr.scss */
+/* line 2208, ../sass/csr.scss */
 .container .content09.play .content-01 .text-03 {
-  -moz-animation: fadeIn 1s 4.5s forwards;
-  -webkit-animation: fadeIn 1s 4.5s forwards;
-  animation: fadeIn 1s 4.5s forwards;
+  -moz-animation: fadeInDown 1s 4.5s forwards;
+  -webkit-animation: fadeInDown 1s 4.5s forwards;
+  animation: fadeInDown 1s 4.5s forwards;
 }
-/* line 2203, ../sass/csr.scss */
+/* line 2211, ../sass/csr.scss */
 .container .content09.play .content-01 .line-03 {
   -moz-animation: fadeIn 1s 5s forwards;
   -webkit-animation: fadeIn 1s 5s forwards;
   animation: fadeIn 1s 5s forwards;
 }
-/* line 2206, ../sass/csr.scss */
+/* line 2214, ../sass/csr.scss */
 .container .content09.play .content-01 .img-04 {
-  -moz-animation: fadeIn 1s 5.5s forwards;
-  -webkit-animation: fadeIn 1s 5.5s forwards;
-  animation: fadeIn 1s 5.5s forwards;
+  -moz-animation: zoomIn 1s 5.5s forwards;
+  -webkit-animation: zoomIn 1s 5.5s forwards;
+  animation: zoomIn 1s 5.5s forwards;
 }
-/* line 2209, ../sass/csr.scss */
+/* line 2217, ../sass/csr.scss */
 .container .content09.play .content-01 .text-05 {
-  -moz-animation: fadeIn 1s 6s forwards;
-  -webkit-animation: fadeIn 1s 6s forwards;
-  animation: fadeIn 1s 6s forwards;
+  -moz-animation: fadeInDown 1s 6s forwards;
+  -webkit-animation: fadeInDown 1s 6s forwards;
+  animation: fadeInDown 1s 6s forwards;
 }
-/* line 2212, ../sass/csr.scss */
+/* line 2220, ../sass/csr.scss */
 .container .content09.play .content-01 .line-05 {
   -moz-animation: fadeIn 1s 6.5s forwards;
   -webkit-animation: fadeIn 1s 6.5s forwards;
   animation: fadeIn 1s 6.5s forwards;
 }
-/* line 2215, ../sass/csr.scss */
+/* line 2223, ../sass/csr.scss */
 .container .content09.play .content-01 .text-04 {
-  -moz-animation: fadeIn 1s 7s forwards;
-  -webkit-animation: fadeIn 1s 7s forwards;
-  animation: fadeIn 1s 7s forwards;
+  -moz-animation: fadeInDown 1s 7s forwards;
+  -webkit-animation: fadeInDown 1s 7s forwards;
+  animation: fadeInDown 1s 7s forwards;
 }
-/* line 2218, ../sass/csr.scss */
+/* line 2226, ../sass/csr.scss */
 .container .content09.play .content-01 .img-05 {
-  -moz-animation: fadeIn 1s 7.5s forwards;
-  -webkit-animation: fadeIn 1s 7.5s forwards;
-  animation: fadeIn 1s 7.5s forwards;
+  -moz-animation: zoomIn 1s 7.5s forwards;
+  -webkit-animation: zoomIn 1s 7.5s forwards;
+  animation: zoomIn 1s 7.5s forwards;
 }
-/* line 2221, ../sass/csr.scss */
+/* line 2229, ../sass/csr.scss */
 .container .content09.play .content-01 .line-04 {
   -moz-animation: fadeIn 1s 8s forwards;
   -webkit-animation: fadeIn 1s 8s forwards;
   animation: fadeIn 1s 8s forwards;
 }
-/* line 2229, ../sass/csr.scss */
+/* line 2237, ../sass/csr.scss */
 .container .content10 .title-all-text, .container .content10 .img, .container .content10 .line, .container .content10 .bg-01 {
   background: url("../images/css-sprites-10.png") no-repeat;
   background-size: 16.225rem 13.975rem;
 }
-/* line 2236, ../sass/csr.scss */
+/* line 2244, ../sass/csr.scss */
 .container .content10 .content-title .title-all-text {
   width: 5.95rem;
   height: 0.95rem;
   background-position: -6.675rem -10.475rem;
 }
-/* line 2244, ../sass/csr.scss */
+/* line 2252, ../sass/csr.scss */
 .container .content10 .content-01 .bg-02 {
   background: url("../images/bg-10.png") no-repeat;
   top: -0.25rem;
@@ -2787,37 +2794,37 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 2254, ../sass/csr.scss */
+/* line 2262, ../sass/csr.scss */
 .container .content10 .content-01 .text {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 2258, ../sass/csr.scss */
+/* line 2266, ../sass/csr.scss */
 .container .content10 .content-01 .text-01 {
   left: 1.4rem;
   top: 0.05rem;
 }
-/* line 2262, ../sass/csr.scss */
+/* line 2270, ../sass/csr.scss */
 .container .content10 .content-01 .text-02 {
   right: 2.2rem;
   top: 1rem;
 }
-/* line 2266, ../sass/csr.scss */
+/* line 2274, ../sass/csr.scss */
 .container .content10 .content-01 .text-03 {
   right: 0.6rem;
   top: 11.9rem;
 }
-/* line 2270, ../sass/csr.scss */
+/* line 2278, ../sass/csr.scss */
 .container .content10 .content-01 .text-04 {
   left: 0.5rem;
   top: 13.25rem;
 }
-/* line 2274, ../sass/csr.scss */
+/* line 2282, ../sass/csr.scss */
 .container .content10 .content-01 .img, .container .content10 .content-01 .line {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 2277, ../sass/csr.scss */
+/* line 2285, ../sass/csr.scss */
 .container .content10 .content-01 .bg-01 {
   width: 16.175rem;
   height: 3.95rem;
@@ -2825,7 +2832,7 @@ em {
   left: 1.4rem;
   top: 2.1rem;
 }
-/* line 2284, ../sass/csr.scss */
+/* line 2292, ../sass/csr.scss */
 .container .content10 .content-01 .img-01 {
   width: 4.125rem;
   height: 3.85rem;
@@ -2833,7 +2840,7 @@ em {
   left: 1.4rem;
   top: 3.6rem;
 }
-/* line 2291, ../sass/csr.scss */
+/* line 2299, ../sass/csr.scss */
 .container .content10 .content-01 .img-02 {
   width: 3.5rem;
   height: 3.875rem;
@@ -2841,7 +2848,7 @@ em {
   right: 1.85rem;
   top: 2.65rem;
 }
-/* line 2298, ../sass/csr.scss */
+/* line 2306, ../sass/csr.scss */
 .container .content10 .content-01 .img-03 {
   width: 2.075rem;
   height: 2.925rem;
@@ -2849,7 +2856,7 @@ em {
   right: 1.9rem;
   top: 8.65rem;
 }
-/* line 2305, ../sass/csr.scss */
+/* line 2313, ../sass/csr.scss */
 .container .content10 .content-01 .img-04 {
   width: 3.05rem;
   height: 5.7rem;
@@ -2857,7 +2864,7 @@ em {
   left: 1.4rem;
   top: 7.8rem;
 }
-/* line 2312, ../sass/csr.scss */
+/* line 2320, ../sass/csr.scss */
 .container .content10 .content-01 .img-05 {
   width: 5.2rem;
   height: 4.175rem;
@@ -2866,7 +2873,7 @@ em {
   top: 0rem;
   z-index: 5;
 }
-/* line 2320, ../sass/csr.scss */
+/* line 2328, ../sass/csr.scss */
 .container .content10 .content-01 .line-01 {
   width: 3.625rem;
   height: 2.125rem;
@@ -2875,7 +2882,7 @@ em {
   top: 7.2rem;
   z-index: 1;
 }
-/* line 2328, ../sass/csr.scss */
+/* line 2336, ../sass/csr.scss */
 .container .content10 .content-01 .line-02 {
   width: 3.675rem;
   height: 2.175rem;
@@ -2884,7 +2891,7 @@ em {
   top: 6.05rem;
   z-index: 2;
 }
-/* line 2336, ../sass/csr.scss */
+/* line 2344, ../sass/csr.scss */
 .container .content10 .content-01 .line-03 {
   width: 2.85rem;
   height: 1.65rem;
@@ -2893,7 +2900,7 @@ em {
   top: 9.4rem;
   z-index: 3;
 }
-/* line 2344, ../sass/csr.scss */
+/* line 2352, ../sass/csr.scss */
 .container .content10 .content-01 .line-04 {
   width: 3.125rem;
   height: 3.8rem;
@@ -2902,7 +2909,7 @@ em {
   top: 8.95rem;
   z-index: 4;
 }
-/* line 2353, ../sass/csr.scss */
+/* line 2361, ../sass/csr.scss */
 .container .content10 .bg-01 {
   width: 16.175rem;
   height: 3.95rem;
@@ -2910,164 +2917,164 @@ em {
   left: 0rem;
   bottom: 0rem;
 }
-/* line 2363, ../sass/csr.scss */
+/* line 2371, ../sass/csr.scss */
 .container .content10.play .bg-02 {
   -moz-animation: fadeIn 1s forwards;
   -webkit-animation: fadeIn 1s forwards;
   animation: fadeIn 1s forwards;
 }
-/* line 2368, ../sass/csr.scss */
+/* line 2376, ../sass/csr.scss */
 .container .content10.play .content-01 .img-05 {
   -moz-animation: minidownRotate 2s 0.5s forwards;
   -webkit-animation: minidownRotate 2s 0.5s forwards;
   animation: minidownRotate 2s 0.5s forwards;
 }
-/* line 2371, ../sass/csr.scss */
+/* line 2379, ../sass/csr.scss */
 .container .content10.play .content-01 .line-01 {
   -moz-animation: fadeIn 1s 2s forwards;
   -webkit-animation: fadeIn 1s 2s forwards;
   animation: fadeIn 1s 2s forwards;
 }
-/* line 2374, ../sass/csr.scss */
+/* line 2382, ../sass/csr.scss */
 .container .content10.play .content-01 .img-01 {
-  -moz-animation: fadeIn 1s 2.5s forwards;
-  -webkit-animation: fadeIn 1s 2.5s forwards;
-  animation: fadeIn 1s 2.5s forwards;
+  -moz-animation: zoomIn 1s 2.5s forwards;
+  -webkit-animation: zoomIn 1s 2.5s forwards;
+  animation: zoomIn 1s 2.5s forwards;
 }
-/* line 2377, ../sass/csr.scss */
+/* line 2385, ../sass/csr.scss */
 .container .content10.play .content-01 .text-01 {
-  -moz-animation: fadeIn 1s 3s forwards;
-  -webkit-animation: fadeIn 1s 3s forwards;
-  animation: fadeIn 1s 3s forwards;
+  -moz-animation: fadeInDown 1s 3s forwards;
+  -webkit-animation: fadeInDown 1s 3s forwards;
+  animation: fadeInDown 1s 3s forwards;
 }
-/* line 2380, ../sass/csr.scss */
+/* line 2388, ../sass/csr.scss */
 .container .content10.play .content-01 .line-02 {
   -moz-animation: fadeIn 1s 3.5s forwards;
   -webkit-animation: fadeIn 1s 3.5s forwards;
   animation: fadeIn 1s 3.5s forwards;
 }
-/* line 2383, ../sass/csr.scss */
+/* line 2391, ../sass/csr.scss */
 .container .content10.play .content-01 .img-02 {
-  -moz-animation: fadeIn 1s 4s forwards;
-  -webkit-animation: fadeIn 1s 4s forwards;
-  animation: fadeIn 1s 4s forwards;
+  -moz-animation: zoomIn 1s 4s forwards;
+  -webkit-animation: zoomIn 1s 4s forwards;
+  animation: zoomIn 1s 4s forwards;
 }
-/* line 2386, ../sass/csr.scss */
+/* line 2394, ../sass/csr.scss */
 .container .content10.play .content-01 .text-02 {
-  -moz-animation: fadeIn 1s 4.5s forwards;
-  -webkit-animation: fadeIn 1s 4.5s forwards;
-  animation: fadeIn 1s 4.5s forwards;
+  -moz-animation: fadeInDown 1s 4.5s forwards;
+  -webkit-animation: fadeInDown 1s 4.5s forwards;
+  animation: fadeInDown 1s 4.5s forwards;
 }
-/* line 2389, ../sass/csr.scss */
+/* line 2397, ../sass/csr.scss */
 .container .content10.play .content-01 .line-03 {
   -moz-animation: fadeIn 1s 5s forwards;
   -webkit-animation: fadeIn 1s 5s forwards;
   animation: fadeIn 1s 5s forwards;
 }
-/* line 2392, ../sass/csr.scss */
+/* line 2400, ../sass/csr.scss */
 .container .content10.play .content-01 .img-03 {
-  -moz-animation: fadeIn 1s 5.5s forwards;
-  -webkit-animation: fadeIn 1s 5.5s forwards;
-  animation: fadeIn 1s 5.5s forwards;
+  -moz-animation: zoomIn 1s 5.5s forwards;
+  -webkit-animation: zoomIn 1s 5.5s forwards;
+  animation: zoomIn 1s 5.5s forwards;
 }
-/* line 2395, ../sass/csr.scss */
+/* line 2403, ../sass/csr.scss */
 .container .content10.play .content-01 .text-03 {
-  -moz-animation: fadeIn 1s 6s forwards;
-  -webkit-animation: fadeIn 1s 6s forwards;
-  animation: fadeIn 1s 6s forwards;
+  -moz-animation: fadeInUp 1s 6s forwards;
+  -webkit-animation: fadeInUp 1s 6s forwards;
+  animation: fadeInUp 1s 6s forwards;
 }
-/* line 2398, ../sass/csr.scss */
+/* line 2406, ../sass/csr.scss */
 .container .content10.play .content-01 .line-04 {
   -moz-animation: fadeIn 1s 6.5s forwards;
   -webkit-animation: fadeIn 1s 6.5s forwards;
   animation: fadeIn 1s 6.5s forwards;
 }
-/* line 2401, ../sass/csr.scss */
+/* line 2409, ../sass/csr.scss */
 .container .content10.play .content-01 .img-04 {
-  -moz-animation: fadeIn 1s 7s forwards;
-  -webkit-animation: fadeIn 1s 7s forwards;
-  animation: fadeIn 1s 7s forwards;
-}
-/* line 2404, ../sass/csr.scss */
-.container .content10.play .content-01 .text-04 {
-  -moz-animation: fadeIn 1s 7.5s forwards;
-  -webkit-animation: fadeIn 1s 7.5s forwards;
-  animation: fadeIn 1s 7.5s forwards;
+  -moz-animation: zoomIn 1s 7s forwards;
+  -webkit-animation: zoomIn 1s 7s forwards;
+  animation: zoomIn 1s 7s forwards;
 }
 /* line 2412, ../sass/csr.scss */
+.container .content10.play .content-01 .text-04 {
+  -moz-animation: fadeInUp 1s 7.5s forwards;
+  -webkit-animation: fadeInUp 1s 7.5s forwards;
+  animation: fadeInUp 1s 7.5s forwards;
+}
+/* line 2420, ../sass/csr.scss */
 .container .content11 .title-all-text, .container .content11 .img {
   background: url("../images/css-sprites-11.png") no-repeat;
   background-size: 12.875rem 21.125rem;
 }
-/* line 2419, ../sass/csr.scss */
+/* line 2427, ../sass/csr.scss */
 .container .content11 .content-title .title-all-text {
   width: 5.975rem;
   height: 0.95rem;
   background-position: -3rem -19.9rem;
 }
-/* line 2425, ../sass/csr.scss */
+/* line 2433, ../sass/csr.scss */
 .container .content11 .sub-title {
   line-height: 14px;
 }
-/* line 2428, ../sass/csr.scss */
+/* line 2436, ../sass/csr.scss */
 .container .content11 .content-01 {
   width: 14.575rem;
   margin: 0 auto;
 }
-/* line 2432, ../sass/csr.scss */
+/* line 2440, ../sass/csr.scss */
 .container .content11 .content-01 .text, .container .content11 .content-01 .img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 2436, ../sass/csr.scss */
+/* line 2444, ../sass/csr.scss */
 .container .content11 .content-01 .text {
   line-height: 14px;
 }
-/* line 2438, ../sass/csr.scss */
+/* line 2446, ../sass/csr.scss */
 .container .content11 .content-01 .text em {
   color: #8fc220;
   font-size: 15px;
 }
-/* line 2442, ../sass/csr.scss */
+/* line 2450, ../sass/csr.scss */
 .container .content11 .content-01 .text b {
   color: #e37e13;
   font-weight: normal;
   font-size: 10px;
 }
-/* line 2448, ../sass/csr.scss */
+/* line 2456, ../sass/csr.scss */
 .container .content11 .content-01 .text-01 {
   top: 0.65rem;
   left: -0.2rem;
 }
-/* line 2452, ../sass/csr.scss */
+/* line 2460, ../sass/csr.scss */
 .container .content11 .content-01 .text-02 {
   top: 0rem;
   right: 0.05rem;
   text-align: right;
 }
-/* line 2457, ../sass/csr.scss */
+/* line 2465, ../sass/csr.scss */
 .container .content11 .content-01 .text-03 {
   top: 13rem;
   left: -0.35rem;
 }
-/* line 2461, ../sass/csr.scss */
+/* line 2469, ../sass/csr.scss */
 .container .content11 .content-01 .text-04 {
   top: 13.9rem;
   right: -0.45rem;
   text-align: right;
 }
-/* line 2466, ../sass/csr.scss */
+/* line 2474, ../sass/csr.scss */
 .container .content11 .content-01 .text-05 {
   top: 15.9rem;
   left: -0.35rem;
 }
 @media (max-width: 320px) {
-  /* line 2466, ../sass/csr.scss */
+  /* line 2474, ../sass/csr.scss */
   .container .content11 .content-01 .text-05 {
     top: 15.75rem;
   }
 }
-/* line 2473, ../sass/csr.scss */
+/* line 2481, ../sass/csr.scss */
 .container .content11 .content-01 .img-01 {
   width: 2.775rem;
   height: 4.85rem;
@@ -3075,7 +3082,7 @@ em {
   left: 4.7rem;
   background-position: -8.375rem -12.375rem;
 }
-/* line 2480, ../sass/csr.scss */
+/* line 2488, ../sass/csr.scss */
 .container .content11 .content-01 .img-02 {
   width: 2.675rem;
   height: 2.2rem;
@@ -3083,7 +3090,7 @@ em {
   right: -0.1rem;
   background-position: -5.975rem -17.125rem;
 }
-/* line 2487, ../sass/csr.scss */
+/* line 2495, ../sass/csr.scss */
 .container .content11 .content-01 .img-03 {
   width: 2.525rem;
   height: 2.85rem;
@@ -3091,7 +3098,7 @@ em {
   right: -0.45rem;
   background-position: -3.4rem -16.925rem;
 }
-/* line 2494, ../sass/csr.scss */
+/* line 2502, ../sass/csr.scss */
 .container .content11 .content-01 .img-04 {
   width: 2.8rem;
   height: 4rem;
@@ -3099,7 +3106,7 @@ em {
   left: 5.95rem;
   background-position: -0.075rem -17.15rem;
 }
-/* line 2501, ../sass/csr.scss */
+/* line 2509, ../sass/csr.scss */
 .container .content11 .content-01 .img-05 {
   width: 3.325rem;
   height: 3.25rem;
@@ -3107,7 +3114,7 @@ em {
   left: 0.4rem;
   background-position: -4.675rem -13rem;
 }
-/* line 2508, ../sass/csr.scss */
+/* line 2516, ../sass/csr.scss */
 .container .content11 .content-01 .img-06 {
   width: 4.525rem;
   height: 4.55rem;
@@ -3117,7 +3124,7 @@ em {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-/* line 2517, ../sass/csr.scss */
+/* line 2525, ../sass/csr.scss */
 .container .content11 .content-01 .img-07 {
   width: 12.9rem;
   height: 12.35rem;
@@ -3125,14 +3132,14 @@ em {
   left: 1.15rem;
   background-position: 0rem 0.075rem;
 }
-/* line 2524, ../sass/csr.scss */
+/* line 2532, ../sass/csr.scss */
 .container .content11 .content-01 .plane-box {
   width: 10rem;
   height: 10rem;
   top: 3.25rem;
   left: 2.7rem;
 }
-/* line 2530, ../sass/csr.scss */
+/* line 2538, ../sass/csr.scss */
 .container .content11 .content-01 .plane-box .img-08 {
   width: 1.3rem;
   height: 1.65rem;
@@ -3140,140 +3147,141 @@ em {
   left: 0rem;
   background-position: -9rem -17.55rem;
 }
-/* line 2542, ../sass/csr.scss */
+/* line 2550, ../sass/csr.scss */
 .container .content11.play .plane-box {
   -moz-animation: rotate2d 8s linear infinite;
   -webkit-animation: rotate2d 8s linear infinite;
   animation: rotate2d 8s linear infinite;
 }
-/* line 2546, ../sass/csr.scss */
+/* line 2554, ../sass/csr.scss */
 .container .content11.play .sub-title {
   -moz-animation: fadeIn 1s forwards;
   -webkit-animation: fadeIn 1s forwards;
   animation: fadeIn 1s forwards;
 }
-/* line 2550, ../sass/csr.scss */
+/* line 2558, ../sass/csr.scss */
 .container .content11.play .content-01 .img-06 {
   -moz-animation: reverseRotate2d 4s 0.5s linear infinite;
   -webkit-animation: reverseRotate2d 4s 0.5s linear infinite;
   animation: reverseRotate2d 4s 0.5s linear infinite;
 }
-/* line 2553, ../sass/csr.scss */
+/* line 2561, ../sass/csr.scss */
 .container .content11.play .content-01 .img-07 {
   -moz-animation: fadeIn 1s 1s forwards;
   -webkit-animation: fadeIn 1s 1s forwards;
   animation: fadeIn 1s 1s forwards;
 }
-/* line 2556, ../sass/csr.scss */
+/* line 2564, ../sass/csr.scss */
 .container .content11.play .content-01 .img-08 {
   -moz-animation: fadeIn 1s 1.5s forwards;
   -webkit-animation: fadeIn 1s 1.5s forwards;
   animation: fadeIn 1s 1.5s forwards;
 }
-/* line 2559, ../sass/csr.scss */
+/* line 2567, ../sass/csr.scss */
 .container .content11.play .content-01 .img-01 {
-  -moz-animation: fadeIn 1s 2s forwards;
-  -webkit-animation: fadeIn 1s 2s forwards;
-  animation: fadeIn 1s 2s forwards;
+  -moz-animation: zoomIn 1s 2s forwards;
+  -webkit-animation: zoomIn 1s 2s forwards;
+  animation: zoomIn 1s 2s forwards;
 }
-/* line 2562, ../sass/csr.scss */
+/* line 2570, ../sass/csr.scss */
 .container .content11.play .content-01 .text-01 {
-  -moz-animation: fadeIn 1s 2.5s forwards;
-  -webkit-animation: fadeIn 1s 2.5s forwards;
-  animation: fadeIn 1s 2.5s forwards;
+  -moz-animation: fadeInDown 1s 2.5s forwards;
+  -webkit-animation: fadeInDown 1s 2.5s forwards;
+  animation: fadeInDown 1s 2.5s forwards;
 }
-/* line 2565, ../sass/csr.scss */
+/* line 2573, ../sass/csr.scss */
 .container .content11.play .content-01 .img-02 {
-  -moz-animation: fadeIn 1s 3s forwards;
-  -webkit-animation: fadeIn 1s 3s forwards;
-  animation: fadeIn 1s 3s forwards;
+  -moz-animation: zoomIn 1s 3s forwards;
+  -webkit-animation: zoomIn 1s 3s forwards;
+  animation: zoomIn 1s 3s forwards;
 }
-/* line 2568, ../sass/csr.scss */
+/* line 2576, ../sass/csr.scss */
 .container .content11.play .content-01 .text-02 {
-  -moz-animation: fadeIn 1s 3.5s forwards;
-  -webkit-animation: fadeIn 1s 3.5s forwards;
-  animation: fadeIn 1s 3.5s forwards;
+  -moz-animation: fadeInDown 1s 3.5s forwards;
+  -webkit-animation: fadeInDown 1s 3.5s forwards;
+  animation: fadeInDown 1s 3.5s forwards;
 }
-/* line 2571, ../sass/csr.scss */
+/* line 2579, ../sass/csr.scss */
 .container .content11.play .content-01 .img-03 {
-  -moz-animation: fadeIn 1s 4s forwards;
-  -webkit-animation: fadeIn 1s 4s forwards;
-  animation: fadeIn 1s 4s forwards;
+  -moz-animation: zoomIn 1s 4s forwards;
+  -webkit-animation: zoomIn 1s 4s forwards;
+  animation: zoomIn 1s 4s forwards;
 }
-/* line 2574, ../sass/csr.scss */
+/* line 2582, ../sass/csr.scss */
 .container .content11.play .content-01 .text-04 {
-  -moz-animation: fadeIn 1s 4.5s forwards;
-  -webkit-animation: fadeIn 1s 4.5s forwards;
-  animation: fadeIn 1s 4.5s forwards;
+  -moz-animation: fadeInUp 1s 4.5s forwards;
+  -webkit-animation: fadeInUp 1s 4.5s forwards;
+  animation: fadeInUp 1s 4.5s forwards;
 }
-/* line 2577, ../sass/csr.scss */
+/* line 2585, ../sass/csr.scss */
 .container .content11.play .content-01 .img-04 {
-  -moz-animation: fadeIn 1s 5s forwards;
-  -webkit-animation: fadeIn 1s 5s forwards;
-  animation: fadeIn 1s 5s forwards;
+  -moz-animation: zoomIn 1s 5s forwards;
+  -webkit-animation: zoomIn 1s 5s forwards;
+  animation: zoomIn 1s 5s forwards;
 }
-/* line 2580, ../sass/csr.scss */
+/* line 2588, ../sass/csr.scss */
 .container .content11.play .content-01 .text-05 {
-  -moz-animation: fadeIn 1s 5.5s forwards;
-  -webkit-animation: fadeIn 1s 5.5s forwards;
-  animation: fadeIn 1s 5.5s forwards;
+  -moz-animation: fadeInUp 1s 5.5s forwards;
+  -webkit-animation: fadeInUp 1s 5.5s forwards;
+  animation: fadeInUp 1s 5.5s forwards;
 }
-/* line 2583, ../sass/csr.scss */
+/* line 2591, ../sass/csr.scss */
 .container .content11.play .content-01 .img-05 {
-  -moz-animation: fadeIn 1s 6s forwards;
-  -webkit-animation: fadeIn 1s 6s forwards;
-  animation: fadeIn 1s 6s forwards;
+  -moz-animation: zoomIn 1s 6s forwards;
+  -webkit-animation: zoomIn 1s 6s forwards;
+  animation: zoomIn 1s 6s forwards;
 }
-/* line 2586, ../sass/csr.scss */
+/* line 2594, ../sass/csr.scss */
 .container .content11.play .content-01 .text-03 {
-  -moz-animation: fadeIn 1s 6.5s forwards;
-  -webkit-animation: fadeIn 1s 6.5s forwards;
-  animation: fadeIn 1s 6.5s forwards;
+  -moz-animation: fadeInUp 1s 6.5s forwards;
+  -webkit-animation: fadeInUp 1s 6.5s forwards;
+  animation: fadeInUp 1s 6.5s forwards;
 }
-/* line 2592, ../sass/csr.scss */
+/* line 2600, ../sass/csr.scss */
 .container .content12 .title-all-text, .container .content12 .bg-01, .container .content12 .img, .container .content12 .icon_gear {
   background: url("../images/css-sprites-12.png") no-repeat;
   background-size: 16.025rem 14.025rem;
 }
-/* line 2596, ../sass/csr.scss */
+/* line 2604, ../sass/csr.scss */
 .container .content12 .content-title {
   height: auto;
   width: auto;
   padding: 0.9rem 0 0.25rem 0.85rem;
 }
-/* line 2600, ../sass/csr.scss */
+/* line 2608, ../sass/csr.scss */
 .container .content12 .content-title .title-all-text {
   position: static;
   width: 12.175rem;
   height: 1rem;
-  background-position: -0.05rem 0rem;
+  background-position: -0.075rem 0rem;
 }
-/* line 2606, ../sass/csr.scss */
-.container .content12 .content-title .icon_gear {
+/* line 2613, ../sass/csr.scss */
+.container .content12 .content-title .title-all-text .icon_gear {
+  opacity: 0;
   width: 0.5rem;
   height: 0.45rem;
-  left: 3.5rem;
-  top: 0.9rem;
-  background-position: -0.1rem -1.1rem;
+  left: 2.7rem;
+  top: 0.05rem;
+  background-position: -0.125rem -1.1rem;
 }
-/* line 2615, ../sass/csr.scss */
+/* line 2625, ../sass/csr.scss */
 .container .content12 .sub-title {
   margin-top: 0;
   z-index: 1;
   line-height: 15px;
 }
 @media (min-width: 321px) {
-  /* line 2615, ../sass/csr.scss */
+  /* line 2625, ../sass/csr.scss */
   .container .content12 .sub-title {
-    margin-left: 1.5rem;
+    margin-left: 2.8rem;
   }
 }
-/* line 2623, ../sass/csr.scss */
+/* line 2633, ../sass/csr.scss */
 .container .content12 .sub-title em {
   font-size: 11px;
   color: #ee8100;
 }
-/* line 2627, ../sass/csr.scss */
+/* line 2637, ../sass/csr.scss */
 .container .content12 .sub-title .box {
   padding: 3px;
   display: inline-block;
@@ -3281,16 +3289,16 @@ em {
   border-radius: 10px;
   margin: 2px 0;
 }
-/* line 2634, ../sass/csr.scss */
+/* line 2644, ../sass/csr.scss */
 .container .content12 .sub-title span {
   font-size: 11px;
 }
-/* line 2636, ../sass/csr.scss */
+/* line 2646, ../sass/csr.scss */
 .container .content12 .sub-title span b {
   color: #8ab932;
   font-weight: normal;
 }
-/* line 2643, ../sass/csr.scss */
+/* line 2652, ../sass/csr.scss */
 .container .content12 .overlay {
   top: 2.45rem;
   left: 0.5rem;
@@ -3300,53 +3308,53 @@ em {
   z-index: 2;
 }
 @media (max-width: 320px) {
-  /* line 2653, ../sass/csr.scss */
+  /* line 2662, ../sass/csr.scss */
   .container .content12 .content-title {
     padding: 0.75rem 0 0.5rem 0.85rem;
   }
-  /* line 2655, ../sass/csr.scss */
+  /* line 2664, ../sass/csr.scss */
   .container .content12 .content-title .icon_gear {
-    top: 0.75rem;
+    top: 0.05rem;
   }
-  /* line 2659, ../sass/csr.scss */
+  /* line 2668, ../sass/csr.scss */
   .container .content12 .sub-title {
     margin-top: 0;
   }
-  /* line 2661, ../sass/csr.scss */
+  /* line 2670, ../sass/csr.scss */
   .container .content12 .sub-title span {
     line-height: 14px;
   }
 }
-/* line 2666, ../sass/csr.scss */
+/* line 2675, ../sass/csr.scss */
 .container .content12 .content-01 {
   margin-top: -0.4rem;
   z-index: 3;
 }
-/* line 2670, ../sass/csr.scss */
+/* line 2679, ../sass/csr.scss */
 .container .content12 .content-01 .img {
   width: 2.05rem;
   height: 1.725rem;
   background-position: -12.9rem 0rem;
 }
-/* line 2676, ../sass/csr.scss */
+/* line 2685, ../sass/csr.scss */
 .container .content12 .content-01 .img-01 {
   left: 3.05rem;
   bottom: -0.95rem;
   z-index: 2;
 }
-/* line 2681, ../sass/csr.scss */
+/* line 2690, ../sass/csr.scss */
 .container .content12 .content-01 .img-02 {
   right: 3.1rem;
   bottom: -0.75rem;
   z-index: 3;
 }
-/* line 2687, ../sass/csr.scss */
+/* line 2696, ../sass/csr.scss */
 .container .content12 .content-01 .img-03 {
   right: 0.6rem;
   bottom: -1.35rem;
   z-index: 4;
 }
-/* line 2692, ../sass/csr.scss */
+/* line 2701, ../sass/csr.scss */
 .container .content12 .content-01 .img-04 {
   width: 0.9rem;
   height: 1.75rem;
@@ -3356,99 +3364,99 @@ em {
   top: 3.6rem;
   opacity: 0;
 }
-/* line 2702, ../sass/csr.scss */
+/* line 2711, ../sass/csr.scss */
 .container .content12 .content-01 .bg-01 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   width: 16.025rem;
   height: 12.2rem;
-  background-position: 0rem -1.825rem;
+  background-position: 0rem -1.8rem;
   right: 0.6rem;
   bottom: -1.35rem;
   z-index: 1;
 }
 @media (max-width: 320px) {
-  /* line 2714, ../sass/csr.scss */
+  /* line 2723, ../sass/csr.scss */
   .container .content12 .content-01 .img-01 {
     bottom: -0.5rem;
   }
-  /* line 2717, ../sass/csr.scss */
+  /* line 2726, ../sass/csr.scss */
   .container .content12 .content-01 .img-02 {
     bottom: -0.3rem;
   }
-  /* line 2720, ../sass/csr.scss */
+  /* line 2729, ../sass/csr.scss */
   .container .content12 .content-01 .img-03 {
     bottom: -0.9rem;
   }
 }
-/* line 2725, ../sass/csr.scss */
+/* line 2734, ../sass/csr.scss */
 .container .content12 .footer {
   color: #fff;
   font-size: 12px;
   line-height: 15px;
   margin: 1.15rem 0 0 0.4rem;
 }
-/* line 2730, ../sass/csr.scss */
+/* line 2739, ../sass/csr.scss */
 .container .content12 .footer a {
   color: #ee8100;
 }
-/* line 2733, ../sass/csr.scss */
+/* line 2742, ../sass/csr.scss */
 .container .content12 .footer span {
   font-size: 10px;
 }
 @media (max-width: 320px) {
-  /* line 2738, ../sass/csr.scss */
+  /* line 2747, ../sass/csr.scss */
   .container .content12 .footer {
     margin-top: 0.6rem;
   }
 }
 @media (min-width: 321px) {
-  /* line 2743, ../sass/csr.scss */
+  /* line 2752, ../sass/csr.scss */
   .container .content12 .footer {
     margin-left: 1.5rem;
   }
 }
-/* line 2750, ../sass/csr.scss */
+/* line 2759, ../sass/csr.scss */
 .container .content12.play .content-title .icon_gear {
   -moz-animation: rotate2d 4s linear infinite;
   -webkit-animation: rotate2d 4s linear infinite;
   animation: rotate2d 4s linear infinite;
   transform-origin: 0.2rem;
 }
-/* line 2755, ../sass/csr.scss */
+/* line 2764, ../sass/csr.scss */
 .container .content12.play .overlay {
   -moz-animation: moveBottomOut 4s linear forwards;
   -webkit-animation: moveBottomOut 4s linear forwards;
   animation: moveBottomOut 4s linear forwards;
 }
-/* line 2759, ../sass/csr.scss */
+/* line 2768, ../sass/csr.scss */
 .container .content12.play .content-01 .img-01 {
   -moz-animation: grow 3s ease 0.5s infinite;
   -webkit-animation: grow 3s ease 0.5s infinite;
   animation: grow 3s ease 0.5s infinite;
   transform-origin: left bottom;
 }
-/* line 2763, ../sass/csr.scss */
+/* line 2772, ../sass/csr.scss */
 .container .content12.play .content-01 .img-02 {
   -moz-animation: grow 3s ease 0.3s infinite;
   -webkit-animation: grow 3s ease 0.3s infinite;
   animation: grow 3s ease 0.3s infinite;
   transform-origin: left bottom;
 }
-/* line 2767, ../sass/csr.scss */
+/* line 2776, ../sass/csr.scss */
 .container .content12.play .content-01 .img-03 {
   -moz-animation: grow 3s ease 0.8s infinite;
   -webkit-animation: grow 3s ease 0.8s infinite;
   animation: grow 3s ease 0.8s infinite;
   transform-origin: left bottom;
 }
-/* line 2771, ../sass/csr.scss */
+/* line 2780, ../sass/csr.scss */
 .container .content12.play .content-01 .img-04 {
   -moz-animation: robot 5s infinite 1s alternate;
   -webkit-animation: robot 5s infinite 1s alternate;
   animation: robot 5s infinite 1s alternate;
 }
-/* line 2774, ../sass/csr.scss */
+/* line 2783, ../sass/csr.scss */
 .container .content12.play .content-01 .bg-01 {
   -moz-animation: fadeIn 1s 1s forwards;
   -webkit-animation: fadeIn 1s 1s forwards;
@@ -3456,7 +3464,7 @@ em {
 }
 
 /*播放音乐的按钮*/
-/* line 2782, ../sass/csr.scss */
+/* line 2790, ../sass/csr.scss */
 .audio_ico {
   position: fixed;
   border: none;
@@ -3471,19 +3479,19 @@ em {
   animation: rotate2d 2s 2s linear infinite;
 }
 
-/* line 2795, ../sass/csr.scss */
+/* line 2803, ../sass/csr.scss */
 .audio_ico_stop {
   background: url(../images/audio_ico_stop.png) no-repeat;
   background-size: 25px 25px;
   animation-play-state: paused;
 }
 
-/* line 2800, ../sass/csr.scss */
+/* line 2808, ../sass/csr.scss */
 .loaded .audio_ico {
   opacity: 1 !important;
 }
 
-/* line 2801, ../sass/csr.scss */
+/* line 2809, ../sass/csr.scss */
 .arrow {
   position: fixed;
   border: none;
@@ -3496,7 +3504,7 @@ em {
   animation: slideInUp 1s infinite;
 }
 
-/* line 2813, ../sass/csr.scss */
+/* line 2821, ../sass/csr.scss */
 .mod_loading {
   width: 100%;
   height: 100%;
@@ -3508,16 +3516,16 @@ em {
   background: -ms-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
   background: -webkit-radial-gradient(65% 25%, circle, #fff, #c5e6f8);
 }
-/* line 2826, ../sass/csr.scss */
+/* line 2834, ../sass/csr.scss */
 .mod_loading .content {
   width: 10rem;
 }
-/* line 2828, ../sass/csr.scss */
+/* line 2836, ../sass/csr.scss */
 .mod_loading .content p {
   text-align: center;
   color: #a1d9f3;
 }
-/* line 2834, ../sass/csr.scss */
+/* line 2842, ../sass/csr.scss */
 .mod_loading .progress span {
   display: inline-block;
   height: 0.15rem;
@@ -3534,12 +3542,14 @@ em {
 }
 @keyframes rotate2d {
   0% {
+    opacity: 1;
     -moz-transform: rotate(0);
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   100% {
+    opacity: 1;
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -4014,5 +4024,64 @@ em {
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes rollIn {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
   }
 }
