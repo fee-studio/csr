@@ -1583,18 +1583,25 @@ em{
 		top: convertPos(102);
 		em{
 		  color: #eec11c;
+		  b{
+			font-size: 18px;
+		  }
 		}
 		.circle{
 		  background-color: #eec11c;
 		}
 		z-index: 11;
-
 	  }
 	  .text-03{
 		left: convertPos(117);
 		top: convertPos(153);
 		em{
 		  color: #087a6f;
+		  vertical-align: top;
+		  b{
+			color: #087a6f;
+			vertical-align: top;
+		  }
 		}
 		.circle{
 		  background-color: #087a6f;
@@ -1607,6 +1614,11 @@ em{
 		text-align: right;
 		em{
 		  color: #8fc220;
+		  vertical-align: top;
+		  b{
+			color: #8fc220;
+			vertical-align: top;
+		  }
 		}
 		.circle{
 		  background-color: #8fc220;
@@ -2179,7 +2191,7 @@ em{
 	}
 	.content-01{
 	  .img-07{
-		@include animation(reverseRotate2d 7s .5s linear infinite);
+		@include animation(rotate2d 7s .5s linear infinite);
 	  }
 	  .img-06{
 		@include animation(fadeIn 1s .5s forwards);
@@ -2202,31 +2214,32 @@ em{
 	  .line-02{
 		@include animation(fadeIn 1s 3.5s forwards);
 	  }
-	  .img-03{
+	  .img-04{
 		@include animation(zoomIn 1s 4s forwards);
 	  }
-	  .text-03{
+	  .text-05{
 		@include animation(fadeInDown 1s 4.5s forwards);
 	  }
-	  .line-03{
+	  .line-05{
 		@include animation(fadeIn 1s 5s forwards);
 	  }
-	  .img-04{
-		@include animation(zoomIn 1s 5.5s forwards);
-	  }
-	  .text-05{
-		@include animation(fadeInDown 1s 6s forwards);
-	  }
-	  .line-05{
-		@include animation(fadeIn 1s 6.5s forwards);
-	  }
+
 	  .text-04{
-		@include animation(fadeInDown 1s 7s forwards);
+		@include animation(fadeInDown 1s 5.5s forwards);
 	  }
 	  .img-05{
-		@include animation(zoomIn 1s 7.5s forwards);
+		@include animation(zoomIn 1s 6s forwards);
 	  }
 	  .line-04{
+		@include animation(fadeIn 1s 6.5s forwards);
+	  }
+	  .img-03{
+		@include animation(zoomIn 1s 7s forwards);
+	  }
+	  .text-03{
+		@include animation(fadeInDown 1s 7.5s forwards);
+	  }
+	  .line-03{
 		@include animation(fadeIn 1s 8s forwards);
 	  }
 
@@ -2556,7 +2569,7 @@ em{
 	}
 	.content-01{
 	  .img-06{
-		@include animation(reverseRotate2d 4s .5s linear infinite);
+		@include animation(rotate2d 4s .5s linear infinite);
 	  }
 	  .img-07{
 		@include animation(fadeIn 1s 1s forwards);
@@ -2645,6 +2658,7 @@ em{
 		b{
 		  color: #8ab932;
 		  font-weight: normal;
+		  font-size: 16px;
 		}
 	  }
 	}
