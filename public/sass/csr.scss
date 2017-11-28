@@ -643,14 +643,14 @@ em{
 		@include opacity(0);
 	  }
 	  .img-01{
-		margin-right: convertPos(20);
+		margin-right: convertPos(0);
 		width: convertDist(262);
 		height: convertDist(166);
 		background-position:convertDist(-5) convertDist(-332);
 		@include opacity(0);
 	  }
 	  .img-02{
-		width: convertDist(260);
+		width: convertDist(268);
 		height: convertDist(160);
 		background-position:convertDist(-474) convertDist(-3);
 		@include opacity(0);
@@ -1248,6 +1248,14 @@ em{
 		background-position:convertDist(-101) convertDist(-435);
 	  }
 	}
+	.sub-title,.sub-title em{
+	  vertical-align: baseline;
+	}
+	.sub-title em{
+	  display: inline-block;
+	  height: 12px;
+	  vertical-align: bottom;
+	}
 	.img-05{
 	  left:convertPos(-89);
 	  bottom:convertPos(28);
@@ -1534,7 +1542,6 @@ em{
 	.img{
 	  @extend .position-a;
 	}
-
 	.bg-07{
 	  @extend .position-a;
 	  background: url("../images/bg-07.png") no-repeat;
@@ -1552,7 +1559,6 @@ em{
 		background: url("../images/line-07.png") no-repeat;
 		background-size: convertDist(443) convertDist(310);
 	  }
-
 	  .text{
 		@extend .position-a;
 		@include opacity(0);
@@ -2863,7 +2869,6 @@ em{
 	}
   }
 }
-
 @keyframes fadeIn {
   from {
 	opacity: 0;
